@@ -14,5 +14,5 @@ The Vega-Lite specification for the color scheme suggested by Demiralp et al.
 
 ### **JSON-to-Draco**
 
-    - **to_Draco.py**: the script to translate our datasets into the training dataset for Draco-Learn
-    - **Draco-Learn-Input**: Results of to_Draco.py. Ranked Visualization pairs as training dataset for Draco-Learn.
+- **to_Draco.py**: the script to translate our datasets into the training dataset for Draco-Learn
+- **Draco-Learn-Input**: Results of to_Draco.py. Ranked Visualization pairs as training dataset for Draco-Learn.
