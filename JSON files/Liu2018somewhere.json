@@ -1,0 +1,282 @@
+{
+  "Title": "Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is greys."
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is blues."
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is greens."
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is oranges."
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is viridis."
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is magma."
+    },
+    "CE-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is plasma."
+    },
+    "CE-8": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "color-saturation"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is blueorange."
+    },
+    "CE-9": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "color-saturation"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is jet."
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["retrieve-value"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "retrieve-value-1": {
+          "rank": ["CE-5", ["CE-2", "CE-8"], "CE-9"],
+          "significance": [
+            ["CE-5", "CE-2"],
+            ["CE-5", "CE-8"],
+            ["CE-5", "CE-9"]
+          ]
+        },
+        "retrieve-value-2": {
+          "rank": ["CE-2", "CE-3", "CE-4", "CE-1"],
+          "significance": []
+        },
+        "retrieve-value-3": {
+          "rank": ["CE-5", "CE-7", "CE-6"],
+          "significance": []
+        }
+      },
+      "time": {
+        "retrieve-value-1": {
+          "rank": ["CE-2", "CE-5", "CE-8", "CE-9"],
+          "significance": [
+            ["CE-2", "CE-8"],
+            ["CE-2", "CE-9"]
+          ]
+        },
+        "retrieve-value-2": {
+          "rank": [["CE-1", "CE-2", "CE-3", "CE-4"]],
+          "significance": []
+        },
+        "retrieve-value-3": {
+          "rank": [["CE-5", "CE-6", "CE-7"]],
+          "significance": []
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

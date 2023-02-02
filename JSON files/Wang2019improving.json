@@ -1,0 +1,62 @@
+{
+  "Title": "Improving the Robustness of Scagnostics",
+  "Category": "Hybrid",
+  "Covered Designs": {
+    "CT-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["find-anomalies", "cluster"],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

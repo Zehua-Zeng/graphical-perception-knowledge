@@ -1,0 +1,48 @@
+{
+  "Title": "The relation between visualization size, grouping, and user performance",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "visualization is a grid of squares"
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "visualization is a scatterplot"
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["locate"],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

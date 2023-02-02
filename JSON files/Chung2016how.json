@@ -1,0 +1,265 @@
+{
+  "Title": "How Ordered Is It? On the Perceptual Orderability of Visual Channels",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-circle"]
+        }
+      ]
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["texture"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["orientation"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["shape"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {
+    "OE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["numeric"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    }
+  },
+  "Tasks": ["estimate-trend", "find-extremum"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "estimate-trend": {
+          "rank": ["CE-1", "CE-4", "CE-6", "CE-2", "CE-5", "CE-3", "OE-1"],
+          "significance": [
+            ["CE-1", "CE-2"],
+            ["CE-1", "CE-3"],
+            ["CE-1", "CE-5"],
+            ["CE-1", "OE-1"],
+            ["CE-4", "CE-2"],
+            ["CE-4", "CE-3"],
+            ["CE-4", "CE-5"],
+            ["CE-4", "OE-1"],
+            ["CE-6", "CE-3"],
+            ["CE-6", "OE-1"],
+            ["CE-2", "OE-1"],
+            ["CE-5", "OE-1"]
+          ]
+        },
+        "find-extremum": {
+          "rank": ["OE-1", "CE-2", "CE-6", "CE-4", "CE-1", "CE-5", "CE-3"],
+          "significance": [
+            ["OE-1", "CE-6"],
+            ["OE-1", "CE-4"],
+            ["OE-1", "CE-1"],
+            ["OE-1", "CE-5"],
+            ["OE-1", "CE-3"],
+            ["CE-2", "CE-6"],
+            ["CE-2", "CE-4"],
+            ["CE-2", "CE-1"],
+            ["CE-2", "CE-5"],
+            ["CE-2", "CE-3"],
+            ["CE-6", "CE-5"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "CE-5"],
+            ["CE-4", "CE-3"],
+            ["CE-1", "CE-5"],
+            ["CE-1", "CE-3"]
+          ]
+        }
+      },
+      "time": {
+        "estimate-trend": {
+          "rank": ["CE-2", "CE-5", "CE-1", "CE-4", "CE-3", "CE-6", "OE-1"],
+          "significance": [
+            ["CE-2", "CE-4"],
+            ["CE-2", "CE-3"],
+            ["CE-2", "CE-6"],
+            ["CE-2", "OE-1"],
+            ["CE-5", "CE-4"],
+            ["CE-5", "CE-6"],
+            ["CE-5", "OE-1"],
+            ["CE-1", "CE-4"],
+            ["CE-1", "CE-6"],
+            ["CE-1", "OE-1"],
+            ["CE-4", "CE-6"],
+            ["CE-4", "OE-1"],
+            ["CE-3", "CE-6"],
+            ["CE-3", "OE-1"]
+          ]
+        },
+        "find-extremum": {
+          "rank": ["CE-1", "CE-5", "CE-4", "CE-3", "CE-2", "CE-6", "OE-1"],
+          "significance": [
+            ["CE-1", "CE-6"],
+            ["CE-1", "OE-1"],
+            ["CE-5", "CE-6"],
+            ["CE-5", "OE-1"],
+            ["CE-4", "CE-6"],
+            ["CE-4", "OE-1"],
+            ["CE-3", "CE-6"],
+            ["CE-3", "OE-1"],
+            ["CE-2", "CE-6"],
+            ["CE-2", "OE-1"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

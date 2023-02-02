@@ -1,0 +1,39 @@
+{
+  "Title": "Judging correlation from scatterplots and parallel coordinate plots",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {
+    "OE-1": "parallel coordinates"
+  },
+  "Tasks": ["correlate"],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

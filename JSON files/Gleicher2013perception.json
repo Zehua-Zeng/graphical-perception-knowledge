@@ -1,0 +1,453 @@
+{
+  "Title": "Perception of Average Value in Multiclass Scatterplots",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "50 points per class, circle as mark"
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "50 points per class, triangle as mark"
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "75 points per class, circle as mark"
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "50 points per class, circle as mark, distractor points added"
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "shape"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "50 points per class, shape as redundant cue"
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "shape"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "50 points per class, shape as conflicting cue"
+    },
+    "CE-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "orientation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "50 points per class, orientation as conflicting cue"
+    },
+    "CE-8": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "shape"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "50 points per class, shape as conflicting cue, distractor points added"
+    },
+    "CE-9": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "50 points per class, circle as mark"
+    },
+    "CE-10": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["shape"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "50 points per class"
+    },
+    "CE-11": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "shape"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "50 points per class, color as conflicting cue"
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["compare-derived-values"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "compare-derived-values-1": {
+          "rank": [
+            [
+              "CE-1",
+              "CE-2",
+              "CE-3",
+              "CE-4",
+              "CE-5",
+              "CE-6",
+              "CE-7",
+              "CE-8",
+              "CE-9"
+            ],
+            ["CE-10", "CE-11"]
+          ],
+          "significance": [
+            ["CE-1", "CE-10"],
+            ["CE-1", "CE-11"],
+            ["CE-2", "CE-10"],
+            ["CE-2", "CE-11"],
+            ["CE-3", "CE-10"],
+            ["CE-3", "CE-11"],
+            ["CE-4", "CE-10"],
+            ["CE-4", "CE-11"],
+            ["CE-5", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-10"],
+            ["CE-6", "CE-11"],
+            ["CE-7", "CE-10"],
+            ["CE-7", "CE-11"],
+            ["CE-8", "CE-10"],
+            ["CE-8", "CE-11"],
+            ["CE-9", "CE-10"],
+            ["CE-9", "CE-11"]
+          ]
+        },
+        "compare-derived-values-2": {
+          "rank": ["CE-1", "CE-8"],
+          "significance": [["CE-1", "CE-8"]]
+        },
+        "compare-derived-values-3": {
+          "rank": ["CE-6", "CE-1"],
+          "significance": []
+        },
+        "compare-derived-values-4": {
+          "rank": ["CE-10", "CE-11"],
+          "significance": []
+        },
+        "compare-derived-values-5": {
+          "rank": ["CE-3", "CE-1"],
+          "significance": []
+        },
+        "compare-derived-values-6": {
+          "rank": ["CE-4", "CE-8"],
+          "significance": []
+        },
+        "compare-derived-values-7": {
+          "rank": ["CE-1", "CE-4"],
+          "significance": []
+        },
+        "compare-derived-values-8": {
+          "rank": ["CE-1", "CE-5"],
+          "significance": []
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

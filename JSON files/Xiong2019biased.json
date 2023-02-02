@@ -1,0 +1,200 @@
+{
+  "Title": "Biased Average Position Estimates in Line and Bar Graphs: Underestimation, Overestimation, and Perceptual Pull",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        },
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        },
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        },
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["compute-derived-value"],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "Title": "Comparing Averages in Time Series Data",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": "positionY"
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "1D Permuted Line Graph: the quantitative data for each ordinal field are permuted in the line graph"
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "2D Permuted Colorfield"
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["compare-derived-values"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "compare-derived-values": {
+          "rank": ["CE-4", "CE-3", ["CE-1", "CE-2"]],
+          "significance": [
+            ["CE-4", "CE-3"],
+            ["CE-4", "CE-1"],
+            ["CE-4", "CE-2"],
+            ["CE-3", "CE-1"],
+            ["CE-3", "CE-2"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

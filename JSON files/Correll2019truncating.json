@@ -1,0 +1,140 @@
+{
+  "Title": "Truncating the Y-Axis: Threat or Menace?",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "bar chat with truncated y-axis"
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "bar chat with truncated y-axis, and visualization design of broken axis"
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "bar chat with truncated y-axis, and visualization design of gradient"
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["compare-objects", "retrieve-value", "estimate-trend"],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "Title": "Assessing the Graphical Perception of Time and Speed on 2D + Time Trajectories",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "Time encoded with length and speed encoded with color-saturation on a curved line"
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "Time encoded with length and speed encoded with color-saturation on a straight line"
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "Time encoded with length on a curved line"
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "Time encoded with length on a straight line"
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "Time encoded with size and speed encoded with color-saturation on a curved line"
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "Time encoded with size and speed encoded with color-saturation on a straight line"
+    },
+    "CE-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "Speed encoded with color-saturation on a curved line"
+    },
+    "CE-8": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "Speed encoded with color-saturation on a straight line"
+    },
+    "CE-9": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "Time encoded with length and speed encoded with size on a curved line"
+    },
+    "CE-10": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "Time encoded with length and speed encoded with size on a straight line"
+    },
+    "CE-11": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "Time encoded with color-saturation and speed encoded with size on a curved line"
+    },
+    "CE-12": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "Time encoded with color-saturation and speed encoded with size on a straight line"
+    },
+    "CE-13": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "Speed encoded with size on a curved line"
+    },
+    "CE-14": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "Speed encoded with size on a straight line"
+    },
+    "CE-15": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "Time encoded with size on a curved line"
+    },
+    "CE-16": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "Time encoded with size on a straight line"
+    },
+    "CE-17": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "Time encoded with color-sarturation on a curved line"
+    },
+    "CE-18": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "Time encoded with color-sarturation on a straight line"
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["find-extremum", "compute-derived-value"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "find-extremum-1": {
+          "rank": [
+            "CE-7",
+            ["CE-3", "CE-5"],
+            ["CE-1", "CE-9"],
+            ["CE-13", "CE-11"],
+            "CE-15",
+            "CE-17"
+          ],
+          "significance": [
+            ["CE-7", "CE-1"],
+            ["CE-7", "CE-9"],
+            ["CE-7", "CE-13"],
+            ["CE-7", "CE-11"],
+            ["CE-7", "CE-15"],
+            ["CE-7", "CE-17"],
+            ["CE-3", "CE-13"],
+            ["CE-3", "CE-11"],
+            ["CE-3", "CE-15"],
+            ["CE-3", "CE-17"],
+            ["CE-5", "CE-13"],
+            ["CE-5", "CE-11"],
+            ["CE-5", "CE-15"],
+            ["CE-5", "CE-17"],
+            ["CE-1", "CE-11"],
+            ["CE-1", "CE-15"],
+            ["CE-1", "CE-17"],
+            ["CE-9", "CE-11"],
+            ["CE-9", "CE-15"],
+            ["CE-9", "CE-17"],
+            ["CE-13", "CE-15"],
+            ["CE-13", "CE-17"],
+            ["CE-11", "CE-15"],
+            ["CE-11", "CE-17"]
+          ]
+        },
+        "find-extremum-2": {
+          "rank": [
+            ["CE-2", "CE-6", "CE-14", "CE-8", "CE-12", "CE-10", "CE-4"],
+            "CE-16",
+            "CE-18"
+          ],
+          "significance": [
+            ["CE-2", "CE-16"],
+            ["CE-2", "CE-18"],
+            ["CE-6", "CE-16"],
+            ["CE-6", "CE-18"],
+            ["CE-14", "CE-16"],
+            ["CE-14", "CE-18"],
+            ["CE-8", "CE-16"],
+            ["CE-8", "CE-18"],
+            ["CE-12", "CE-16"],
+            ["CE-12", "CE-18"],
+            ["CE-10", "CE-16"],
+            ["CE-10", "CE-18"],
+            ["CE-4", "CE-16"],
+            ["CE-4", "CE-18"]
+          ]
+        },
+        "compute-derived-value-1": {
+          "rank": [
+            "CE-1",
+            "CE-11",
+            ["CE-13", "CE-3", "CE-5"],
+            "CE-17",
+            "CE-9",
+            "CE-15",
+            "CE-7"
+          ],
+          "significance": [
+            ["CE-1", "CE-9"],
+            ["CE-1", "CE-15"],
+            ["CE-1", "CE-7"]
+          ]
+        },
+        "compute-derived-value-2": {
+          "rank": [
+            ["CE-2", "CE-4"],
+            "CE-6",
+            "CE-16",
+            "CE-10",
+            "CE-8",
+            "CE-18",
+            "CE-12",
+            "CE-14"
+          ],
+          "significance": [
+            ["CE-2", "CE-6"],
+            ["CE-2", "CE-16"],
+            ["CE-2", "CE-10"],
+            ["CE-2", "CE-8"],
+            ["CE-2", "CE-18"],
+            ["CE-2", "CE-12"],
+            ["CE-2", "CE-14"],
+            ["CE-4", "CE-16"],
+            ["CE-4", "CE-10"],
+            ["CE-4", "CE-8"],
+            ["CE-4", "CE-18"],
+            ["CE-4", "CE-12"],
+            ["CE-4", "CE-14"],
+            ["CE-6", "CE-14"]
+          ]
+        }
+      },
+      "time": {
+        "find-extremum-1": {
+          "rank": [
+            "CE-5",
+            "CE-7",
+            "CE-9",
+            "CE-1",
+            "CE-11",
+            "CE-15",
+            "CE-13",
+            "CE-3",
+            "CE-17"
+          ],
+          "significance": []
+        },
+        "find-extremum-2": {
+          "rank": [
+            "CE-6",
+            "CE-8",
+            "CE-10",
+            "CE-2",
+            "CE-16",
+            "CE-14",
+            "CE-12",
+            "CE-18",
+            "CE-3"
+          ],
+          "significance": [
+            ["CE-6", "CE-18"],
+            ["CE-6", "CE-3"],
+            ["CE-8", "CE-18"],
+            ["CE-8", "CE-3"],
+            ["CE-10", "CE-18"],
+            ["CE-10", "CE-3"]
+          ]
+        },
+        "compute-derived-value-1": {
+          "rank": [
+            "CE-17",
+            "CE-15",
+            "CE-11",
+            "CE-5",
+            "CE-9",
+            "CE-7",
+            "CE-1",
+            "CE-13",
+            "CE-3"
+          ],
+          "significance": [
+            ["CE-17", "CE-7"],
+            ["CE-17", "CE-1"],
+            ["CE-17", "CE-13"],
+            ["CE-17", "CE-3"]
+          ]
+        },
+        "compute-derived-value-2": {
+          "rank": [
+            "CE-18",
+            "CE-16",
+            "CE-12",
+            "CE-6",
+            "CE-10",
+            "CE-4",
+            "CE-2",
+            "CE-8",
+            "CE-14"
+          ],
+          "significance": [["CE-18", "CE-14"]]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

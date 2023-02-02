@@ -1,0 +1,45 @@
+{
+  "Title": "Mapping Color to Meaning in Colormap Data Visualizations",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["compare-derived-values"],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

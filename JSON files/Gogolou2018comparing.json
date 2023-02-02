@@ -1,0 +1,104 @@
+{
+  "Title": "Comparing Similarity Perception in Time Series Visualizations",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area", "color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ]
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["judge-similarity"],
+  "Results": {
+    "Experimental": {
+      "time": {
+        "judge-similarity-1": {
+          "rank": ["CE-3", "CE-1", "CE-2"],
+          "significance": [
+            ["CE-3", "CE-1"],
+            ["CE-3", "CE-2"]
+          ]
+        },
+        "judge-similarity-2": {
+          "rank": [["CE-1, CE-3"], "CE-2"],
+          "significance": [
+            ["CE-1", "CE-2"],
+            ["CE-3", "CE-2"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

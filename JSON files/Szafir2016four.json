@@ -1,0 +1,378 @@
+{
+  "Title": "Four types of ensemble coding in data visualizations",
+  "Category": "Theory",
+  "Covered Designs": {
+    "CT-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attributeType": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attributeType": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attributeType": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CT-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attributeType": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attributeType": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    },
+    "CT-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attributeType": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attributeType": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attributeType": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            }
+          ],
+          "marks": ["area-circle"]
+        }
+      ]
+    },
+    "CT-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attributeType": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attributeType": "nominal-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attributeType": "nominal-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    },
+    "CT-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attributeType": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attributeType": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {
+    "OT-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attributeType": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attributeType": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attributeType": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "color-saturation"]
+            },
+            {
+              "attributeType": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["orientation"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "OT-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attributeType": "nominal-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attributeType": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attributeType": "nominal-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attributeType": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "OT-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attributeType": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attributeType": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attributeType": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attributeType": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            }
+          ],
+          "marks": ["area-circle"]
+        }
+      ]
+    },
+    "OT-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attributeType": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attributeType": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attributeType": "nominal-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attributeType": "nominal-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["row", "column"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "OT-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attributeType": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attributeType": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attributeType": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attributeType": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    }
+  },
+  "Tasks": [
+    "recognize",
+    "find-extremum",
+    "find-anomalies",
+    "compute-derived-value",
+    "characterize-distribution",
+    "retrieve-value",
+    "cluster",
+    "estimate-trend",
+    "correlate",
+    "judge-similarity"
+  ],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

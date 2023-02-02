@@ -1,0 +1,269 @@
+{
+  "Title": "Ranked-List Visualization: A Graphical Perception Study",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "scrolled barchart"
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX", "positionY"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "treemap"
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX", "positionY"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "wrapped barchart"
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX", "positionY"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "packed barchart"
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "piled barchart"
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "Zvinca plot"
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["sort", "estimate-difference", "compute-derived-value"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "sort": {
+          "rank": ["CE-3", ["CE-2", "CE-1"], ["CE-4", "CE-5", "CE-6"]],
+          "significance": [
+            ["CE-3", "CE-2"],
+            ["CE-3", "CE-1"],
+            ["CE-3", "CE-4"],
+            ["CE-3", "CE-5"],
+            ["CE-3", "CE-6"],
+            ["CE-2", "CE-4"],
+            ["CE-2", "CE-5"],
+            ["CE-2", "CE-6"],
+            ["CE-1", "CE-4"],
+            ["CE-1", "CE-5"],
+            ["CE-1", "CE-6"]
+          ]
+        },
+        "estimate-difference": {
+          "rank": [["CE-3", "CE-1"], "CE-2", "CE-4", "CE-5", "CE-6"],
+          "significance": [
+            ["CE-3", "CE-2"],
+            ["CE-3", "CE-4"],
+            ["CE-3", "CE-5"],
+            ["CE-3", "CE-6"],
+            ["CE-1", "CE-2"],
+            ["CE-1", "CE-4"],
+            ["CE-1", "CE-5"],
+            ["CE-1", "CE-6"],
+            ["CE-2", "CE-5"],
+            ["CE-2", "CE-6"],
+            ["CE-6", "CE-6"]
+          ]
+        },
+        "compute-derived-value": {
+          "rank": [["CE-1", "CE-6"], "CE-3", "CE-5", "CE-2", "CE-4"],
+          "significance": [
+            ["CE-1", "CE-3"],
+            ["CE-1", "CE-5"],
+            ["CE-1", "CE-2"],
+            ["CE-1", "CE-4"],
+            ["CE-6", "CE-3"],
+            ["CE-6", "CE-5"],
+            ["CE-6", "CE-2"],
+            ["CE-6", "CE-4"],
+            ["CE-3", "CE-5"],
+            ["CE-3", "CE-2"],
+            ["CE-3", "CE-4"],
+            ["CE-5", "CE-2"],
+            ["CE-5", "CE-4"],
+            ["CE-2", "CE-4"]
+          ]
+        }
+      },
+      "time": {
+        "sort": {
+          "rank": [
+            ["CE-2", "CE-4", "CE-5", "CE-6"],
+            ["CE-3", "CE-1"]
+          ],
+          "significance": [
+            ["CE-2", "CE-3"],
+            ["CE-2", "CE-1"],
+            ["CE-4", "CE-3"],
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-3"],
+            ["CE-5", "CE-1"],
+            ["CE-6", "CE-3"],
+            ["CE-6", "CE-1"]
+          ]
+        },
+        "estimate-difference": {
+          "rank": ["CE-6", ["CE-5", "CE-4", "CE-3", "CE-2"], "CE-1"],
+          "significance": [
+            ["CE-6", "CE-5"],
+            ["CE-6", "CE-4"],
+            ["CE-6", "CE-3"],
+            ["CE-6", "CE-2"],
+            ["CE-6", "CE-1"],
+            ["CE-5", "CE-1"],
+            ["CE-4", "CE-1"],
+            ["CE-3", "CE-1"],
+            ["CE-2", "CE-1"],
+            ["CE-1", "CE-1"]
+          ]
+        },
+        "compute-derived-value": {
+          "rank": ["CE-6", ["CE-2", "CE-4"], ["CE-3", "CE-5"], "CE-1"],
+          "significance": [
+            ["CE-6", "CE-3"],
+            ["CE-6", "CE-5"],
+            ["CE-6", "CE-1"],
+            ["CE-2", "CE-3"],
+            ["CE-2", "CE-1"],
+            ["CE-4", "CE-3"],
+            ["CE-4", "CE-1"],
+            ["CE-3", "CE-1"],
+            ["CE-5", "CE-1"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

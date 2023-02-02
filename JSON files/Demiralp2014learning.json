@@ -1,0 +1,114 @@
+{
+  "Title": "Learning Perceptual Kernels for Visualization Design",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["shape"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            }
+          ],
+          "marks": ["area-circle"]
+        }
+      ]
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "shape"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "area"]
+            }
+          ],
+          "marks": ["area-circle"]
+        }
+      ]
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area", "shape"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["judge-similarity"],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

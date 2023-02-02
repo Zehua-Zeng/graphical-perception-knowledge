@@ -1,0 +1,956 @@
+{
+  "Title": "Task-Based Effectiveness of Basic Visualizations",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    },
+    "CE-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CE-8": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CE-9": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CE-10": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ]
+    },
+    "CE-11": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ]
+    },
+    "CE-12": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {
+    "OE-11": "table"
+  },
+  "Tasks": [
+    "find-anomalies",
+    "cluster",
+    "correlate",
+    "compute-derived-value",
+    "characterize-distribution",
+    "find-extremum",
+    "sort",
+    "retrieve-value",
+    "filter",
+    "determine-range"
+  ],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "find-anomalies": {
+          "rank": [
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-7", "CE-8", "CE-9"],
+            "OE-1",
+            ["CE-10", "CE-11", "CE-12"]
+          ],
+          "significance": [
+            ["CE-1", "CE-10"],
+            ["CE-2", "CE-11"],
+            ["CE-3", "CE-12"]
+          ]
+        },
+        "cluster": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-10", "CE-11", "CE-12"],
+            "OE-1",
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"],
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["CE-10", "OE-1"],
+            ["CE-11", "OE-1"],
+            ["CE-12", "OE-1"],
+            ["CE-10", "CE-1"],
+            ["CE-11", "CE-2"],
+            ["CE-12", "CE-3"],
+            ["CE-10", "CE-7"],
+            ["CE-11", "CE-8"],
+            ["CE-12", "CE-9"]
+          ]
+        },
+        "correlate": {
+          "rank": [
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-10", "CE-11", "CE-12"],
+            "OE-1"
+          ],
+          "significance": [
+            ["CE-7", "CE-10"],
+            ["CE-8", "CE-11"],
+            ["CE-9", "CE-12"],
+            ["CE-7", "OE-1"],
+            ["CE-8", "OE-1"],
+            ["CE-9", "OE-1"],
+            ["CE-1", "CE-10"],
+            ["CE-2", "CE-11"],
+            ["CE-3", "CE-12"],
+            ["CE-1", "OE-1"],
+            ["CE-2", "OE-1"],
+            ["CE-3", "OE-1"],
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"],
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"]
+          ]
+        },
+        "compute-derived-value": {
+          "rank": [
+            "OE-1",
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["OE-1", "CE-7"],
+            ["OE-1", "CE-8"],
+            ["OE-1", "CE-9"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["CE-10", "CE-7"],
+            ["CE-11", "CE-8"],
+            ["CE-12", "CE-9"],
+            ["CE-1", "CE-7"],
+            ["CE-2", "CE-8"],
+            ["CE-3", "CE-9"]
+          ]
+        },
+        "characterize-distribution": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-10", "CE-11", "CE-12"],
+            "OE-1"
+          ],
+          "significance": []
+        },
+        "find-extremum": {
+          "rank": [
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-10", "CE-11", "CE-12"],
+            "OE-1",
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": []
+        },
+        "sort": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-1", "CE-2", "CE-3"],
+            "OE-1",
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"]
+          ]
+        },
+        "retrieve-value": {
+          "rank": [
+            "OE-1",
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["OE-1", "CE-7"],
+            ["OE-1", "CE-8"],
+            ["OE-1", "CE-9"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["CE-10", "CE-7"],
+            ["CE-11", "CE-8"],
+            ["CE-12", "CE-9"]
+          ]
+        },
+        "filter": {
+          "rank": [
+            "OE-1",
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-1", "CE-2", "CE-3"]
+          ],
+          "significance": []
+        },
+        "determine-range": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-1", "CE-2", "CE-3"],
+            "OE-1",
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": []
+        }
+      },
+      "time": {
+        "find-anomalies": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-7", "CE-8", "CE-9"],
+            "OE-1"
+          ],
+          "significance": [
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"]
+          ]
+        },
+        "cluster": {
+          "rank": [
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-1", "CE-2", "CE-3"],
+            "OE-1",
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["CE-10", "OE-1"],
+            ["CE-11", "OE-1"],
+            ["CE-12", "OE-1"],
+            ["CE-10", "CE-7"],
+            ["CE-11", "CE-8"],
+            ["CE-12", "CE-9"],
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"]
+          ]
+        },
+        "correlate": {
+          "rank": [
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-4", "CE-5", "CE-6"],
+            "OE-1",
+            ["CE-10", "CE-11", "CE-12"]
+          ],
+          "significance": [
+            ["CE-7", "CE-10"],
+            ["CE-8", "CE-11"],
+            ["CE-9", "CE-12"],
+            ["CE-7", "OE-1"],
+            ["CE-8", "OE-1"],
+            ["CE-9", "OE-1"],
+            ["CE-1", "CE-10"],
+            ["CE-2", "CE-11"],
+            ["CE-3", "CE-12"],
+            ["CE-1", "OE-1"],
+            ["CE-2", "OE-1"],
+            ["CE-3", "OE-1"],
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"],
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"]
+          ]
+        },
+        "compute-derived-value": {
+          "rank": [
+            "OE-1",
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["OE-1", "CE-4"],
+            ["OE-1", "CE-5"],
+            ["OE-1", "CE-6"],
+            ["OE-1", "CE-1"],
+            ["OE-1", "CE-2"],
+            ["OE-1", "CE-3"],
+            ["OE-1", "CE-7"],
+            ["OE-1", "CE-8"],
+            ["OE-1", "CE-9"]
+          ]
+        },
+        "characterize-distribution": {
+          "rank": [
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-10", "CE-11", "CE-12"],
+            "OE-1"
+          ],
+          "significance": [
+            ["CE-1", "CE-10"],
+            ["CE-2", "CE-11"],
+            ["CE-3", "CE-12"],
+            ["CE-1", "OE-1"],
+            ["CE-2", "OE-1"],
+            ["CE-3", "OE-1"],
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"],
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"]
+          ]
+        },
+        "find-extremum": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-1", "CE-2", "CE-3"],
+            "OE-1",
+            ["CE-10", "CE-11", "CE-12"]
+          ],
+          "significance": [
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"],
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"]
+          ]
+        },
+        "sort": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-1", "CE-2", "CE-3"],
+            "OE-1",
+            ["CE-10", "CE-11", "CE-12"]
+          ],
+          "significance": [
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"],
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"],
+            ["CE-7", "CE-10"],
+            ["CE-8", "CE-11"],
+            ["CE-9", "CE-12"],
+            ["CE-1", "CE-10"],
+            ["CE-2", "CE-11"],
+            ["CE-3", "CE-12"]
+          ]
+        },
+        "retrieve-value": {
+          "rank": [
+            "OE-1",
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["OE-1", "CE-1"],
+            ["OE-1", "CE-2"],
+            ["OE-1", "CE-3"],
+            ["OE-1", "CE-7"],
+            ["OE-1", "CE-8"],
+            ["OE-1", "CE-9"],
+            ["CE-10", "CE-1"],
+            ["CE-11", "CE-2"],
+            ["CE-12", "CE-3"],
+            ["CE-10", "CE-7"],
+            ["CE-11", "CE-8"],
+            ["CE-12", "CE-9"],
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"]
+          ]
+        },
+        "filter": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            "OE-1",
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"],
+            ["OE-1", "CE-1"],
+            ["OE-1", "CE-2"],
+            ["OE-1", "CE-3"],
+            ["OE-1", "CE-7"],
+            ["OE-1", "CE-8"],
+            ["OE-1", "CE-9"],
+            ["OE-1", "CE-10"],
+            ["OE-1", "CE-11"],
+            ["OE-1", "CE-12"]
+          ]
+        },
+        "determine-range": {
+          "rank": [
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-10", "CE-11", "CE-12"],
+            "OE-1",
+            ["CE-4", "CE-5", "CE-6"]
+          ],
+          "significance": []
+        }
+      },
+      "user-preference": {
+        "find-anomalies": {
+          "rank": [
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-4", "CE-5", "CE-6"],
+            "OE-1",
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-10", "CE-11", "CE-12"]
+          ],
+          "significance": [
+            ["CE-1", "CE-7"],
+            ["CE-2", "CE-8"],
+            ["CE-3", "CE-9"],
+            ["CE-1", "CE-10"],
+            ["CE-2", "CE-11"],
+            ["CE-3", "CE-12"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"]
+          ]
+        },
+        "cluster": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            "OE-1",
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["OE-1", "CE-1"],
+            ["OE-1", "CE-2"],
+            ["OE-1", "CE-3"],
+            ["OE-1", "CE-7"],
+            ["OE-1", "CE-8"],
+            ["OE-1", "CE-9"]
+          ]
+        },
+        "correlate": {
+          "rank": [
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-1", "CE-2", "CE-3"],
+            "OE-1",
+            ["CE-10", "CE-11", "CE-12"]
+          ],
+          "significance": [
+            ["CE-7", "CE-1"],
+            ["CE-8", "CE-2"],
+            ["CE-9", "CE-3"],
+            ["CE-7", "OE-1"],
+            ["CE-8", "OE-1"],
+            ["CE-9", "OE-1"],
+            ["CE-1", "CE-10"],
+            ["CE-2", "CE-11"],
+            ["CE-3", "CE-12"],
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"],
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"]
+          ]
+        },
+        "compute-derived-value": {
+          "rank": [
+            "OE-1",
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["OE-1", "CE-1"],
+            ["OE-1", "CE-2"],
+            ["OE-1", "CE-3"],
+            ["OE-1", "CE-7"],
+            ["OE-1", "CE-8"],
+            ["OE-1", "CE-9"],
+            ["CE-10", "CE-1"],
+            ["CE-11", "CE-2"],
+            ["CE-12", "CE-3"],
+            ["CE-10", "CE-7"],
+            ["CE-11", "CE-8"],
+            ["CE-12", "CE-9"],
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"]
+          ]
+        },
+        "characterize-distribution": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            "OE-1",
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"],
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"]
+          ]
+        },
+        "find-extremum": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            "OE-1",
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-10", "CE-11", "CE-12"]
+          ],
+          "significance": [
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"],
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"]
+          ]
+        },
+        "sort": {
+          "rank": [
+            ["CE-4", "CE-5", "CE-6"],
+            "OE-1",
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-10", "CE-11", "CE-12"]
+          ],
+          "significance": [
+            ["CE-4", "OE-1"],
+            ["CE-5", "OE-1"],
+            ["CE-6", "OE-1"],
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["CE-4", "CE-10"],
+            ["CE-5", "CE-11"],
+            ["CE-6", "CE-12"]
+          ]
+        },
+        "retrieve-value": {
+          "rank": [
+            "OE-1",
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["OE-1", "CE-4"],
+            ["OE-1", "CE-5"],
+            ["OE-1", "CE-6"],
+            ["OE-1", "CE-1"],
+            ["OE-1", "CE-2"],
+            ["OE-1", "CE-3"],
+            ["OE-1", "CE-7"],
+            ["OE-1", "CE-8"],
+            ["OE-1", "CE-9"],
+            ["OE-1", "CE-10"],
+            ["OE-1", "CE-11"],
+            ["OE-1", "CE-12"]
+          ]
+        },
+        "filter": {
+          "rank": [
+            "OE-1",
+            ["CE-4", "CE-5", "CE-6"],
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"]
+          ],
+          "significance": [
+            ["OE-1", "CE-1"],
+            ["OE-1", "CE-2"],
+            ["OE-1", "CE-3"],
+            ["OE-1", "CE-7"],
+            ["OE-1", "CE-8"],
+            ["OE-1", "CE-9"],
+            ["CE-4", "CE-1"],
+            ["CE-5", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-4", "CE-7"],
+            ["CE-5", "CE-8"],
+            ["CE-6", "CE-9"],
+            ["CE-10", "CE-1"],
+            ["CE-11", "CE-2"],
+            ["CE-12", "CE-3"],
+            ["CE-10", "CE-7"],
+            ["CE-11", "CE-8"],
+            ["CE-12", "CE-9"]
+          ]
+        },
+        "determine-range": {
+          "rank": [
+            ["CE-1", "CE-2", "CE-3"],
+            ["CE-7", "CE-8", "CE-9"],
+            ["CE-10", "CE-11", "CE-12"],
+            ["CE-4", "CE-5", "CE-6"],
+            "OE-1"
+          ],
+          "significance": []
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

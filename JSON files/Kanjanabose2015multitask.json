@@ -1,0 +1,110 @@
+{
+  "Title": "A Multi-task Comparative Study on Scatter Plots and Parallel Coordinates Plots",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["shape"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {
+    "OE-1": "table",
+    "OE-2": "parallel coordinates"
+  },
+  "Tasks": ["retrieve-value", "cluster", "find-anomalies", "estimate-trend"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "retrieve-value": {
+          "rank": [["CE-1", "OE-1", "OE-2"]],
+          "significance": []
+        },
+        "cluster": {
+          "rank": ["OE-2", "CE-1", "OE-1"],
+          "significance": [
+            ["OE-2", "CE-1"],
+            ["OE-2", "OE-1"],
+            ["CE-1", "OE-1"]
+          ]
+        },
+        "find-anomalies": {
+          "rank": ["OE-2", "CE-1", "OE-1"],
+          "significance": [
+            ["OE-2", "CE-1"],
+            ["OE-2", "OE-1"],
+            ["CE-1", "OE-1"]
+          ]
+        },
+        "estimate-trend": {
+          "rank": ["OE-2", ["CE-1", "OE-1"]],
+          "significance": [
+            ["OE-2", "CE-1"],
+            ["OE-2", "OE-1"]
+          ]
+        }
+      },
+      "time": {
+        "retrieve value": {
+          "rank": ["OE-1", "OE-2", "CE-1"],
+          "significance": [
+            ["OE-1", "OE-2"],
+            ["OE-1", "CE-1"],
+            ["OE-2", "CE-1"]
+          ]
+        },
+        "cluster": {
+          "rank": [["CE-1", "OE-2"], "OE-1"],
+          "significance": [
+            ["CE-1", "OE-1"],
+            ["OE-2", "OE-1"]
+          ]
+        },
+        "find-anomalies": {
+          "rank": [["OE-2", "CE-1"], "OE-1"],
+          "significance": [
+            ["CE-1", "OE-1"],
+            ["OE-2", "OE-1"]
+          ]
+        },
+        "estimate-trend": {
+          "rank": ["OE-2", "CE-1", "OE-1"],
+          "significance": [
+            ["OE-2", "CE-1"],
+            ["OE-2", "OE-1"],
+            ["CE-1", "OE-1"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

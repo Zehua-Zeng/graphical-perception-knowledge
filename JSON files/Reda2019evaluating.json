@@ -1,0 +1,124 @@
+{
+  "Title": "Evaluating Gradient Perception in Color-coded Scalar Fields",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "color pattern: cool-warm"
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "color pattern: viridis"
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "color pattern: rainbow"
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["compare-derived-values"],
+  "Results": {
+    "Experimental": {
+      "JND": {
+        "compare-derived-values": {
+          "rank": ["CE-1", "CE-3", "CE-2"],
+          "significance": [
+            ["CE-1", "CE-2"],
+            ["CE-3", "CE-2"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

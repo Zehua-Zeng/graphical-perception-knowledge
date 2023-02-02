@@ -1,0 +1,102 @@
+{
+  "Title": "Perceptual Guidelines for Creating Rectangular Treemaps",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "Experiment": {
+      "CE-1": {
+        "layers": [
+          {
+            "encodings": [
+              {
+                "attribute-type": "nominal",
+                "aggregation": {
+                  "aggregation-type": "none",
+                  "aggregation-window": "none"
+                },
+                "channels": ["positionX", "positionY"]
+              },
+              {
+                "attribute-type": "quantitative",
+                "aggregation": {
+                  "aggregation-type": "none",
+                  "aggregation-window": "none"
+                },
+                "channels": ["area"]
+              }
+            ],
+            "marks": ["area-rect"]
+          }
+        ]
+      }
+    }
+  },
+  "Other Designs": {
+    "OE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["row", "column"]
+            },
+            {
+              "attribute-type": "nominal-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    }
+  },
+  "Tasks": ["estimate-difference"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "estimate-difference-1": {
+          "rank": ["OE-1", "CE-1"],
+          "significance": [["OE-1", "CE-1"]]
+        },
+        "estimate-difference-2": {
+          "rank": ["CE-1", "OE-1"],
+          "significance": [["CE-1", "OE-1"]]
+        },
+        "estimate-difference-3": {
+          "rank": ["CE-1", "OE-1"],
+          "significance": [["CE-1", "OE-1"]]
+        }
+      },
+      "time": {
+        "estimate-difference-1": {
+          "rank": ["CE-1", "OE-1"],
+          "significance": [["CE-1", "OE-1"]]
+        },
+        "estimate-difference-2": {
+          "rank": ["CE-1", "OE-1"],
+          "significance": []
+        },
+        "estimate-difference-3": {
+          "rank": ["CE-1", "OE-1"],
+          "significance": []
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

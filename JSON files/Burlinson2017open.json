@@ -1,0 +1,51 @@
+{
+  "Title": "Open vs Closed Shapes: New Perceptual Categories?",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["shape"]
+            },
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {},
+  "Tasks": [
+    "recognize",
+    "find-anomalies",
+    "compute-derived-value",
+    "compare-derived-values",
+    "estimate-trend"
+  ],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

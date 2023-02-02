@@ -1,0 +1,192 @@
+{
+  "Title": "Visual cues in estimation of part-to-whole comparison",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ]
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "bar with quartile-ticks"
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": "area-rect"
+        }
+      ],
+      "note": "bar with decile-ticks"
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "pie with quartile-ticks"
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "bar with scale"
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["characterize-distribution"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "characterize-distribution-1": {
+          "rank": ["CE-2", "CE-1"],
+          "significance": [["CE-2", "CE-1"]]
+        },
+        "characterize-distribution-2": {
+          "rank": ["CE-4", "CE-3", "CE-1"],
+          "significance": [
+            ["CE-4", "CE-3"],
+            ["CE-4", "CE-1"]
+          ]
+        },
+        "characterize-distribution-3": {
+          "rank": ["CE-5", "CE-1"],
+          "significance": []
+        },
+        "characterize-distribution-4": {
+          "rank": ["CE-6", "CE-4", "CE-1"],
+          "significance": [
+            ["CE-6", "CE-4"],
+            ["CE-6", "CE-1"],
+            ["CE-4", "CE-1"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "Title": "The Impact of Distribution and Chart Type on Part-to-Whole Comparisons",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "pie chart"
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "circular slices"
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "straight line circular"
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["estimate-difference"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "estimate-difference": {
+          "rank": [["CE-4", "CE-3", "CE-2"], "CE-1", "CE-5"],
+          "significance": [
+            ["CE-2", "CE-1"],
+            ["CE-1", "CE-5"]
+          ]
+        }
+      },
+      "time": {
+        "estimate-difference": {
+          "rank": [
+            ["CE-2", "CE-3"],
+            ["CE-4", "CE-5", "CE-1"]
+          ],
+          "significance": [
+            ["CE-2", "CE-4"],
+            ["CE-2", "CE-5"],
+            ["CE-2", "CE-1"],
+            ["CE-3", "CE-4"],
+            ["CE-3", "CE-5"],
+            ["CE-3", "CE-1"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

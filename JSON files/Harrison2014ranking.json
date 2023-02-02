@@ -1,0 +1,574 @@
+{
+  "Title": "Ranking Visualizations of Correlation Using Weber's Law",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "scatterplot - positive correlation"
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "scatterplot - negative correlation"
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "stackedarea - positive correlation"
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "stackedarea - negative correlation"
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "stackedline - positive correlation"
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "stackedline - negative correlation"
+    },
+    "CE-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "stackedbar - positive correlation"
+    },
+    "CE-8": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "stackedbar - negative correlation"
+    },
+    "CE-9": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "donut - positive correlation"
+    },
+    "CE-10": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "donut - negative correlation"
+    },
+    "CE-11": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "line - positive correlation"
+    },
+    "CE-12": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "line - negative correlation"
+    },
+    "CE-13": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "ordered line - positive correlation"
+    },
+    "CE-14": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ],
+      "note": "ordered line - negative correlation"
+    }
+  },
+  "Other Designs": {
+    "OE-1": "parallel coordinates - positive correlation",
+    "OE-2": "parallel coordinates - negative correlation",
+    "OE-3": "radar - positive correlation",
+    "OE-4": "radar - negative correlation"
+  },
+  "Tasks": ["correlate"],
+  "Results": {
+    "Experimental": {
+      "JND": {
+        "correlate-1": {
+          "rank": [
+            "OE-2",
+            "CE-1",
+            "CE-2",
+            "CE-8",
+            "CE-13",
+            "CE-10",
+            "CE-4",
+            "CE-14",
+            "CE-6",
+            "OE-1",
+            "OE-3",
+            "CE-11"
+          ],
+          "significance": []
+        },
+        "correlate-2": {
+          "rank": [
+            "OE-2",
+            "CE-1",
+            "CE-2",
+            "CE-8",
+            "CE-13",
+            "CE-10",
+            "CE-4",
+            "CE-14",
+            "CE-6",
+            "OE-1",
+            "OE-3",
+            "CE-11"
+          ],
+          "significance": []
+        },
+        "correlate-3": {
+          "rank": [
+            "CE-1",
+            "OE-2",
+            "CE-2",
+            "CE-8",
+            "CE-13",
+            "CE-10",
+            "CE-4",
+            "CE-14",
+            "CE-6",
+            "OE-1",
+            "OE-3",
+            "CE-11"
+          ],
+          "significance": []
+        },
+        "correlate-4": {
+          "rank": [
+            "CE-2",
+            "CE-1",
+            "OE-2",
+            "CE-8",
+            "CE-13",
+            "CE-10",
+            "CE-14",
+            "CE-4",
+            "CE-6",
+            "OE-1",
+            "OE-3",
+            "CE-11"
+          ],
+          "significance": []
+        },
+        "correlate-5": {
+          "rank": [
+            "CE-2",
+            "CE-1",
+            "OE-2",
+            "CE-13",
+            "CE-10",
+            "CE-14",
+            "CE-8",
+            "CE-6",
+            "CE-4",
+            "OE-3",
+            "OE-1",
+            "CE-11"
+          ],
+          "significance": []
+        },
+        "overall": {
+          "rank": [
+            "CE-1",
+            "OE-2",
+            "CE-2",
+            "CE-8",
+            "CE-13",
+            "CE-10",
+            "CE-4",
+            "CE-14",
+            "CE-6",
+            "OE-1",
+            "OE-3",
+            "CE-11"
+          ],
+          "significance": [
+            ["CE-1", "OE-1"],
+            ["OE-2", "OE-1"],
+            ["CE-2", "OE-1"],
+            ["CE-8", "CE-4"],
+            ["CE-8", "CE-6"],
+            ["CE-13", "CE-11"],
+            ["CE-14", "CE-11"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

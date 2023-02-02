@@ -1,0 +1,174 @@
+{
+  "Title": "Comparison of Radial and Linear charts for Visualizing Daily Patterns",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["orientation"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "2 * 12-hours radial charts"
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["orientation"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ],
+      "note": "24-hours radial chart"
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "2 * 12-hours bar charts"
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": ["area-rect"]
+        }
+      ],
+      "note": "24-hours bar chart"
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["locate", "retrieve-value", "find-maximum", "compare-objects"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "locate": {
+          "rank": ["CE-3", "CE-4", "CE-2", "CE-1"],
+          "significance": []
+        },
+        "retrieve-value": {
+          "rank": ["CE-4", "CE-3", "CE-2", "CE-1"],
+          "significance": []
+        },
+        "find-maximum": {
+          "rank": [["CE-2", "CE-4"], "CE-3", "CE-1"],
+          "significance": []
+        },
+        "compare-objects": {
+          "rank": ["CE-4", "CE-2", "CE-3", "CE-1"],
+          "significance": []
+        }
+      },
+      "time": {
+        "locate": {
+          "rank": ["CE-4", "CE-3", "CE-1", "CE-2"],
+          "significance": [
+            ["CE-4", "CE-2"],
+            ["CE-3", "CE-1"]
+          ]
+        },
+        "retrieve-value": {
+          "rank": ["CE-4", "CE-3", "CE-2", "CE-1"],
+          "significance": [
+            ["CE-4", "CE-2"],
+            ["CE-3", "CE-1"]
+          ]
+        },
+        "find-maximum": {
+          "rank": ["CE-4", "CE-2", "CE-3", "CE-1"],
+          "significance": [
+            ["CE-4", "CE-2"],
+            ["CE-3", "CE-1"]
+          ]
+        },
+        "compare-objects": {
+          "rank": ["CE-4", "CE-3", "CE-1", "CE-2"],
+          "significance": [
+            ["CE-4", "CE-2"],
+            ["CE-3", "CE-1"]
+          ]
+        }
+      },
+      "user-preference": {
+        "overall": {
+          "rank": ["CE-4", "CE-3", "CE-2", "CE-1"],
+          "significance": [
+            ["CE-4", "CE-2"],
+            ["CE-3", "CE-1"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

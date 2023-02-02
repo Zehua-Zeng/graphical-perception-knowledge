@@ -1,0 +1,420 @@
+{
+  "Title": "Graphical Perception of Continuous Quantitative Maps: the Effects of Spatial Frequency and Colormap Design",
+  "Category": "Experiment",
+  "Covered Designs": {
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is greyscale"
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is singleblue"
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is bodyheat"
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is cubehelix"
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is ext-bodyheat"
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is cool-warm"
+    },
+    "CE-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue", "color-saturation"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is spectral"
+    },
+    "CE-8": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is blue-yellow"
+    },
+    "CE-9": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative-1",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            },
+            {
+              "attribute-type": "quantitative-2",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "quantitative-3",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point"]
+        }
+      ],
+      "note": "The color pattern is rainbow"
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["retrieve-value", "compare-derived-values", "estimate-trend"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "find-maximum": {
+          "rank": [
+            "CE-9",
+            "CE-7",
+            "CE-5",
+            "CE-4",
+            "CE-6",
+            "CE-8",
+            "CE-3",
+            "CE-2",
+            "CE-1"
+          ],
+          "significance": [
+            ["CE-9", "CE-1"],
+            ["CE-7", "CE-1"],
+            ["CE-5", "CE-1"],
+            ["CE-4", "CE-1"],
+            ["CE-6", "CE-1"],
+            ["CE-8", "CE-1"],
+            ["CE-3", "CE-1"],
+            ["CE-2", "CE-1"]
+          ]
+        },
+        "compare-derived-values-1": {
+          "rank": [
+            [
+              "CE-1",
+              "CE-2",
+              "CE-3",
+              "CE-4",
+              "CE-5",
+              "CE-6",
+              "CE-7",
+              "CE-8",
+              "CE-9"
+            ]
+          ],
+          "significance": []
+        },
+        "compare-derived-values-2": {
+          "rank": [
+            "CE-6",
+            "CE-9",
+            "CE-8",
+            ["CE-1", "CE-2", "CE-3", "CE-4", "CE-5", "CE-7"]
+          ],
+          "significance": [
+            ["CE-6", "CE-1"],
+            ["CE-6", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-6", "CE-4"],
+            ["CE-6", "CE-5"],
+            ["CE-6", "CE-7"],
+            ["CE-8", "CE-1"],
+            ["CE-8", "CE-2"],
+            ["CE-8", "CE-3"],
+            ["CE-8", "CE-4"],
+            ["CE-8", "CE-5"],
+            ["CE-8", "CE-7"],
+            ["CE-9", "CE-1"],
+            ["CE-9", "CE-2"],
+            ["CE-9", "CE-3"],
+            ["CE-9", "CE-4"],
+            ["CE-9", "CE-5"],
+            ["CE-9", "CE-7"]
+          ]
+        },
+        "estimate-trend-1": {
+          "rank": [
+            [
+              ["CE-1", "CE-2", "CE-3", "CE-4", "CE-5", "CE-7", "CE-8", "CE-9"],
+              "CE-6"
+            ]
+          ],
+          "significance": []
+        },
+        "estimate-trend-2": {
+          "rank": [
+            [
+              "CE-6",
+              "CE-7",
+              "CE-8",
+              "CE-4",
+              ["CE-1", "CE-2", "CE-3", "CE-5", "CE-9"]
+            ]
+          ],
+          "significance": [
+            ["CE-6", "CE-1"],
+            ["CE-6", "CE-2"],
+            ["CE-6", "CE-3"],
+            ["CE-6", "CE-5"],
+            ["CE-6", "CE-9"],
+            ["CE-7", "CE-1"],
+            ["CE-7", "CE-2"],
+            ["CE-7", "CE-3"],
+            ["CE-7", "CE-5"],
+            ["CE-7", "CE-9"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

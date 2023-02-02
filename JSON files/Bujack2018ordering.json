@@ -1,0 +1,80 @@
+{
+  "Title": "Ordering Perceptions about Perceptual Order",
+  "Category": "Theory",
+  "Covered Designs": {
+    "CT-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+        }
+      ]
+    },
+    "CT-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+        }
+      ]
+    },
+    "CT-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+        }
+      ]
+    },
+    "CT-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "ordinal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {},
+  "Tasks": [],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

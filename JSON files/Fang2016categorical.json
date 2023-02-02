@@ -1,0 +1,29 @@
+{
+  "Title": "Categorical Colormap Optimization with Visualization Case Studies",
+  "Category": "Theory",
+  "Covered Designs": {
+    "CT-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-hue"]
+            }
+          ],
+          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+        }
+      ]
+    }
+  },
+  "Other Designs": {},
+  "Tasks": [],
+  "Results": {
+    "Experimental": {},
+    "Theoretical": {}
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "Title": "Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods",
+  "Category": "Hybrid",
+  "Covered Designs": {
+    "CT-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX", "positionY"]
+            }
+          ],
+          "marks": ["point", "line"]
+        }
+      ],
+      "note": "Position along a common scale"
+    },
+    "CT-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX", "positionY"]
+            }
+          ],
+          "marks": ["point", "line"]
+        }
+      ],
+      "note": "Positions along non-aligned scales"
+    },
+    "CT-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            }
+          ],
+          "marks": ["area-rect", "area-other"]
+        }
+      ]
+    },
+    "CT-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["orientation"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CT-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["angle"]
+            }
+          ],
+          "marks": ["line"]
+        }
+      ]
+    },
+    "CT-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            }
+          ],
+          "marks": ["area-circle", "area-rect", "area-other"]
+        }
+      ]
+    },
+    "CT-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["volume"]
+            }
+          ],
+          "marks": ["area-other"]
+        }
+      ]
+    },
+    "CT-8": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["density"]
+            }
+          ],
+          "marks": ["point", "line"]
+        }
+      ]
+    },
+    "CT-9": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["color-saturation"]
+            }
+          ],
+          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+        }
+      ]
+    },
+    "CE-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": "point"
+        }
+      ],
+      "note": "Two bars are next to each other."
+    },
+    "CE-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": "point"
+        }
+      ],
+      "note": "Two bars are both at the bottom of stacked bars."
+    },
+    "CE-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionY"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": "point"
+        }
+      ],
+      "note": "Two bars are located in two groups."
+    },
+    "CE-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": "area-rect"
+        }
+      ],
+      "note": "Two bars are both at the top of stacked bars."
+    },
+    "CE-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["length"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX"]
+            }
+          ],
+          "marks": "area-rect"
+        }
+      ],
+      "note": "One bar is on the top of the other."
+    },
+    "CE-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "attribute-type": "quantitative",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["area"]
+            },
+            {
+              "attribute-type": "nominal",
+              "aggregation": {
+                "aggregation-type": "none",
+                "aggregation-window": "none"
+              },
+              "channels": ["positionX", "positionY"]
+            }
+          ],
+          "marks": "area-other"
+        }
+      ]
+    }
+  },
+  "Other Designs": {},
+  "Tasks": ["estimate-difference"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "estimate-difference-1": {
+          "rank": ["CE-1", "CE-2", "CE-3", "CE-4", "CE-5"],
+          "significance": [
+            ["CE-1", "CE-3"],
+            ["CE-1", "CE-4"],
+            ["CE-1", "CE-5"],
+            ["CE-2", "CE-4"],
+            ["CE-2", "CE-5"],
+            ["CE-3", "CE-4"],
+            ["CE-3", "CE-5"]
+          ]
+        },
+        "estimate-difference-2": {
+          "rank": ["CE-1", "CE-6"],
+          "significance": [["CE-1", "CE-6"]]
+        }
+      }
+    },
+    "Theoretical": {
+      "effectiveness": {
+        "estimate-difference": {
+          "rank": [
+            "CT-1",
+            "CT-2",
+            ["CT-3", "CT-4", "CT-5"],
+            "CT-6",
+            "CT-7",
+            ["CT-8", "CT-9"]
+          ],
+          "significance": []
+        }
+      }
+    }
+  }
+}
