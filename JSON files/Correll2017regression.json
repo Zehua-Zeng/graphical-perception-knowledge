@@ -78,10 +78,16 @@
       "accuracy": {
         "correlate": {
           "rank": [["E-2", "E-1"], "E-3"],
-          "significance": [
-            ["E-2", "E-3"],
-            ["E-1", "E-3"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-3"],
+              ["E-1", "E-3"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

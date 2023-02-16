@@ -76,29 +76,65 @@
       "accuracy": {
         "correlate": {
           "rank": ["E-2", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "Wilcoxon signed-rank test",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate": {
           "rank": ["E-2", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "Friedman test",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "overall": {
           "rank": ["E-2", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "Wilcoxon signed-rank test",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "time": {
         "correlate": {
           "rank": ["E-2", "E-1"],
-          "significance": [["E-2", "E-1"]]
+          "significance": {
+            "pairs": [["E-2", "E-1"]],
+            "significance-method": "paired t-test",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate": {
           "rank": ["E-2", "E-1"],
-          "significance": [["E-2", "E-1"]]
+          "significance": {
+            "pairs": [["E-2", "E-1"]],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "overall": {
           "rank": ["E-2", "E-1"],
-          "significance": [["E-2", "E-1"]]
+          "significance": {
+            "pairs": [["E-2", "E-1"]],
+            "significance-method": "paired t-test",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

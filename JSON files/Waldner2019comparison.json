@@ -115,58 +115,112 @@
       "accuracy": {
         "filter": {
           "rank": ["E-3", "E-4", "E-2", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value": {
           "rank": ["E-4", "E-3", "E-2", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-extremum": {
           "rank": [["E-2", "E-4"], "E-3", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "sort": {
           "rank": ["E-4", "E-2", "E-3", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "time": {
         "filter": {
           "rank": ["E-4", "E-3", "E-1", "E-2"],
-          "significance": [
-            ["E-4", "E-2"],
-            ["E-3", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-4", "E-2"],
+              ["E-3", "E-1"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.259
+          }
         },
         "retrieve-value": {
           "rank": ["E-4", "E-3", "E-2", "E-1"],
-          "significance": [
-            ["E-4", "E-2"],
-            ["E-3", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-4", "E-2"],
+              ["E-3", "E-1"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.254
+          }
         },
         "find-extremum": {
           "rank": ["E-4", "E-2", "E-3", "E-1"],
-          "significance": [
-            ["E-4", "E-2"],
-            ["E-3", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-4", "E-2"],
+              ["E-3", "E-1"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.087
+          }
         },
         "sort": {
           "rank": ["E-4", "E-3", "E-1", "E-2"],
-          "significance": [
-            ["E-4", "E-2"],
-            ["E-3", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-4", "E-2"],
+              ["E-3", "E-1"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.126
+          }
         }
       },
       "user-preference": {
         "overall": {
           "rank": ["E-4", "E-3", "E-2", "E-1"],
-          "significance": [
-            ["E-4", "E-2"],
-            ["E-3", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-4", "E-2"],
+              ["E-3", "E-1"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.488
+          }
         }
       }
     },

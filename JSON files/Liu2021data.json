@@ -124,13 +124,19 @@
       "accuracy": {
         "correlate": {
           "rank": ["E-3", "E-4", "E-1", "E-2", "E-5"],
-          "significance": [
-            ["E-3", "E-1"],
-            ["E-3", "E-2"],
-            ["E-3", "E-5"],
-            ["E-4", "E-2"],
-            ["E-4", "E-5"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-3", "E-1"],
+              ["E-3", "E-2"],
+              ["E-3", "E-5"],
+              ["E-4", "E-2"],
+              ["E-4", "E-5"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

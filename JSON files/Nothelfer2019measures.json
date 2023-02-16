@@ -7,7 +7,7 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative-1",
+              "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
@@ -30,7 +30,7 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative-1",
+              "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
@@ -54,7 +54,7 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative-1",
+              "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
               "channel": "length",
@@ -77,7 +77,7 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative-1",
+              "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
               "channel": "length",
@@ -101,7 +101,7 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative-1",
+              "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
               "channel": "slope",
@@ -124,7 +124,7 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative-1",
+              "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
               "channel": "slope",
@@ -150,25 +150,46 @@
       "accuracy": {
         "sort": {
           "rank": ["E-2", "E-4", "E-6", ["E-1", "E-3", "E-5"]],
-          "significance": [
-            ["E-2", "E-1"],
-            ["E-4", "E-3"],
-            ["E-6", "E-5"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-1"],
+              ["E-4", "E-3"],
+              ["E-6", "E-5"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.7
+          }
         },
         "aggregate": {
           "rank": ["E-4", "E-2", "E-3", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [
+              ["E-2", "E-1"],
+              ["E-4", "E-3"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.39
+          }
         }
       },
       "time": {
         "filter": {
           "rank": [["E-2", "E-4"], "E-6", ["E-1", "E-3"], "E-5"],
-          "significance": [
-            ["E-2", "E-1"],
-            ["E-4", "E-3"],
-            ["E-6", "E-5"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-1"],
+              ["E-4", "E-3"],
+              ["E-6", "E-5"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.66
+          }
         }
       }
     },

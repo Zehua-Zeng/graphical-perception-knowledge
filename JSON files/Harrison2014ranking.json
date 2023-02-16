@@ -1809,7 +1809,13 @@
       "JND": {
         "correlate-1": {
           "rank": ["E-32", "E-1", "E-31", "E-34", "E-35", "E-33", "E-2", "E-6"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "Mann-Whitney-Wilcoxon test",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "correlate-2": {
           "rank": [
@@ -1822,7 +1828,13 @@
             "E-8",
             "E-12"
           ],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "Mann-Whitney-Wilcoxon test",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "correlate-3": {
           "rank": [
@@ -1835,7 +1847,13 @@
             "E-14",
             "E-18"
           ],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "Mann-Whitney-Wilcoxon test",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "correlate-4": {
           "rank": [
@@ -1848,7 +1866,13 @@
             "E-20",
             "E-24"
           ],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "Mann-Whitney-Wilcoxon test",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "correlate-5": {
           "rank": [
@@ -1861,7 +1885,13 @@
             "E-26",
             "E-30"
           ],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "Mann-Whitney-Wilcoxon test",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

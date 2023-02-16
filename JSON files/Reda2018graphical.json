@@ -289,22 +289,34 @@
             "E-2",
             "E-1"
           ],
-          "significance": [
-            ["E-9", "E-1"],
-            ["E-7", "E-1"],
-            ["E-5", "E-1"],
-            ["E-4", "E-1"],
-            ["E-6", "E-1"],
-            ["E-8", "E-1"],
-            ["E-3", "E-1"],
-            ["E-2", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-9", "E-1"],
+              ["E-7", "E-1"],
+              ["E-5", "E-1"],
+              ["E-4", "E-1"],
+              ["E-6", "E-1"],
+              ["E-8", "E-1"],
+              ["E-3", "E-1"],
+              ["E-2", "E-1"]
+            ],
+            "significance-method": "logistic mixed effect",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate-1": {
           "rank": [
             ["E-1", "E-2", "E-3", "E-4", "E-5", "E-6", "E-7", "E-8", "E-9"]
           ],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "logistic mixed effect",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate-2": {
           "rank": [
@@ -313,49 +325,67 @@
             "E-8",
             ["E-1", "E-2", "E-3", "E-4", "E-5", "E-7"]
           ],
-          "significance": [
-            ["E-6", "E-1"],
-            ["E-6", "E-2"],
-            ["E-6", "E-3"],
-            ["E-6", "E-4"],
-            ["E-6", "E-5"],
-            ["E-6", "E-7"],
-            ["E-8", "E-1"],
-            ["E-8", "E-2"],
-            ["E-8", "E-3"],
-            ["E-8", "E-4"],
-            ["E-8", "E-5"],
-            ["E-8", "E-7"],
-            ["E-9", "E-1"],
-            ["E-9", "E-2"],
-            ["E-9", "E-3"],
-            ["E-9", "E-4"],
-            ["E-9", "E-5"],
-            ["E-9", "E-7"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-6", "E-1"],
+              ["E-6", "E-2"],
+              ["E-6", "E-3"],
+              ["E-6", "E-4"],
+              ["E-6", "E-5"],
+              ["E-6", "E-7"],
+              ["E-8", "E-1"],
+              ["E-8", "E-2"],
+              ["E-8", "E-3"],
+              ["E-8", "E-4"],
+              ["E-8", "E-5"],
+              ["E-8", "E-7"],
+              ["E-9", "E-1"],
+              ["E-9", "E-2"],
+              ["E-9", "E-3"],
+              ["E-9", "E-4"],
+              ["E-9", "E-5"],
+              ["E-9", "E-7"]
+            ],
+            "significance-method": "logistic mixed effect",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "correlate-1": {
           "rank": [
             [["E-1", "E-2", "E-3", "E-4", "E-5", "E-7", "E-8", "E-9"], "E-6"]
           ],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "logistic mixed effect",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "correlate-2": {
           "rank": [
             ["E-6", "E-7", "E-8", "E-4", ["E-1", "E-2", "E-3", "E-5", "E-9"]]
           ],
-          "significance": [
-            ["E-6", "E-1"],
-            ["E-6", "E-2"],
-            ["E-6", "E-3"],
-            ["E-6", "E-5"],
-            ["E-6", "E-9"],
-            ["E-7", "E-1"],
-            ["E-7", "E-2"],
-            ["E-7", "E-3"],
-            ["E-7", "E-5"],
-            ["E-7", "E-9"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-6", "E-1"],
+              ["E-6", "E-2"],
+              ["E-6", "E-3"],
+              ["E-6", "E-5"],
+              ["E-6", "E-9"],
+              ["E-7", "E-1"],
+              ["E-7", "E-2"],
+              ["E-7", "E-3"],
+              ["E-7", "E-5"],
+              ["E-7", "E-9"]
+            ],
+            "significance-method": "logistic mixed effect",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

@@ -85,17 +85,29 @@
       "time": {
         "cluster-1": {
           "rank": ["E-3", "E-1", "E-2"],
-          "significance": [
-            ["E-3", "E-1"],
-            ["E-3", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-3", "E-1"],
+              ["E-3", "E-2"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "cluster-2": {
           "rank": [["E-1, E-3"], "E-2"],
-          "significance": [
-            ["E-1", "E-2"],
-            ["E-3", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-1", "E-2"],
+              ["E-3", "E-2"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

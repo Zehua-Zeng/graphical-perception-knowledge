@@ -815,38 +815,80 @@
       "time": {
         "aggregate-1": {
           "rank": ["E-2", "E-4", "E-1", "E-3"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate-2": {
           "rank": ["E-6", "E-8", "E-5", "E-7"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate-3": {
           "rank": ["E-10", "E-12", "E-11", "E-9"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate-4": {
           "rank": ["E-14", "E-15", "E-13", "E-16"],
-          "significance": [
-            ["E-14", "E-15"],
-            ["E-14", "E-13"],
-            ["E-14", "E-16"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-14", "E-15"],
+              ["E-14", "E-13"],
+              ["E-14", "E-16"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.493
+          }
         },
         "aggregate-5": {
           "rank": ["E-14", "E-18", ["E-15", "E-17"], "E-13", "E-16"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate-6": {
           "rank": ["E-20", "E-24", ["E-21", "E-22", "E-23"], "E-19"],
-          "significance": [
-            ["E-20", "E-19"],
-            ["E-24", "E-19"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-20", "E-19"],
+              ["E-24", "E-19"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.589
+          }
         },
         "aggregate-7": {
           "rank": ["E-25", "E-10", "E-11", ["E-9", "E-12"], "E-26"],
-          "significance": [["E-25", "E-26"]]
+          "significance": {
+            "pairs": [["E-25", "E-26"]],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "Eta-squared",
+            "effect-size-value": 0.381
+          }
         }
       }
     },

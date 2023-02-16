@@ -264,19 +264,31 @@
       "accuracy": {
         "sort-1": {
           "rank": ["E-1", "E-2", "E-3", "E-4", "E-5"],
-          "significance": [
-            ["E-1", "E-3"],
-            ["E-1", "E-4"],
-            ["E-1", "E-5"],
-            ["E-2", "E-4"],
-            ["E-2", "E-5"],
-            ["E-3", "E-4"],
-            ["E-3", "E-5"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-1", "E-3"],
+              ["E-1", "E-4"],
+              ["E-1", "E-5"],
+              ["E-2", "E-4"],
+              ["E-2", "E-5"],
+              ["E-3", "E-4"],
+              ["E-3", "E-5"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "sort-2": {
           "rank": ["E-1", "E-6"],
-          "significance": [["E-1", "E-6"]]
+          "significance": {
+            "pairs": [["E-1", "E-6"]],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

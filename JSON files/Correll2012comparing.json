@@ -55,7 +55,13 @@
       "accuracy": {
         "aggregate": {
           "rank": ["E-2", "E-1"],
-          "significance": [["E-2", "E-1"]]
+          "significance": {
+            "pairs": [["E-2", "E-1"]],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

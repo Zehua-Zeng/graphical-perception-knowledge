@@ -245,23 +245,35 @@
       "accuracy": {
         "retrieve-value-1": {
           "rank": ["E-2", "E-1", "E-3", "E-6", "E-4", "E-5"],
-          "significance": [
-            ["E-2", "E-4"],
-            ["E-2", "E-5"],
-            ["E-1", "E-4"],
-            ["E-1", "E-5"],
-            ["E-3", "E-4"],
-            ["E-3", "E-5"],
-            ["E-6", "E-4"],
-            ["E-6", "E-5"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-4"],
+              ["E-2", "E-5"],
+              ["E-1", "E-4"],
+              ["E-1", "E-5"],
+              ["E-3", "E-4"],
+              ["E-3", "E-5"],
+              ["E-6", "E-4"],
+              ["E-6", "E-5"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-2": {
           "rank": ["E-7", "E-10", "E-8", "E-1", "E-9", "E-3"],
-          "significance": [
-            ["E-7", "E-3"],
-            ["E-10", "E-3"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-7", "E-3"],
+              ["E-10", "E-3"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

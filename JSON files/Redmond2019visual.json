@@ -151,26 +151,50 @@
       "accuracy": {
         "characterize-distribution-1": {
           "rank": ["E-2", "E-1"],
-          "significance": [["E-2", "E-1"]]
+          "significance": {
+            "pairs": [["E-2", "E-1"]],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "characterize-distribution-2": {
           "rank": ["E-4", "E-3", "E-1"],
-          "significance": [
-            ["E-4", "E-3"],
-            ["E-4", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-4", "E-3"],
+              ["E-4", "E-1"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "characterize-distribution-3": {
           "rank": ["E-5", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "characterize-distribution-4": {
           "rank": ["E-6", "E-4", "E-1"],
-          "significance": [
-            ["E-6", "E-4"],
-            ["E-6", "E-1"],
-            ["E-4", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-6", "E-4"],
+              ["E-6", "E-1"],
+              ["E-4", "E-1"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

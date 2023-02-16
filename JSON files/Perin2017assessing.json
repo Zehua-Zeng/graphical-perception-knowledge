@@ -378,32 +378,38 @@
             "E-15",
             "E-17"
           ],
-          "significance": [
-            ["E-7", "E-1"],
-            ["E-7", "E-9"],
-            ["E-7", "E-13"],
-            ["E-7", "E-11"],
-            ["E-7", "E-15"],
-            ["E-7", "E-17"],
-            ["E-3", "E-13"],
-            ["E-3", "E-11"],
-            ["E-3", "E-15"],
-            ["E-3", "E-17"],
-            ["E-5", "E-13"],
-            ["E-5", "E-11"],
-            ["E-5", "E-15"],
-            ["E-5", "E-17"],
-            ["E-1", "E-11"],
-            ["E-1", "E-15"],
-            ["E-1", "E-17"],
-            ["E-9", "E-11"],
-            ["E-9", "E-15"],
-            ["E-9", "E-17"],
-            ["E-13", "E-15"],
-            ["E-13", "E-17"],
-            ["E-11", "E-15"],
-            ["E-11", "E-17"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-7", "E-1"],
+              ["E-7", "E-9"],
+              ["E-7", "E-13"],
+              ["E-7", "E-11"],
+              ["E-7", "E-15"],
+              ["E-7", "E-17"],
+              ["E-3", "E-13"],
+              ["E-3", "E-11"],
+              ["E-3", "E-15"],
+              ["E-3", "E-17"],
+              ["E-5", "E-13"],
+              ["E-5", "E-11"],
+              ["E-5", "E-15"],
+              ["E-5", "E-17"],
+              ["E-1", "E-11"],
+              ["E-1", "E-15"],
+              ["E-1", "E-17"],
+              ["E-9", "E-11"],
+              ["E-9", "E-15"],
+              ["E-9", "E-17"],
+              ["E-13", "E-15"],
+              ["E-13", "E-17"],
+              ["E-11", "E-15"],
+              ["E-11", "E-17"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-extremum-2": {
           "rank": [
@@ -411,22 +417,28 @@
             "E-16",
             "E-18"
           ],
-          "significance": [
-            ["E-2", "E-16"],
-            ["E-2", "E-18"],
-            ["E-6", "E-16"],
-            ["E-6", "E-18"],
-            ["E-14", "E-16"],
-            ["E-14", "E-18"],
-            ["E-8", "E-16"],
-            ["E-8", "E-18"],
-            ["E-12", "E-16"],
-            ["E-12", "E-18"],
-            ["E-10", "E-16"],
-            ["E-10", "E-18"],
-            ["E-4", "E-16"],
-            ["E-4", "E-18"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-16"],
+              ["E-2", "E-18"],
+              ["E-6", "E-16"],
+              ["E-6", "E-18"],
+              ["E-14", "E-16"],
+              ["E-14", "E-18"],
+              ["E-8", "E-16"],
+              ["E-8", "E-18"],
+              ["E-12", "E-16"],
+              ["E-12", "E-18"],
+              ["E-10", "E-16"],
+              ["E-10", "E-18"],
+              ["E-4", "E-16"],
+              ["E-4", "E-18"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate-1": {
           "rank": [
@@ -438,11 +450,17 @@
             "E-15",
             "E-7"
           ],
-          "significance": [
-            ["E-1", "E-9"],
-            ["E-1", "E-15"],
-            ["E-1", "E-7"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-1", "E-9"],
+              ["E-1", "E-15"],
+              ["E-1", "E-7"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate-2": {
           "rank": [
@@ -455,22 +473,28 @@
             "E-12",
             "E-14"
           ],
-          "significance": [
-            ["E-2", "E-6"],
-            ["E-2", "E-16"],
-            ["E-2", "E-10"],
-            ["E-2", "E-8"],
-            ["E-2", "E-18"],
-            ["E-2", "E-12"],
-            ["E-2", "E-14"],
-            ["E-4", "E-16"],
-            ["E-4", "E-10"],
-            ["E-4", "E-8"],
-            ["E-4", "E-18"],
-            ["E-4", "E-12"],
-            ["E-4", "E-14"],
-            ["E-6", "E-14"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-6"],
+              ["E-2", "E-16"],
+              ["E-2", "E-10"],
+              ["E-2", "E-8"],
+              ["E-2", "E-18"],
+              ["E-2", "E-12"],
+              ["E-2", "E-14"],
+              ["E-4", "E-16"],
+              ["E-4", "E-10"],
+              ["E-4", "E-8"],
+              ["E-4", "E-18"],
+              ["E-4", "E-12"],
+              ["E-4", "E-14"],
+              ["E-6", "E-14"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "time": {
@@ -486,7 +510,13 @@
             "E-3",
             "E-17"
           ],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-extremum-2": {
           "rank": [
@@ -500,14 +530,20 @@
             "E-18",
             "E-3"
           ],
-          "significance": [
-            ["E-6", "E-18"],
-            ["E-6", "E-3"],
-            ["E-8", "E-18"],
-            ["E-8", "E-3"],
-            ["E-10", "E-18"],
-            ["E-10", "E-3"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-6", "E-18"],
+              ["E-6", "E-3"],
+              ["E-8", "E-18"],
+              ["E-8", "E-3"],
+              ["E-10", "E-18"],
+              ["E-10", "E-3"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate-1": {
           "rank": [
@@ -521,12 +557,18 @@
             "E-13",
             "E-3"
           ],
-          "significance": [
-            ["E-17", "E-7"],
-            ["E-17", "E-1"],
-            ["E-17", "E-13"],
-            ["E-17", "E-3"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-17", "E-7"],
+              ["E-17", "E-1"],
+              ["E-17", "E-13"],
+              ["E-17", "E-3"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate-2": {
           "rank": [
@@ -540,7 +582,13 @@
             "E-8",
             "E-14"
           ],
-          "significance": [["E-18", "E-14"]]
+          "significance": {
+            "pairs": [["E-18", "E-14"]],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

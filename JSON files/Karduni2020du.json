@@ -265,45 +265,69 @@
       "accuracy": {
         "find-extremum-1": {
           "rank": ["E-2", "E-1"],
-          "significance": [["E-2", "E-1"]]
+          "significance": {
+            "pairs": [["E-2", "E-1"]],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-extremum-2": {
           "rank": ["E-8", "E-7", ["E-3", "E-4"], "E-10", "E-9", "E-5", "E-6"],
-          "significance": [
-            ["E-8", "E-10"],
-            ["E-8", "E-9"],
-            ["E-8", "E-5"],
-            ["E-8", "E-6"],
-            ["E-7", "E-10"],
-            ["E-7", "E-9"],
-            ["E-7", "E-5"],
-            ["E-7", "E-6"],
-            ["E-3", "E-10"],
-            ["E-3", "E-9"],
-            ["E-3", "E-5"],
-            ["E-3", "E-6"],
-            ["E-4", "E-10"],
-            ["E-4", "E-9"],
-            ["E-4", "E-5"],
-            ["E-4", "E-6"],
-            ["E-10", "E-5"],
-            ["E-10", "E-6"],
-            ["E-9", "E-5"],
-            ["E-9", "E-6"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-8", "E-10"],
+              ["E-8", "E-9"],
+              ["E-8", "E-5"],
+              ["E-8", "E-6"],
+              ["E-7", "E-10"],
+              ["E-7", "E-9"],
+              ["E-7", "E-5"],
+              ["E-7", "E-6"],
+              ["E-3", "E-10"],
+              ["E-3", "E-9"],
+              ["E-3", "E-5"],
+              ["E-3", "E-6"],
+              ["E-4", "E-10"],
+              ["E-4", "E-9"],
+              ["E-4", "E-5"],
+              ["E-4", "E-6"],
+              ["E-10", "E-5"],
+              ["E-10", "E-6"],
+              ["E-9", "E-5"],
+              ["E-9", "E-6"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "time": {
         "find-extremum-1": {
           "rank": [["E-1", "E-2"]],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-extremum-2": {
           "rank": [
             ["E-3", "E-4", "E-5", "E-6"],
             ["E-7", "E-8", "E-9", "E-10"]
           ],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

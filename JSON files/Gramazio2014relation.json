@@ -261,17 +261,29 @@
       "time": {
         "find-anomalies-1": {
           "rank": ["E-1", "E-2", "E-3", "E-4", "E-5"],
-          "significance": [
-            ["E-1", "E-3"],
-            ["E-1", "E-4"],
-            ["E-1", "E-5"],
-            ["E-2", "E-4"],
-            ["E-2", "E-5"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-1", "E-3"],
+              ["E-1", "E-4"],
+              ["E-1", "E-5"],
+              ["E-2", "E-4"],
+              ["E-2", "E-5"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-anomalies-2": {
           "rank": ["E-6", "E-7"],
-          "significance": [["E-6", "E-7"]]
+          "significance": {
+            "pairs": [["E-6", "E-7"]],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

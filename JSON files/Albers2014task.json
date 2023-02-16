@@ -305,108 +305,144 @@
       "accuracy": {
         "find-extremum-1": {
           "rank": ["E-4", "E-2", "E-1", "E-3", "E-6", "E-7", "E-5"],
-          "significance": [
-            ["E-4", "E-3"],
-            ["E-2", "E-3"],
-            ["E-1", "E-3"],
-            ["E-4", "E-6"],
-            ["E-2", "E-6"],
-            ["E-1", "E-6"],
-            ["E-4", "E-7"],
-            ["E-2", "E-7"],
-            ["E-1", "E-7"],
-            ["E-4", "E-5"],
-            ["E-2", "E-5"],
-            ["E-1", "E-5"],
-            ["E-3", "E-7"],
-            ["E-3", "E-5"],
-            ["E-6", "E-7"],
-            ["E-6", "E-5"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-4", "E-3"],
+              ["E-2", "E-3"],
+              ["E-1", "E-3"],
+              ["E-4", "E-6"],
+              ["E-2", "E-6"],
+              ["E-1", "E-6"],
+              ["E-4", "E-7"],
+              ["E-2", "E-7"],
+              ["E-1", "E-7"],
+              ["E-4", "E-5"],
+              ["E-2", "E-5"],
+              ["E-1", "E-5"],
+              ["E-3", "E-7"],
+              ["E-3", "E-5"],
+              ["E-6", "E-7"],
+              ["E-6", "E-5"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-extremum-2": {
           "rank": ["E-2", "E-3", "E-4", "E-1", "E-6", "E-7", "E-5"],
-          "significance": [
-            ["E-2", "E-1"],
-            ["E-3", "E-1"],
-            ["E-4", "E-1"],
-            ["E-2", "E-6"],
-            ["E-3", "E-6"],
-            ["E-4", "E-6"],
-            ["E-2", "E-7"],
-            ["E-3", "E-7"],
-            ["E-4", "E-7"],
-            ["E-2", "E-5"],
-            ["E-3", "E-5"],
-            ["E-4", "E-5"],
-            ["E-1", "E-7"],
-            ["E-1", "E-5"],
-            ["E-6", "E-7"],
-            ["E-6", "E-5"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-1"],
+              ["E-3", "E-1"],
+              ["E-4", "E-1"],
+              ["E-2", "E-6"],
+              ["E-3", "E-6"],
+              ["E-4", "E-6"],
+              ["E-2", "E-7"],
+              ["E-3", "E-7"],
+              ["E-4", "E-7"],
+              ["E-2", "E-5"],
+              ["E-3", "E-5"],
+              ["E-4", "E-5"],
+              ["E-1", "E-7"],
+              ["E-1", "E-5"],
+              ["E-6", "E-7"],
+              ["E-6", "E-5"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "determine-range": {
           "rank": ["E-2", "E-3", "E-4", "E-1", "E-6", "E-5", "E-7"],
-          "significance": [
-            ["E-2", "E-4"],
-            ["E-2", "E-1"],
-            ["E-2", "E-6"],
-            ["E-2", "E-5"],
-            ["E-2", "E-7"],
-            ["E-3", "E-4"],
-            ["E-3", "E-1"],
-            ["E-3", "E-6"],
-            ["E-3", "E-5"],
-            ["E-3", "E-7"],
-            ["E-4", "E-6"],
-            ["E-4", "E-5"],
-            ["E-4", "E-7"],
-            ["E-1", "E-6"],
-            ["E-1", "E-5"],
-            ["E-1", "E-7"],
-            ["E-6", "E-5"],
-            ["E-6", "E-7"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-4"],
+              ["E-2", "E-1"],
+              ["E-2", "E-6"],
+              ["E-2", "E-5"],
+              ["E-2", "E-7"],
+              ["E-3", "E-4"],
+              ["E-3", "E-1"],
+              ["E-3", "E-6"],
+              ["E-3", "E-5"],
+              ["E-3", "E-7"],
+              ["E-4", "E-6"],
+              ["E-4", "E-5"],
+              ["E-4", "E-7"],
+              ["E-1", "E-6"],
+              ["E-1", "E-5"],
+              ["E-1", "E-7"],
+              ["E-6", "E-5"],
+              ["E-6", "E-7"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate": {
           "rank": ["E-4", "E-6", "E-3", "E-5", "E-2", "E-7", "E-1"],
-          "significance": [
-            ["E-4", "E-6"],
-            ["E-4", "E-3"],
-            ["E-4", "E-5"],
-            ["E-4", "E-2"],
-            ["E-4", "E-7"],
-            ["E-4", "E-1"],
-            ["E-6", "E-5"],
-            ["E-6", "E-2"],
-            ["E-6", "E-7"],
-            ["E-6", "E-1"],
-            ["E-3", "E-5"],
-            ["E-3", "E-2"],
-            ["E-3", "E-7"],
-            ["E-3", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-4", "E-6"],
+              ["E-4", "E-3"],
+              ["E-4", "E-5"],
+              ["E-4", "E-2"],
+              ["E-4", "E-7"],
+              ["E-4", "E-1"],
+              ["E-6", "E-5"],
+              ["E-6", "E-2"],
+              ["E-6", "E-7"],
+              ["E-6", "E-1"],
+              ["E-3", "E-5"],
+              ["E-3", "E-2"],
+              ["E-3", "E-7"],
+              ["E-3", "E-1"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "characterize-distribution": {
           "rank": ["E-3", "E-5", "E-4", "E-1", "E-7", "E-2"],
-          "significance": [
-            ["E-3", "E-5"],
-            ["E-3", "E-4"],
-            ["E-3", "E-1"],
-            ["E-3", "E-7"],
-            ["E-3", "E-2"],
-            ["E-5", "E-7"],
-            ["E-5", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-3", "E-5"],
+              ["E-3", "E-4"],
+              ["E-3", "E-1"],
+              ["E-3", "E-7"],
+              ["E-3", "E-2"],
+              ["E-5", "E-7"],
+              ["E-5", "E-2"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-anomalies": {
           "rank": ["E-7", "E-1", "E-2", "E-4", "E-5"],
-          "significance": [
-            ["E-7", "E-1"],
-            ["E-7", "E-2"],
-            ["E-7", "E-4"],
-            ["E-7", "E-5"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-7", "E-1"],
+              ["E-7", "E-2"],
+              ["E-7", "E-4"],
+              ["E-7", "E-5"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

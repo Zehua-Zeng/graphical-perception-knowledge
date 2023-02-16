@@ -85,7 +85,13 @@
       "accuracy": {
         "retrieve-value": {
           "rank": [["E-1", "E-2", "E-3"]],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "cluster": {
           "rank": ["E-3", "E-1", "E-2"],
@@ -97,50 +103,86 @@
         },
         "find-anomalies": {
           "rank": ["E-3", "E-1", "E-2"],
-          "significance": [
-            ["E-3", "E-1"],
-            ["E-3", "E-2"],
-            ["E-1", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-3", "E-1"],
+              ["E-3", "E-2"],
+              ["E-1", "E-2"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "correlate": {
           "rank": ["E-3", ["E-1", "E-2"]],
-          "significance": [
-            ["E-3", "E-1"],
-            ["E-3", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-3", "E-1"],
+              ["E-3", "E-2"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "time": {
         "retrieve value": {
           "rank": ["E-2", "E-3", "E-1"],
-          "significance": [
-            ["E-2", "E-3"],
-            ["E-2", "E-1"],
-            ["E-3", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-3"],
+              ["E-2", "E-1"],
+              ["E-3", "E-1"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "cluster": {
           "rank": [["E-1", "E-3"], "E-2"],
-          "significance": [
-            ["E-1", "E-2"],
-            ["E-3", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-1", "E-2"],
+              ["E-3", "E-2"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-anomalies": {
           "rank": [["E-3", "E-1"], "E-2"],
-          "significance": [
-            ["E-1", "E-2"],
-            ["E-3", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-1", "E-2"],
+              ["E-3", "E-2"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "correlate": {
           "rank": ["E-3", "E-1", "E-2"],
-          "significance": [
-            ["E-3", "E-1"],
-            ["E-3", "E-2"],
-            ["E-1", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-3", "E-1"],
+              ["E-3", "E-2"],
+              ["E-1", "E-2"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

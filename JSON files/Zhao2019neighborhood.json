@@ -207,30 +207,42 @@
       "bias-overestimate": {
         "sort": {
           "rank": ["E-3", "E-1", "E-2"],
-          "significance": [
-            ["E-3", "E-1"],
-            ["E-3", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-3", "E-1"],
+              ["E-3", "E-2"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "bias-underestimate": {
         "sort": {
           "rank": ["E-5", "E-4", "E-6", "E-7", "E-8", "E-9"],
-          "significance": [
-            ["E-5", "E-6"],
-            ["E-5", "E-7"],
-            ["E-5", "E-8"],
-            ["E-5", "E-9"],
-            ["E-4", "E-6"],
-            ["E-4", "E-7"],
-            ["E-4", "E-8"],
-            ["E-4", "E-9"],
-            ["E-6", "E-7"],
-            ["E-6", "E-8"],
-            ["E-6", "E-9"],
-            ["E-7", "E-9"],
-            ["E-8", "E-9"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-5", "E-6"],
+              ["E-5", "E-7"],
+              ["E-5", "E-8"],
+              ["E-5", "E-9"],
+              ["E-4", "E-6"],
+              ["E-4", "E-7"],
+              ["E-4", "E-8"],
+              ["E-4", "E-9"],
+              ["E-6", "E-7"],
+              ["E-6", "E-8"],
+              ["E-6", "E-9"],
+              ["E-7", "E-9"],
+              ["E-8", "E-9"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

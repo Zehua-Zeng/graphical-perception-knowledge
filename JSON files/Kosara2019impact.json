@@ -127,10 +127,16 @@
       "accuracy": {
         "sort": {
           "rank": [["E-4", "E-3", "E-2"], "E-1", "E-5"],
-          "significance": [
-            ["E-2", "E-1"],
-            ["E-1", "E-5"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-1"],
+              ["E-1", "E-5"]
+            ],
+            "significance-method": "t-test",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "time": {
@@ -139,14 +145,20 @@
             ["E-2", "E-3"],
             ["E-4", "E-5", "E-1"]
           ],
-          "significance": [
-            ["E-2", "E-4"],
-            ["E-2", "E-5"],
-            ["E-2", "E-1"],
-            ["E-3", "E-4"],
-            ["E-3", "E-5"],
-            ["E-3", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-4"],
+              ["E-2", "E-5"],
+              ["E-2", "E-1"],
+              ["E-3", "E-4"],
+              ["E-3", "E-5"],
+              ["E-3", "E-1"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

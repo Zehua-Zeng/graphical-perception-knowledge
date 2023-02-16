@@ -216,36 +216,72 @@
       "accuracy": {
         "retrieve-value-1": {
           "rank": ["E-5", ["E-2", "E-8"], "E-9"],
-          "significance": [
-            ["E-5", "E-2"],
-            ["E-5", "E-8"],
-            ["E-5", "E-9"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-5", "E-2"],
+              ["E-5", "E-8"],
+              ["E-5", "E-9"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-2": {
           "rank": ["E-2", "E-3", "E-4", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-3": {
           "rank": ["E-5", "E-7", "E-6"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "time": {
         "retrieve-value-1": {
           "rank": ["E-2", "E-5", "E-8", "E-9"],
-          "significance": [
-            ["E-2", "E-8"],
-            ["E-2", "E-9"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-8"],
+              ["E-2", "E-9"]
+            ],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-2": {
           "rank": [["E-1", "E-2", "E-3", "E-4"]],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-3": {
           "rank": [["E-5", "E-6", "E-7"]],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

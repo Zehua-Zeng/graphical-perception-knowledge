@@ -104,45 +104,105 @@
       "accuracy": {
         "determine-range-1": {
           "rank": ["E-2", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "characterize-distribution": {
           "rank": ["E-2", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "determine-range-2": {
           "rank": ["E-1", "E-2"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "cluster": {
           "rank": ["E-1", "E-2"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-extremum": {
           "rank": ["E-1", "E-2"],
-          "significance": [["E-1", "E-2"]]
+          "significance": {
+            "pairs": [["E-1", "E-2"]],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "time": {
         "determine-range-1": {
           "rank": ["E-2", "E-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "characterize-distribution": {
           "rank": ["E-1", "E-2"],
-          "significance": [["E-1", "E-2"]]
+          "significance": {
+            "pairs": [["E-1", "E-2"]],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "determine-range-2": {
           "rank": ["E-2", "E-1"],
-          "significance": [["E-2", "E-1"]]
+          "significance": {
+            "pairs": [["E-1", "E-2"]],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "cluster": {
           "rank": ["E-1", "E-2"],
-          "significance": [["E-1", "E-2"]]
+          "significance": {
+            "pairs": [["E-1", "E-2"]],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "find-extremum": {
           "rank": ["E-1", "E-2"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "bootstrapping",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

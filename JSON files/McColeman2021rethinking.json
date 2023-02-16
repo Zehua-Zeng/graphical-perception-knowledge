@@ -629,97 +629,145 @@
       "accuracy": {
         "retrieve-value-1": {
           "rank": [["E-6", "E-4"], "E-3", ["E-5", "E-1"], "E-2"],
-          "significance": [
-            ["E-6", "E-2"],
-            ["E-4", "E-2"],
-            ["E-3", "E-2"],
-            ["E-5", "E-2"],
-            ["E-1", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-6", "E-2"],
+              ["E-4", "E-2"],
+              ["E-3", "E-2"],
+              ["E-5", "E-2"],
+              ["E-1", "E-2"]
+            ],
+            "significance-method": "Bayesian",
+            "significance-threshold": 0.9,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-2": {
           "rank": ["E-10", "E-12", ["E-9", "E-7"], "E-11", "E-8"],
-          "significance": [
-            ["E-10", "E-8"],
-            ["E-12", "E-8"],
-            ["E-9", "E-8"],
-            ["E-7", "E-8"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-10", "E-8"],
+              ["E-12", "E-8"],
+              ["E-9", "E-8"],
+              ["E-7", "E-8"]
+            ],
+            "significance-method": "Bayesian",
+            "significance-threshold": 0.9,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-3": {
           "rank": ["E-16", "E-13", ["E-18", "E-15"], "E-17", "E-14"],
-          "significance": [
-            ["E-16", "E-18"],
-            ["E-16", "E-15"],
-            ["E-16", "E-17"],
-            ["E-16", "E-14"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-16", "E-18"],
+              ["E-16", "E-15"],
+              ["E-16", "E-17"],
+              ["E-16", "E-14"]
+            ],
+            "significance-method": "Bayesian",
+            "significance-threshold": 0.9,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-4": {
           "rank": ["E-22", "E-19", ["E-24", "E-21"], ["E-23", "E-20"]],
-          "significance": [
-            ["E-22", "E-24"],
-            ["E-22", "E-21"],
-            ["E-22", "E-23"],
-            ["E-22", "E-20"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-22", "E-24"],
+              ["E-22", "E-21"],
+              ["E-22", "E-23"],
+              ["E-22", "E-20"]
+            ],
+            "significance-method": "Bayesian",
+            "significance-threshold": 0.9,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "bias": {
         "retrieve-value-1": {
           "rank": ["E-6", ["E-5", "E-1"], "E-3", "E-4", "E-2"],
-          "significance": [
-            ["E-6", "E-3"],
-            ["E-6", "E-4"],
-            ["E-6", "E-2"],
-            ["E-5", "E-3"],
-            ["E-5", "E-4"],
-            ["E-5", "E-2"],
-            ["E-1", "E-3"],
-            ["E-1", "E-4"],
-            ["E-1", "E-2"],
-            ["E-3", "E-4"],
-            ["E-3", "E-2"],
-            ["E-4", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-6", "E-3"],
+              ["E-6", "E-4"],
+              ["E-6", "E-2"],
+              ["E-5", "E-3"],
+              ["E-5", "E-4"],
+              ["E-5", "E-2"],
+              ["E-1", "E-3"],
+              ["E-1", "E-4"],
+              ["E-1", "E-2"],
+              ["E-3", "E-4"],
+              ["E-3", "E-2"],
+              ["E-4", "E-2"]
+            ],
+            "significance-method": "Bayesian",
+            "significance-threshold": 0.9,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-2": {
           "rank": ["E-11", "E-7", "E-12", "E-9", "E-10", "E-8"],
-          "significance": [
-            ["E-11", "E-9"],
-            ["E-11", "E-10"],
-            ["E-11", "E-8"],
-            ["E-7", "E-9"],
-            ["E-7", "E-10"],
-            ["E-7", "E-8"],
-            ["E-12", "E-10"],
-            ["E-12", "E-8"],
-            ["E-9", "E-10"],
-            ["E-9", "E-8"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-11", "E-9"],
+              ["E-11", "E-10"],
+              ["E-11", "E-8"],
+              ["E-7", "E-9"],
+              ["E-7", "E-10"],
+              ["E-7", "E-8"],
+              ["E-12", "E-10"],
+              ["E-12", "E-8"],
+              ["E-9", "E-10"],
+              ["E-9", "E-8"]
+            ],
+            "significance-method": "Bayesian",
+            "significance-threshold": 0.9,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-3": {
           "rank": ["E-17", "E-13", "E-15", "E-18", "E-14", "E-16"],
-          "significance": [
-            ["E-17", "E-18"],
-            ["E-17", "E-14"],
-            ["E-17", "E-16"],
-            ["E-13", "E-18"],
-            ["E-13", "E-14"],
-            ["E-13", "E-16"],
-            ["E-15", "E-16"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-17", "E-18"],
+              ["E-17", "E-14"],
+              ["E-17", "E-16"],
+              ["E-13", "E-18"],
+              ["E-13", "E-14"],
+              ["E-13", "E-16"],
+              ["E-15", "E-16"]
+            ],
+            "significance-method": "Bayesian",
+            "significance-threshold": 0.9,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "retrieve-value-4": {
           "rank": ["E-23", "E-19", "E-21", "E-20", "E-22", "E-24"],
-          "significance": [
-            ["E-23", "E-20"],
-            ["E-23", "E-22"],
-            ["E-23", "E-24"],
-            ["E-19", "E-22"],
-            ["E-19", "E-24"],
-            ["E-21", "E-24"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-23", "E-20"],
+              ["E-23", "E-22"],
+              ["E-23", "E-24"],
+              ["E-19", "E-22"],
+              ["E-19", "E-24"],
+              ["E-21", "E-24"]
+            ],
+            "significance-method": "Bayesian",
+            "significance-threshold": 0.9,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

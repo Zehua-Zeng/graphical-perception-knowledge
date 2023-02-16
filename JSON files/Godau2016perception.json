@@ -104,16 +104,28 @@
       "bias-underestimate": {
         "aggregate": {
           "rank": ["E-3", ["E-1", "E-2"]],
-          "significance": [
-            ["E-3", "E-1"],
-            ["E-3", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-3", "E-1"],
+              ["E-3", "E-1"]
+            ],
+            "significance-method": "t-test",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "bias-overestimate": {
         "aggregate": {
           "rank": ["E-4"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "t-test",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

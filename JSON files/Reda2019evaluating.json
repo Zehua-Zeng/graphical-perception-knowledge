@@ -99,10 +99,16 @@
       "JND": {
         "aggregate": {
           "rank": ["E-1", "E-3", "E-2"],
-          "significance": [
-            ["E-1", "E-2"],
-            ["E-3", "E-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-1", "E-2"],
+              ["E-3", "E-2"]
+            ],
+            "significance-method": "linear mixed effect",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },

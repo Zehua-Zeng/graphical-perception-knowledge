@@ -184,54 +184,72 @@
       "accuracy": {
         "sort-1": {
           "rank": ["E-3", ["E-2", "E-1"], ["E-4", "E-5", "E-6"]],
-          "significance": [
-            ["E-3", "E-2"],
-            ["E-3", "E-1"],
-            ["E-3", "E-4"],
-            ["E-3", "E-5"],
-            ["E-3", "E-6"],
-            ["E-2", "E-4"],
-            ["E-2", "E-5"],
-            ["E-2", "E-6"],
-            ["E-1", "E-4"],
-            ["E-1", "E-5"],
-            ["E-1", "E-6"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-3", "E-2"],
+              ["E-3", "E-1"],
+              ["E-3", "E-4"],
+              ["E-3", "E-5"],
+              ["E-3", "E-6"],
+              ["E-2", "E-4"],
+              ["E-2", "E-5"],
+              ["E-2", "E-6"],
+              ["E-1", "E-4"],
+              ["E-1", "E-5"],
+              ["E-1", "E-6"]
+            ],
+            "significance-method": "NHST",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "sort-2": {
           "rank": [["E-3", "E-1"], "E-2", "E-4", "E-5", "E-6"],
-          "significance": [
-            ["E-3", "E-2"],
-            ["E-3", "E-4"],
-            ["E-3", "E-5"],
-            ["E-3", "E-6"],
-            ["E-1", "E-2"],
-            ["E-1", "E-4"],
-            ["E-1", "E-5"],
-            ["E-1", "E-6"],
-            ["E-2", "E-5"],
-            ["E-2", "E-6"],
-            ["E-6", "E-6"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-3", "E-2"],
+              ["E-3", "E-4"],
+              ["E-3", "E-5"],
+              ["E-3", "E-6"],
+              ["E-1", "E-2"],
+              ["E-1", "E-4"],
+              ["E-1", "E-5"],
+              ["E-1", "E-6"],
+              ["E-2", "E-5"],
+              ["E-2", "E-6"],
+              ["E-6", "E-6"]
+            ],
+            "significance-method": "NHST",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate": {
           "rank": [["E-1", "E-6"], "E-3", "E-5", "E-2", "E-4"],
-          "significance": [
-            ["E-1", "E-3"],
-            ["E-1", "E-5"],
-            ["E-1", "E-2"],
-            ["E-1", "E-4"],
-            ["E-6", "E-3"],
-            ["E-6", "E-5"],
-            ["E-6", "E-2"],
-            ["E-6", "E-4"],
-            ["E-3", "E-5"],
-            ["E-3", "E-2"],
-            ["E-3", "E-4"],
-            ["E-5", "E-2"],
-            ["E-5", "E-4"],
-            ["E-2", "E-4"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-1", "E-3"],
+              ["E-1", "E-5"],
+              ["E-1", "E-2"],
+              ["E-1", "E-4"],
+              ["E-6", "E-3"],
+              ["E-6", "E-5"],
+              ["E-6", "E-2"],
+              ["E-6", "E-4"],
+              ["E-3", "E-5"],
+              ["E-3", "E-2"],
+              ["E-3", "E-4"],
+              ["E-5", "E-2"],
+              ["E-5", "E-4"],
+              ["E-2", "E-4"]
+            ],
+            "significance-method": "NHST",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       },
       "time": {
@@ -240,45 +258,63 @@
             ["E-2", "E-4", "E-5", "E-6"],
             ["E-3", "E-1"]
           ],
-          "significance": [
-            ["E-2", "E-3"],
-            ["E-2", "E-1"],
-            ["E-4", "E-3"],
-            ["E-4", "E-1"],
-            ["E-5", "E-3"],
-            ["E-5", "E-1"],
-            ["E-6", "E-3"],
-            ["E-6", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-2", "E-3"],
+              ["E-2", "E-1"],
+              ["E-4", "E-3"],
+              ["E-4", "E-1"],
+              ["E-5", "E-3"],
+              ["E-5", "E-1"],
+              ["E-6", "E-3"],
+              ["E-6", "E-1"]
+            ],
+            "significance-method": "NHST",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "sort-2": {
           "rank": ["E-6", ["E-5", "E-4", "E-3", "E-2"], "E-1"],
-          "significance": [
-            ["E-6", "E-5"],
-            ["E-6", "E-4"],
-            ["E-6", "E-3"],
-            ["E-6", "E-2"],
-            ["E-6", "E-1"],
-            ["E-5", "E-1"],
-            ["E-4", "E-1"],
-            ["E-3", "E-1"],
-            ["E-2", "E-1"],
-            ["E-1", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-6", "E-5"],
+              ["E-6", "E-4"],
+              ["E-6", "E-3"],
+              ["E-6", "E-2"],
+              ["E-6", "E-1"],
+              ["E-5", "E-1"],
+              ["E-4", "E-1"],
+              ["E-3", "E-1"],
+              ["E-2", "E-1"],
+              ["E-1", "E-1"]
+            ],
+            "significance-method": "NHST",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         },
         "aggregate": {
           "rank": ["E-6", ["E-2", "E-4"], ["E-3", "E-5"], "E-1"],
-          "significance": [
-            ["E-6", "E-3"],
-            ["E-6", "E-5"],
-            ["E-6", "E-1"],
-            ["E-2", "E-3"],
-            ["E-2", "E-1"],
-            ["E-4", "E-3"],
-            ["E-4", "E-1"],
-            ["E-3", "E-1"],
-            ["E-5", "E-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["E-6", "E-3"],
+              ["E-6", "E-5"],
+              ["E-6", "E-1"],
+              ["E-2", "E-3"],
+              ["E-2", "E-1"],
+              ["E-4", "E-3"],
+              ["E-4", "E-1"],
+              ["E-3", "E-1"],
+              ["E-5", "E-1"]
+            ],
+            "significance-method": "NHST",
+            "significance-threshold": 0.95,
+            "effect-size-method": "none",
+            "effect-size-value": null
+          }
         }
       }
     },
