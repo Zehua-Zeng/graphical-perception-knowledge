@@ -88,54 +88,114 @@
       "accuracy": {
         "estimate-trend-1": {
           "rank": ["CE-2", "CE-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "Wilcoxon signed-rank test",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "estimate-trend-2": {
           "rank": ["CE-3", "CE-2"],
-          "significance": [["CE-3", "CE-2"]]
+          "significance": {
+            "pairs": [["CE-3", "CE-2"]],
+            "significance-method": "Wilcoxon signed-rank test",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "compare-derived-values": {
           "rank": ["CE-3", "CE-2", "CE-1"],
-          "significance": [
-            ["CE-3", "CE-1"],
-            ["CE-3", "CE-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-3", "CE-1"],
+              ["CE-3", "CE-2"]
+            ],
+            "significance-method": "Friedman test",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "overall-1": {
           "rank": ["CE-2", "CE-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "Wilcoxon signed-rank test",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "overall-2": {
           "rank": ["CE-3", "CE-2", "CE-1"],
-          "significance": [
-            ["CE-3", "CE-1"],
-            ["CE-3", "CE-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-3", "CE-1"],
+              ["CE-3", "CE-2"]
+            ],
+            "significance-method": "Friedman test",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         }
       },
       "time": {
         "estimate-trend-1": {
           "rank": ["CE-2", "CE-1"],
-          "significance": [["CE-2", "CE-1"]]
+          "significance": {
+            "pairs": [["CE-2", "CE-1"]],
+            "significance-method": "paired t-test",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "estimate-trend-2": {
           "rank": ["CE-3", "CE-2"],
-          "significance": [["CE-3", "CE-2"]]
+          "significance": {
+            "pairs": [["CE-3", "CE-2"]],
+            "significance-method": "paired t-test",
+            "significance-threshold": 0.001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "compare-derived-values": {
           "rank": ["CE-3", "CE-2", "CE-1"],
-          "significance": [
-            ["CE-3", "CE-1"],
-            ["CE-2", "CE-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-3", "CE-1"],
+              ["CE-2", "CE-1"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "overall-1": {
           "rank": ["CE-2", "CE-1"],
-          "significance": [["CE-2", "CE-1"]]
+          "significance": {
+            "pairs": [["CE-2", "CE-1"]],
+            "significance-method": "paired t-test",
+            "significance-threshold": 0.01,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "overall-2": {
           "rank": ["CE-2", "CE-3", "CE-1"],
-          "significance": []
+          "significance": {
+            "pairs": [],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         }
       }
     },

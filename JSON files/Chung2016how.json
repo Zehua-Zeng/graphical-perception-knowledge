@@ -186,77 +186,101 @@
       "accuracy": {
         "estimate-trend": {
           "rank": ["CE-1", "CE-4", "CE-6", "CE-2", "CE-5", "CE-3", "OE-1"],
-          "significance": [
-            ["CE-1", "CE-2"],
-            ["CE-1", "CE-3"],
-            ["CE-1", "CE-5"],
-            ["CE-1", "OE-1"],
-            ["CE-4", "CE-2"],
-            ["CE-4", "CE-3"],
-            ["CE-4", "CE-5"],
-            ["CE-4", "OE-1"],
-            ["CE-6", "CE-3"],
-            ["CE-6", "OE-1"],
-            ["CE-2", "OE-1"],
-            ["CE-5", "OE-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-1", "CE-2"],
+              ["CE-1", "CE-3"],
+              ["CE-1", "CE-5"],
+              ["CE-1", "OE-1"],
+              ["CE-4", "CE-2"],
+              ["CE-4", "CE-3"],
+              ["CE-4", "CE-5"],
+              ["CE-4", "OE-1"],
+              ["CE-6", "CE-3"],
+              ["CE-6", "OE-1"],
+              ["CE-2", "OE-1"],
+              ["CE-5", "OE-1"]
+            ],
+            "significance-method": "Friedman test",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "find-extremum": {
           "rank": ["OE-1", "CE-2", "CE-6", "CE-4", "CE-1", "CE-5", "CE-3"],
-          "significance": [
-            ["OE-1", "CE-6"],
-            ["OE-1", "CE-4"],
-            ["OE-1", "CE-1"],
-            ["OE-1", "CE-5"],
-            ["OE-1", "CE-3"],
-            ["CE-2", "CE-6"],
-            ["CE-2", "CE-4"],
-            ["CE-2", "CE-1"],
-            ["CE-2", "CE-5"],
-            ["CE-2", "CE-3"],
-            ["CE-6", "CE-5"],
-            ["CE-6", "CE-3"],
-            ["CE-4", "CE-5"],
-            ["CE-4", "CE-3"],
-            ["CE-1", "CE-5"],
-            ["CE-1", "CE-3"]
-          ]
+          "significance": {
+            "pairs": [
+              ["OE-1", "CE-6"],
+              ["OE-1", "CE-4"],
+              ["OE-1", "CE-1"],
+              ["OE-1", "CE-5"],
+              ["OE-1", "CE-3"],
+              ["CE-2", "CE-6"],
+              ["CE-2", "CE-4"],
+              ["CE-2", "CE-1"],
+              ["CE-2", "CE-5"],
+              ["CE-2", "CE-3"],
+              ["CE-6", "CE-5"],
+              ["CE-6", "CE-3"],
+              ["CE-4", "CE-5"],
+              ["CE-4", "CE-3"],
+              ["CE-1", "CE-5"],
+              ["CE-1", "CE-3"]
+            ],
+            "significance-method": "Friedman test",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         }
       },
       "time": {
         "estimate-trend": {
           "rank": ["CE-2", "CE-5", "CE-1", "CE-4", "CE-3", "CE-6", "OE-1"],
-          "significance": [
-            ["CE-2", "CE-4"],
-            ["CE-2", "CE-3"],
-            ["CE-2", "CE-6"],
-            ["CE-2", "OE-1"],
-            ["CE-5", "CE-4"],
-            ["CE-5", "CE-6"],
-            ["CE-5", "OE-1"],
-            ["CE-1", "CE-4"],
-            ["CE-1", "CE-6"],
-            ["CE-1", "OE-1"],
-            ["CE-4", "CE-6"],
-            ["CE-4", "OE-1"],
-            ["CE-3", "CE-6"],
-            ["CE-3", "OE-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-2", "CE-4"],
+              ["CE-2", "CE-3"],
+              ["CE-2", "CE-6"],
+              ["CE-2", "OE-1"],
+              ["CE-5", "CE-4"],
+              ["CE-5", "CE-6"],
+              ["CE-5", "OE-1"],
+              ["CE-1", "CE-4"],
+              ["CE-1", "CE-6"],
+              ["CE-1", "OE-1"],
+              ["CE-4", "CE-6"],
+              ["CE-4", "OE-1"],
+              ["CE-3", "CE-6"],
+              ["CE-3", "OE-1"]
+            ],
+            "significance-method": "Friedman test",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "find-extremum": {
           "rank": ["CE-1", "CE-5", "CE-4", "CE-3", "CE-2", "CE-6", "OE-1"],
-          "significance": [
-            ["CE-1", "CE-6"],
-            ["CE-1", "OE-1"],
-            ["CE-5", "CE-6"],
-            ["CE-5", "OE-1"],
-            ["CE-4", "CE-6"],
-            ["CE-4", "OE-1"],
-            ["CE-3", "CE-6"],
-            ["CE-3", "OE-1"],
-            ["CE-2", "CE-6"],
-            ["CE-2", "OE-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-1", "CE-6"],
+              ["CE-1", "OE-1"],
+              ["CE-5", "CE-6"],
+              ["CE-5", "OE-1"],
+              ["CE-4", "CE-6"],
+              ["CE-4", "OE-1"],
+              ["CE-3", "CE-6"],
+              ["CE-3", "OE-1"],
+              ["CE-2", "CE-6"],
+              ["CE-2", "OE-1"]
+            ],
+            "significance-method": "Friedman test",
+            "significance-threshold": 0.05,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         }
       }
     },

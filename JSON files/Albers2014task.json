@@ -354,29 +354,35 @@
             "CE-5",
             "CE-7"
           ],
-          "significance": [
-            ["CE-4", "CE-3"],
-            ["CE-2", "CE-3"],
-            ["CE-1", "CE-3"],
-            ["CE-4", "CE-6"],
-            ["CE-2", "CE-6"],
-            ["CE-1", "CE-6"],
-            ["CE-4", "CE-8"],
-            ["CE-2", "CE-8"],
-            ["CE-1", "CE-8"],
-            ["CE-4", "CE-5"],
-            ["CE-2", "CE-5"],
-            ["CE-1", "CE-5"],
-            ["CE-4", "CE-7"],
-            ["CE-2", "CE-7"],
-            ["CE-1", "CE-7"],
-            ["CE-3", "CE-8"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-7"],
-            ["CE-6", "CE-8"],
-            ["CE-6", "CE-5"],
-            ["CE-6", "CE-7"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-4", "CE-3"],
+              ["CE-2", "CE-3"],
+              ["CE-1", "CE-3"],
+              ["CE-4", "CE-6"],
+              ["CE-2", "CE-6"],
+              ["CE-1", "CE-6"],
+              ["CE-4", "CE-8"],
+              ["CE-2", "CE-8"],
+              ["CE-1", "CE-8"],
+              ["CE-4", "CE-5"],
+              ["CE-2", "CE-5"],
+              ["CE-1", "CE-5"],
+              ["CE-4", "CE-7"],
+              ["CE-2", "CE-7"],
+              ["CE-1", "CE-7"],
+              ["CE-3", "CE-8"],
+              ["CE-3", "CE-5"],
+              ["CE-3", "CE-7"],
+              ["CE-6", "CE-8"],
+              ["CE-6", "CE-5"],
+              ["CE-6", "CE-7"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "find-minimum": {
           "rank": [
@@ -389,29 +395,35 @@
             "CE-5",
             "CE-7"
           ],
-          "significance": [
-            ["CE-2", "CE-1"],
-            ["CE-3", "CE-1"],
-            ["CE-4", "CE-1"],
-            ["CE-2", "CE-6"],
-            ["CE-3", "CE-6"],
-            ["CE-4", "CE-6"],
-            ["CE-2", "CE-8"],
-            ["CE-3", "CE-8"],
-            ["CE-4", "CE-8"],
-            ["CE-2", "CE-5"],
-            ["CE-3", "CE-5"],
-            ["CE-4", "CE-5"],
-            ["CE-2", "CE-7"],
-            ["CE-3", "CE-7"],
-            ["CE-4", "CE-7"],
-            ["CE-1", "CE-8"],
-            ["CE-1", "CE-5"],
-            ["CE-1", "CE-7"],
-            ["CE-6", "CE-8"],
-            ["CE-6", "CE-5"],
-            ["CE-6", "CE-7"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-2", "CE-1"],
+              ["CE-3", "CE-1"],
+              ["CE-4", "CE-1"],
+              ["CE-2", "CE-6"],
+              ["CE-3", "CE-6"],
+              ["CE-4", "CE-6"],
+              ["CE-2", "CE-8"],
+              ["CE-3", "CE-8"],
+              ["CE-4", "CE-8"],
+              ["CE-2", "CE-5"],
+              ["CE-3", "CE-5"],
+              ["CE-4", "CE-5"],
+              ["CE-2", "CE-7"],
+              ["CE-3", "CE-7"],
+              ["CE-4", "CE-7"],
+              ["CE-1", "CE-8"],
+              ["CE-1", "CE-5"],
+              ["CE-1", "CE-7"],
+              ["CE-6", "CE-8"],
+              ["CE-6", "CE-5"],
+              ["CE-6", "CE-7"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "determine-range": {
           "rank": [
@@ -424,31 +436,37 @@
             "CE-8",
             "CE-7"
           ],
-          "significance": [
-            ["CE-2", "CE-4"],
-            ["CE-2", "CE-1"],
-            ["CE-2", "CE-6"],
-            ["CE-2", "CE-5"],
-            ["CE-2", "CE-8"],
-            ["CE-2", "CE-7"],
-            ["CE-3", "CE-4"],
-            ["CE-3", "CE-1"],
-            ["CE-3", "CE-6"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-8"],
-            ["CE-3", "CE-7"],
-            ["CE-4", "CE-6"],
-            ["CE-4", "CE-5"],
-            ["CE-4", "CE-8"],
-            ["CE-4", "CE-7"],
-            ["CE-1", "CE-6"],
-            ["CE-1", "CE-5"],
-            ["CE-1", "CE-8"],
-            ["CE-1", "CE-7"],
-            ["CE-6", "CE-5"],
-            ["CE-6", "CE-8"],
-            ["CE-6", "CE-7"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-2", "CE-4"],
+              ["CE-2", "CE-1"],
+              ["CE-2", "CE-6"],
+              ["CE-2", "CE-5"],
+              ["CE-2", "CE-8"],
+              ["CE-2", "CE-7"],
+              ["CE-3", "CE-4"],
+              ["CE-3", "CE-1"],
+              ["CE-3", "CE-6"],
+              ["CE-3", "CE-5"],
+              ["CE-3", "CE-8"],
+              ["CE-3", "CE-7"],
+              ["CE-4", "CE-6"],
+              ["CE-4", "CE-5"],
+              ["CE-4", "CE-8"],
+              ["CE-4", "CE-7"],
+              ["CE-1", "CE-6"],
+              ["CE-1", "CE-5"],
+              ["CE-1", "CE-8"],
+              ["CE-1", "CE-7"],
+              ["CE-6", "CE-5"],
+              ["CE-6", "CE-8"],
+              ["CE-6", "CE-7"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "compare-derived-values": {
           "rank": [
@@ -461,56 +479,74 @@
             "CE-8",
             "CE-1"
           ],
-          "significance": [
-            ["CE-4", "CE-7"],
-            ["CE-4", "CE-6"],
-            ["CE-4", "CE-3"],
-            ["CE-4", "CE-5"],
-            ["CE-4", "CE-2"],
-            ["CE-4", "CE-8"],
-            ["CE-4", "CE-1"],
-            ["CE-7", "CE-5"],
-            ["CE-7", "CE-2"],
-            ["CE-7", "CE-8"],
-            ["CE-7", "CE-1"],
-            ["CE-6", "CE-5"],
-            ["CE-6", "CE-2"],
-            ["CE-6", "CE-8"],
-            ["CE-6", "CE-1"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-2"],
-            ["CE-3", "CE-8"],
-            ["CE-3", "CE-1"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-4", "CE-7"],
+              ["CE-4", "CE-6"],
+              ["CE-4", "CE-3"],
+              ["CE-4", "CE-5"],
+              ["CE-4", "CE-2"],
+              ["CE-4", "CE-8"],
+              ["CE-4", "CE-1"],
+              ["CE-7", "CE-5"],
+              ["CE-7", "CE-2"],
+              ["CE-7", "CE-8"],
+              ["CE-7", "CE-1"],
+              ["CE-6", "CE-5"],
+              ["CE-6", "CE-2"],
+              ["CE-6", "CE-8"],
+              ["CE-6", "CE-1"],
+              ["CE-3", "CE-5"],
+              ["CE-3", "CE-2"],
+              ["CE-3", "CE-8"],
+              ["CE-3", "CE-1"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "characterize-distribution": {
           "rank": ["CE-3", "CE-7", "CE-5", "CE-4", "CE-1", "CE-8", "CE-2"],
-          "significance": [
-            ["CE-3", "CE-7"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-4"],
-            ["CE-3", "CE-1"],
-            ["CE-3", "CE-8"],
-            ["CE-3", "CE-2"],
-            ["CE-7", "CE-8"],
-            ["CE-7", "CE-2"],
-            ["CE-5", "CE-8"],
-            ["CE-5", "CE-2"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-3", "CE-7"],
+              ["CE-3", "CE-5"],
+              ["CE-3", "CE-4"],
+              ["CE-3", "CE-1"],
+              ["CE-3", "CE-8"],
+              ["CE-3", "CE-2"],
+              ["CE-7", "CE-8"],
+              ["CE-7", "CE-2"],
+              ["CE-5", "CE-8"],
+              ["CE-5", "CE-2"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "find-anomalies": {
           "rank": ["CE-8", "CE-1", "CE-2", "CE-4", "CE-5", "CE-7"],
-          "significance": [
-            ["CE-8", "CE-1"],
-            ["CE-8", "CE-2"],
-            ["CE-8", "CE-4"],
-            ["CE-8", "CE-5"],
-            ["CE-8", "CE-7"],
-            ["CE-1", "CE-7"],
-            ["CE-2", "CE-7"],
-            ["CE-4", "CE-7"],
-            ["CE-5", "CE-7"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-8", "CE-1"],
+              ["CE-8", "CE-2"],
+              ["CE-8", "CE-4"],
+              ["CE-8", "CE-5"],
+              ["CE-8", "CE-7"],
+              ["CE-1", "CE-7"],
+              ["CE-2", "CE-7"],
+              ["CE-4", "CE-7"],
+              ["CE-5", "CE-7"]
+            ],
+            "significance-method": "ANCOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         }
       }
     },

@@ -416,120 +416,162 @@
       "accuracy": {
         "retrieve-value-1": {
           "rank": [["CE-1", "CE-3"], ["CE-5", "CE-6"], "CE-9", "CE-7"],
-          "significance": [
-            ["CE-1", "CE-5"],
-            ["CE-1", "CE-6"],
-            ["CE-1", "CE-7"],
-            ["CE-1", "CE-9"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-6"],
-            ["CE-3", "CE-7"],
-            ["CE-3", "CE-9"],
-            ["CE-5", "CE-7"],
-            ["CE-5", "CE-9"],
-            ["CE-6", "CE-7"],
-            ["CE-6", "CE-9"],
-            ["CE-9", "CE-7"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-1", "CE-5"],
+              ["CE-1", "CE-6"],
+              ["CE-1", "CE-7"],
+              ["CE-1", "CE-9"],
+              ["CE-3", "CE-5"],
+              ["CE-3", "CE-6"],
+              ["CE-3", "CE-7"],
+              ["CE-3", "CE-9"],
+              ["CE-5", "CE-7"],
+              ["CE-5", "CE-9"],
+              ["CE-6", "CE-7"],
+              ["CE-6", "CE-9"],
+              ["CE-9", "CE-7"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "retrieve-value-2": {
           "rank": [
             ["CE-1", "CE-3"],
             ["CE-5", "CE-6", "CE-7", "CE-9"]
           ],
-          "significance": [
-            ["CE-1", "CE-5"],
-            ["CE-1", "CE-6"],
-            ["CE-1", "CE-7"],
-            ["CE-1", "CE-9"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-6"],
-            ["CE-3", "CE-7"],
-            ["CE-3", "CE-9"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-1", "CE-5"],
+              ["CE-1", "CE-6"],
+              ["CE-1", "CE-7"],
+              ["CE-1", "CE-9"],
+              ["CE-3", "CE-5"],
+              ["CE-3", "CE-6"],
+              ["CE-3", "CE-7"],
+              ["CE-3", "CE-9"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "retrieve-value-4": {
           "rank": [["CE-11", "CE-12"], ["CE-2", "CE-4", "CE-6"], "CE-13"],
-          "significance": [
-            ["CE-11", "CE-2"],
-            ["CE-11", "CE-4"],
-            ["CE-11", "CE-6"],
-            ["CE-11", "CE-13"],
-            ["CE-12", "CE-2"],
-            ["CE-12", "CE-4"],
-            ["CE-12", "CE-6"],
-            ["CE-12", "CE-13"],
-            ["CE-6", "CE-13"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-11", "CE-2"],
+              ["CE-11", "CE-4"],
+              ["CE-11", "CE-6"],
+              ["CE-11", "CE-13"],
+              ["CE-12", "CE-2"],
+              ["CE-12", "CE-4"],
+              ["CE-12", "CE-6"],
+              ["CE-12", "CE-13"],
+              ["CE-6", "CE-13"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         }
       },
       "time": {
         "retrieve-value-1": {
           "rank": ["CE-3", "CE-1", ["CE-6", "CE-9"], ["CE-5", "CE-7"]],
-          "significance": [
-            ["CE-3", "CE-1"],
-            ["CE-3", "CE-6"],
-            ["CE-3", "CE-9"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-7"],
-            ["CE-1", "CE-6"],
-            ["CE-1", "CE-9"],
-            ["CE-1", "CE-5"],
-            ["CE-1", "CE-7"],
-            ["CE-6", "CE-5"],
-            ["CE-9", "CE-7"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-3", "CE-1"],
+              ["CE-3", "CE-6"],
+              ["CE-3", "CE-9"],
+              ["CE-3", "CE-5"],
+              ["CE-3", "CE-7"],
+              ["CE-1", "CE-6"],
+              ["CE-1", "CE-9"],
+              ["CE-1", "CE-5"],
+              ["CE-1", "CE-7"],
+              ["CE-6", "CE-5"],
+              ["CE-9", "CE-7"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "retrieve-value-2": {
           "rank": ["CE-3", "CE-1", ["CE-6", "CE-9"], ["CE-5", "CE-7"]],
-          "significance": [
-            ["CE-3", "CE-1"],
-            ["CE-3", "CE-6"],
-            ["CE-3", "CE-9"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-7"],
-            ["CE-1", "CE-6"],
-            ["CE-1", "CE-9"],
-            ["CE-1", "CE-5"],
-            ["CE-1", "CE-7"],
-            ["CE-6", "CE-5"],
-            ["CE-9", "CE-7"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-3", "CE-1"],
+              ["CE-3", "CE-6"],
+              ["CE-3", "CE-9"],
+              ["CE-3", "CE-5"],
+              ["CE-3", "CE-7"],
+              ["CE-1", "CE-6"],
+              ["CE-1", "CE-9"],
+              ["CE-1", "CE-5"],
+              ["CE-1", "CE-7"],
+              ["CE-6", "CE-5"],
+              ["CE-9", "CE-7"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "retrieve-value-3": {
           "rank": [["CE-8", "CE-10"], "CE-5", "CE-6", "CE-14", "CE-15"],
-          "significance": [
-            ["CE-8", "CE-5"],
-            ["CE-8", "CE-6"],
-            ["CE-8", "CE-14"],
-            ["CE-8", "CE-15"],
-            ["CE-10", "CE-5"],
-            ["CE-10", "CE-6"],
-            ["CE-10", "CE-14"],
-            ["CE-10", "CE-15"],
-            ["CE-5", "CE-6"],
-            ["CE-5", "CE-14"],
-            ["CE-5", "CE-15"],
-            ["CE-6", "CE-14"],
-            ["CE-6", "CE-15"],
-            ["CE-14", "CE-15"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-8", "CE-5"],
+              ["CE-8", "CE-6"],
+              ["CE-8", "CE-14"],
+              ["CE-8", "CE-15"],
+              ["CE-10", "CE-5"],
+              ["CE-10", "CE-6"],
+              ["CE-10", "CE-14"],
+              ["CE-10", "CE-15"],
+              ["CE-5", "CE-6"],
+              ["CE-5", "CE-14"],
+              ["CE-5", "CE-15"],
+              ["CE-6", "CE-14"],
+              ["CE-6", "CE-15"],
+              ["CE-14", "CE-15"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         },
         "retrieve-value-4": {
           "rank": [
             ["CE-11", "CE-12", "CE-13", "CE-6"],
             ["CE-2", "CE-4"]
           ],
-          "significance": [
-            ["CE-11", "CE-2"],
-            ["CE-11", "CE-4"],
-            ["CE-12", "CE-2"],
-            ["CE-12", "CE-4"],
-            ["CE-13", "CE-2"],
-            ["CE-13", "CE-4"],
-            ["CE-6", "CE-2"],
-            ["CE-6", "CE-4"]
-          ]
+          "significance": {
+            "pairs": [
+              ["CE-11", "CE-2"],
+              ["CE-11", "CE-4"],
+              ["CE-12", "CE-2"],
+              ["CE-12", "CE-4"],
+              ["CE-13", "CE-2"],
+              ["CE-13", "CE-4"],
+              ["CE-6", "CE-2"],
+              ["CE-6", "CE-4"]
+            ],
+            "significance-method": "ANOVA",
+            "significance-threshold": 0.0001,
+            "effect-size-method": "none",
+            "effect-size-threshold": null
+          }
         }
       }
     },
