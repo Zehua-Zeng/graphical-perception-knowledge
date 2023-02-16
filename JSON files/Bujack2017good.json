@@ -1,111 +1,104 @@
 {
   "Title": "The Good, the Bad, and the Ugly: A Theoretical Framework for the Assessment of Continuous Colormaps",
   "Category": "Theory",
-  "Covered Designs": {
-    "CT-1": {
+  "Designs": {
+    "T-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "linear"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-2": {
+    "T-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-3": {
+    "T-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-4": {
+    "T-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-5": {
+    "T-5": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-6": {
+    "T-6": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     }
   },
-  "Other Designs": {},
   "Tasks": [],
   "Results": {
     "Experimental": {},

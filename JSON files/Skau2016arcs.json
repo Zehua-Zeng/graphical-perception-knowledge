@@ -1,5 +1,5 @@
 {
-  "Title": "Somewhere Over the Rainbow: An Empirical Assessment of Quantitative Colormaps",
+  "Title": "Arcs, Angles, or Areas: Individual Data Encodings in Pie and Donut Charts",
   "Category": "Experiment",
   "Designs": {
     "E-1": {
@@ -10,20 +10,21 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "color-saturation",
-              "scale": "linear-greys"
+              "channel": "angle",
+              "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "mark": "point"
+          "mark": "area-arc-inner-0"
         }
-      ]
+      ],
+      "note": "pie chart"
     },
     "E-2": {
       "layers": [
@@ -33,20 +34,21 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "color-saturation",
-              "scale": "linear-blues"
+              "channel": "angle",
+              "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "mark": "point"
+          "mark": "area-arc-inner-50"
         }
-      ]
+      ],
+      "note": "donut chart"
     },
     "E-3": {
       "layers": [
@@ -56,20 +58,21 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "color-saturation",
-              "scale": "linear-greens"
+              "channel": "angle",
+              "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "mark": "point"
+          "mark": "area-arc-inner-97"
         }
-      ]
+      ],
+      "note": "arc length chart"
     },
     "E-4": {
       "layers": [
@@ -79,20 +82,21 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "color-saturation",
-              "scale": "linear-oranges"
+              "channel": "angle",
+              "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
+              "channel": "orientation",
+              "scale": "nominal"
             }
           ],
-          "mark": "point"
+          "mark": "line"
         }
-      ]
+      ],
+      "note": "angle pie chart"
     },
     "E-5": {
       "layers": [
@@ -102,20 +106,21 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "color-saturation",
-              "scale": "linear-viridis"
+              "channel": "angle",
+              "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
+              "channel": "orientation",
+              "scale": "nominal"
             }
           ],
-          "mark": "point"
+          "mark": "line"
         }
-      ]
+      ],
+      "note": "angle donut chart"
     },
     "E-6": {
       "layers": [
@@ -125,20 +130,21 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "color-saturation",
-              "scale": "linear-magma"
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "mark": "point"
+          "mark": "area-other"
         }
-      ]
+      ],
+      "note": "area chart"
     },
     "E-7": {
       "layers": [
@@ -148,18 +154,18 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "color-saturation",
-              "scale": "linear-plasma"
+              "channel": "angle",
+              "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "mark": "point"
+          "mark": "area-arc-inner-20"
         }
       ]
     },
@@ -171,18 +177,18 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "color-hue",
-              "scale": "linea-blueoranger"
+              "channel": "angle",
+              "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "mark": "point"
+          "mark": "area-arc-inner-40"
         }
       ]
     },
@@ -194,18 +200,41 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "color-hue",
-              "scale": "linear-jet"
+              "channel": "angle",
+              "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "mark": "point"
+          "mark": "area-arc-inner-60"
+        }
+      ]
+    },
+    "E-10": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "angle",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-arc-inner-80"
         }
       ]
     }
@@ -215,37 +244,24 @@
     "Experimental": {
       "accuracy": {
         "retrieve-value-1": {
-          "rank": ["E-5", ["E-2", "E-8"], "E-9"],
+          "rank": ["E-2", "E-1", "E-3", "E-6", "E-4", "E-5"],
           "significance": [
-            ["E-5", "E-2"],
-            ["E-5", "E-8"],
-            ["E-5", "E-9"]
+            ["E-2", "E-4"],
+            ["E-2", "E-5"],
+            ["E-1", "E-4"],
+            ["E-1", "E-5"],
+            ["E-3", "E-4"],
+            ["E-3", "E-5"],
+            ["E-6", "E-4"],
+            ["E-6", "E-5"]
           ]
         },
         "retrieve-value-2": {
-          "rank": ["E-2", "E-3", "E-4", "E-1"],
-          "significance": []
-        },
-        "retrieve-value-3": {
-          "rank": ["E-5", "E-7", "E-6"],
-          "significance": []
-        }
-      },
-      "time": {
-        "retrieve-value-1": {
-          "rank": ["E-2", "E-5", "E-8", "E-9"],
+          "rank": ["E-7", "E-10", "E-8", "E-1", "E-9", "E-3"],
           "significance": [
-            ["E-2", "E-8"],
-            ["E-2", "E-9"]
+            ["E-7", "E-3"],
+            ["E-10", "E-3"]
           ]
-        },
-        "retrieve-value-2": {
-          "rank": [["E-1", "E-2", "E-3", "E-4"]],
-          "significance": []
-        },
-        "retrieve-value-3": {
-          "rank": [["E-5", "E-6", "E-7"]],
-          "significance": []
         }
       }
     },

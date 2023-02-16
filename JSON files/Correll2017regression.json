@@ -1,93 +1,86 @@
 {
   "Title": "Regression by Eye: Estimating Trends in Bivariate Visualizations",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line"]
+          "mark": "line"
         }
       ]
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line", "area-other"]
+          "mark": "area-other"
         }
       ]
     }
   },
-  "Other Designs": {},
-  "Tasks": ["estimate-trend"],
+  "Tasks": ["correlate"],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "estimate-trend": {
-          "rank": [["CE-2", "CE-1"], "CE-3"],
+        "correlate": {
+          "rank": [["E-2", "E-1"], "E-3"],
           "significance": [
-            ["CE-2", "CE-3"],
-            ["CE-1", "CE-3"]
+            ["E-2", "E-3"],
+            ["E-1", "E-3"]
           ]
         }
       }

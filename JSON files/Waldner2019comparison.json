@@ -1,170 +1,171 @@
 {
   "Title": "Comparison of Radial and Linear charts for Visualizing Daily Patterns",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["orientation"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "column",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-other"]
+          "mark": "area-other"
         }
-      ],
-      "note": "2 * 12-hours radial charts"
+      ]
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["orientation"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-other"]
+          "mark": "area-other"
         }
-      ],
-      "note": "24-hours radial chart"
+      ]
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "row",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
-      ],
-      "note": "2 * 12-hours bar charts"
+      ]
     },
-    "CE-4": {
+    "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
-      ],
-      "note": "24-hours bar chart"
+      ]
     }
   },
-  "Other Designs": {},
-  "Tasks": ["locate", "retrieve-value", "find-maximum", "compare-objects"],
+  "Tasks": ["filter", "retrieve-value", "find-extremum", "sort"],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "locate": {
-          "rank": ["CE-3", "CE-4", "CE-2", "CE-1"],
+        "filter": {
+          "rank": ["E-3", "E-4", "E-2", "E-1"],
           "significance": []
         },
         "retrieve-value": {
-          "rank": ["CE-4", "CE-3", "CE-2", "CE-1"],
+          "rank": ["E-4", "E-3", "E-2", "E-1"],
           "significance": []
         },
-        "find-maximum": {
-          "rank": [["CE-2", "CE-4"], "CE-3", "CE-1"],
+        "find-extremum": {
+          "rank": [["E-2", "E-4"], "E-3", "E-1"],
           "significance": []
         },
-        "compare-objects": {
-          "rank": ["CE-4", "CE-2", "CE-3", "CE-1"],
+        "sort": {
+          "rank": ["E-4", "E-2", "E-3", "E-1"],
           "significance": []
         }
       },
       "time": {
-        "locate": {
-          "rank": ["CE-4", "CE-3", "CE-1", "CE-2"],
+        "filter": {
+          "rank": ["E-4", "E-3", "E-1", "E-2"],
           "significance": [
-            ["CE-4", "CE-2"],
-            ["CE-3", "CE-1"]
+            ["E-4", "E-2"],
+            ["E-3", "E-1"]
           ]
         },
         "retrieve-value": {
-          "rank": ["CE-4", "CE-3", "CE-2", "CE-1"],
+          "rank": ["E-4", "E-3", "E-2", "E-1"],
           "significance": [
-            ["CE-4", "CE-2"],
-            ["CE-3", "CE-1"]
+            ["E-4", "E-2"],
+            ["E-3", "E-1"]
           ]
         },
-        "find-maximum": {
-          "rank": ["CE-4", "CE-2", "CE-3", "CE-1"],
+        "find-extremum": {
+          "rank": ["E-4", "E-2", "E-3", "E-1"],
           "significance": [
-            ["CE-4", "CE-2"],
-            ["CE-3", "CE-1"]
+            ["E-4", "E-2"],
+            ["E-3", "E-1"]
           ]
         },
-        "compare-objects": {
-          "rank": ["CE-4", "CE-3", "CE-1", "CE-2"],
+        "sort": {
+          "rank": ["E-4", "E-3", "E-1", "E-2"],
           "significance": [
-            ["CE-4", "CE-2"],
-            ["CE-3", "CE-1"]
+            ["E-4", "E-2"],
+            ["E-3", "E-1"]
           ]
         }
       },
       "user-preference": {
         "overall": {
-          "rank": ["CE-4", "CE-3", "CE-2", "CE-1"],
+          "rank": ["E-4", "E-3", "E-2", "E-1"],
           "significance": [
-            ["CE-4", "CE-2"],
-            ["CE-3", "CE-1"]
+            ["E-4", "E-2"],
+            ["E-3", "E-1"]
           ]
         }
       }

@@ -1,5 +1,5 @@
 {
-  "Title": "Biased Average Position Estimates in Line and Bar Graphs: Underestimation, Overestimation, and Perceptual Pull",
+  "Title": "Du Bois Wrapped Bar Chart: Visualizing Categorical Data with Disproportionate Values",
   "Category": "Experiment",
   "Designs": {
     "E-1": {
@@ -10,7 +10,7 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionY",
+              "channel": "length",
               "scale": "linear"
             },
             {
@@ -21,9 +21,10 @@
               "scale": "nominal"
             }
           ],
-          "mark": "line"
+          "mark": "area-rect"
         }
-      ]
+      ],
+      "note": "standard bar chart"
     },
     "E-2": {
       "layers": [
@@ -46,7 +47,8 @@
           ],
           "mark": "area-rect"
         }
-      ]
+      ],
+      "note": "wrapped bar chart"
     },
     "E-3": {
       "layers": [
@@ -54,9 +56,11 @@
           "encodings": [
             {
               "data-type": "quantitative",
-              "data-charcs": {},
+              "data-charcs": {
+                "entropy": "0.9-1.0"
+              },
               "data-trans": {},
-              "channel": "positionY",
+              "channel": "length",
               "scale": "linear"
             },
             {
@@ -67,28 +71,10 @@
               "scale": "nominal"
             }
           ],
-          "mark": "line"
-        },
-        {
-          "encodings": [
-            {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionY",
-              "scale": "linear"
-            },
-            {
-              "data-type": "nominal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "nominal"
-            }
-          ],
-          "mark": "line"
+          "mark": "area-rect"
         }
-      ]
+      ],
+      "note": "standard bar chart"
     },
     "E-4": {
       "layers": [
@@ -96,26 +82,9 @@
           "encodings": [
             {
               "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "length",
-              "scale": "linear"
-            },
-            {
-              "data-type": "nominal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "nominal"
-            }
-          ],
-          "mark": "area-rect"
-        },
-        {
-          "encodings": [
-            {
-              "data-type": "quantitative",
-              "data-charcs": {},
+              "data-charcs": {
+                "entropy": "0.76-0.9"
+              },
               "data-trans": {},
               "channel": "length",
               "scale": "linear"
@@ -130,7 +99,8 @@
           ],
           "mark": "area-rect"
         }
-      ]
+      ],
+      "note": "standard bar chart"
     },
     "E-5": {
       "layers": [
@@ -138,26 +108,9 @@
           "encodings": [
             {
               "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionY",
-              "scale": "linear"
-            },
-            {
-              "data-type": "nominal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "nominal"
-            }
-          ],
-          "mark": "line"
-        },
-        {
-          "encodings": [
-            {
-              "data-type": "quantitative",
-              "data-charcs": {},
+              "data-charcs": {
+                "entropy": "0.61-0.75"
+              },
               "data-trans": {},
               "channel": "length",
               "scale": "linear"
@@ -172,27 +125,184 @@
           ],
           "mark": "area-rect"
         }
-      ]
+      ],
+      "note": "standard bar chart"
+    },
+    "E-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {
+                "entropy": "0.45-0.6"
+              },
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "standard bar chart"
+    },
+    "E-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {
+                "entropy": "0.9-1.0"
+              },
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "wrapped bar chart"
+    },
+    "E-8": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {
+                "entropy": "0.76-0.9"
+              },
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "wrapped bar chart"
+    },
+    "E-9": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {
+                "entropy": "0.61-0.75"
+              },
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "wrapped bar chart"
+    },
+    "E-10": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {
+                "entropy": "0.45-0.6"
+              },
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "wrapped bar chart"
     }
   },
-  "Tasks": ["aggregate"],
+  "Tasks": ["find-extremum"],
   "Results": {
     "Experimental": {
-      "bias-underestimate": {
-        "aggregate": {
-          "rank": ["E-1"],
-          "significance": []
+      "accuracy": {
+        "find-extremum-1": {
+          "rank": ["E-2", "E-1"],
+          "significance": [["E-2", "E-1"]]
+        },
+        "find-extremum-2": {
+          "rank": ["E-8", "E-7", ["E-3", "E-4"], "E-10", "E-9", "E-5", "E-6"],
+          "significance": [
+            ["E-8", "E-10"],
+            ["E-8", "E-9"],
+            ["E-8", "E-5"],
+            ["E-8", "E-6"],
+            ["E-7", "E-10"],
+            ["E-7", "E-9"],
+            ["E-7", "E-5"],
+            ["E-7", "E-6"],
+            ["E-3", "E-10"],
+            ["E-3", "E-9"],
+            ["E-3", "E-5"],
+            ["E-3", "E-6"],
+            ["E-4", "E-10"],
+            ["E-4", "E-9"],
+            ["E-4", "E-5"],
+            ["E-4", "E-6"],
+            ["E-10", "E-5"],
+            ["E-10", "E-6"],
+            ["E-9", "E-5"],
+            ["E-9", "E-6"]
+          ]
         }
       },
-      "bias-overestimate": {
-        "aggregate": {
-          "rank": ["E-2"],
+      "time": {
+        "find-extremum-1": {
+          "rank": [["E-1", "E-2"]],
           "significance": []
-        }
-      },
-      "bias-perceptual-pull": {
-        "aggregate": {
-          "rank": [["E-3", "E-4", "E-5"]],
+        },
+        "find-extremum-2": {
+          "rank": [
+            ["E-3", "E-4", "E-5", "E-6"],
+            ["E-7", "E-8", "E-9", "E-10"]
+          ],
           "significance": []
         }
       }

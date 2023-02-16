@@ -1,201 +1,104 @@
 {
   "Title": "Bertin was Right: An Empirical Evaluation of Indexing to Compare Multivariate Time-Series Data Using Line Plots",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "row",
+              "scale": "nominal"
             }
           ],
-          "marks": ["line"]
+          "mark": "line"
         }
-      ],
-      "note": "juxtaposed line plot with linear scale"
+      ]
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "log"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
-            }
-          ],
-          "marks": ["line"]
-        }
-      ],
-      "note": "superimposed line plot with log scale"
-    },
-    "CE-3": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["line"]
+          "mark": "line"
         }
-      ],
-      "note": "indexing"
+      ]
     }
   },
-  "Other Designs": {},
-  "Tasks": ["find-extrenum", "estimate-trend", "compare-derived-values"],
+  "Tasks": ["correlate", "aggregate"],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "estimate-trend-1": {
-          "rank": ["CE-2", "CE-1"],
-          "significance": {
-            "pairs": [],
-            "significance-method": "Wilcoxon signed-rank test",
-            "significance-threshold": 0.05,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "correlate": {
+          "rank": ["E-2", "E-1"],
+          "significance": []
         },
-        "estimate-trend-2": {
-          "rank": ["CE-3", "CE-2"],
-          "significance": {
-            "pairs": [["CE-3", "CE-2"]],
-            "significance-method": "Wilcoxon signed-rank test",
-            "significance-threshold": 0.001,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "aggregate": {
+          "rank": ["E-2", "E-1"],
+          "significance": []
         },
-        "compare-derived-values": {
-          "rank": ["CE-3", "CE-2", "CE-1"],
-          "significance": {
-            "pairs": [
-              ["CE-3", "CE-1"],
-              ["CE-3", "CE-2"]
-            ],
-            "significance-method": "Friedman test",
-            "significance-threshold": 0.01,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
-        },
-        "overall-1": {
-          "rank": ["CE-2", "CE-1"],
-          "significance": {
-            "pairs": [],
-            "significance-method": "Wilcoxon signed-rank test",
-            "significance-threshold": 0.05,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
-        },
-        "overall-2": {
-          "rank": ["CE-3", "CE-2", "CE-1"],
-          "significance": {
-            "pairs": [
-              ["CE-3", "CE-1"],
-              ["CE-3", "CE-2"]
-            ],
-            "significance-method": "Friedman test",
-            "significance-threshold": 0.01,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "overall": {
+          "rank": ["E-2", "E-1"],
+          "significance": []
         }
       },
       "time": {
-        "estimate-trend-1": {
-          "rank": ["CE-2", "CE-1"],
-          "significance": {
-            "pairs": [["CE-2", "CE-1"]],
-            "significance-method": "paired t-test",
-            "significance-threshold": 0.001,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "correlate": {
+          "rank": ["E-2", "E-1"],
+          "significance": [["E-2", "E-1"]]
         },
-        "estimate-trend-2": {
-          "rank": ["CE-3", "CE-2"],
-          "significance": {
-            "pairs": [["CE-3", "CE-2"]],
-            "significance-method": "paired t-test",
-            "significance-threshold": 0.001,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "aggregate": {
+          "rank": ["E-2", "E-1"],
+          "significance": [["E-2", "E-1"]]
         },
-        "compare-derived-values": {
-          "rank": ["CE-3", "CE-2", "CE-1"],
-          "significance": {
-            "pairs": [
-              ["CE-3", "CE-1"],
-              ["CE-2", "CE-1"]
-            ],
-            "significance-method": "ANOVA",
-            "significance-threshold": 0.01,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
-        },
-        "overall-1": {
-          "rank": ["CE-2", "CE-1"],
-          "significance": {
-            "pairs": [["CE-2", "CE-1"]],
-            "significance-method": "paired t-test",
-            "significance-threshold": 0.01,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
-        },
-        "overall-2": {
-          "rank": ["CE-2", "CE-3", "CE-1"],
-          "significance": {
-            "pairs": [],
-            "significance-method": "ANOVA",
-            "significance-threshold": 0.05,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "overall": {
+          "rank": ["E-2", "E-1"],
+          "significance": [["E-2", "E-1"]]
         }
       }
     },

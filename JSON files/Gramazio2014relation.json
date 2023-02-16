@@ -1,48 +1,280 @@
 {
   "Title": "The relation between visualization size, grouping, and user performance",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 36
               },
-              "channels": ["color-hue"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 36
+              },
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 5
+              },
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
-      ],
-      "note": "visualization is a grid of squares"
+      ]
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 64
               },
-              "channels": ["color-hue"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 64
+              },
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 5
+              },
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "area-rect"
         }
-      ],
-      "note": "visualization is a scatterplot"
+      ]
+    },
+    "E-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 100
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 100
+              },
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 5
+              },
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ]
+    },
+    "E-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 144
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 144
+              },
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 5
+              },
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ]
+    },
+    "E-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 196
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 196
+              },
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 5
+              },
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ]
+    },
+    "E-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 196
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 196
+              },
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 5
+              },
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "point"
+        }
+      ]
+    },
+    "E-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 484
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 484
+              },
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 5
+              },
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "point"
+        }
+      ]
     }
   },
-  "Other Designs": {},
-  "Tasks": ["locate"],
+  "Tasks": ["find-anomalies"],
   "Results": {
-    "Experimental": {},
+    "Experimental": {
+      "time": {
+        "find-anomalies-1": {
+          "rank": ["E-1", "E-2", "E-3", "E-4", "E-5"],
+          "significance": [
+            ["E-1", "E-3"],
+            ["E-1", "E-4"],
+            ["E-1", "E-5"],
+            ["E-2", "E-4"],
+            ["E-2", "E-5"]
+          ]
+        },
+        "find-anomalies-2": {
+          "rank": ["E-6", "E-7"],
+          "significance": [["E-6", "E-7"]]
+        }
+      }
+    },
     "Theoretical": {}
   }
 }

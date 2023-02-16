@@ -1,45 +1,855 @@
 {
   "Title": "Mapping Color to Meaning in Colormap Data Visualizations",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
             },
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-yelloworangered"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
-      ]
+      ],
+      "note": "bakcground is white, light-more"
+    },
+    "E-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-yelloworangered"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is white, dark-more"
+    },
+    "E-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-yelloworangered"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is black, light is more"
+    },
+    "E-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-yelloworangered"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is black, dark is more"
+    },
+    "E-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-darkred"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is white, light is more"
+    },
+    "E-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-darkred"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is white, dark is more"
+    },
+    "E-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-darkred"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is black, light is more"
+    },
+    "E-8": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-darkred"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is black, dark is more"
+    },
+    "E-9": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-blues"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is white, light is more"
+    },
+    "E-10": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-blues"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is white, dark is more"
+    },
+    "E-11": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-blues"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is black, light is more"
+    },
+    "E-12": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-blues"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is black, dark is more"
+    },
+    "E-13": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-greys"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is white, light is more"
+    },
+    "E-14": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-greys"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is white, dark is more"
+    },
+    "E-15": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-greys"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is black, light is more"
+    },
+    "E-16": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-greys"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is black, dark is more"
+    },
+    "E-17": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-greys"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is blue, light is more"
+    },
+    "E-18": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-greys"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is blue, dark is more"
+    },
+    "E-19": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-darkblue"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is blue, light is more"
+    },
+    "E-20": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-darkblue"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is blue, dark is more"
+    },
+    "E-21": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-darkblue"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is black, light is more"
+    },
+    "E-22": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-darkblue"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is black, dark is more"
+    },
+    "E-23": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-darkblue"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is white, light is more"
+    },
+    "E-24": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-darkblue"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is white, dark is more"
+    },
+    "E-25": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-blues"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is blue, dark is more"
+    },
+    "E-26": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-blues"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "bakcground is blue, dark is more"
     }
   },
-  "Other Designs": {},
-  "Tasks": ["compare-derived-values"],
+  "Tasks": ["aggregate"],
   "Results": {
-    "Experimental": {},
+    "Experimental": {
+      "time": {
+        "aggregate-1": {
+          "rank": ["E-2", "E-4", "E-1", "E-3"],
+          "significance": []
+        },
+        "aggregate-2": {
+          "rank": ["E-6", "E-8", "E-5", "E-7"],
+          "significance": []
+        },
+        "aggregate-3": {
+          "rank": ["E-10", "E-12", "E-11", "E-9"],
+          "significance": []
+        },
+        "aggregate-4": {
+          "rank": ["E-14", "E-15", "E-13", "E-16"],
+          "significance": [
+            ["E-14", "E-15"],
+            ["E-14", "E-13"],
+            ["E-14", "E-16"]
+          ]
+        },
+        "aggregate-5": {
+          "rank": ["E-14", "E-18", ["E-15", "E-17"], "E-13", "E-16"],
+          "significance": []
+        },
+        "aggregate-6": {
+          "rank": ["E-20", "E-24", ["E-21", "E-22", "E-23"], "E-19"],
+          "significance": [
+            ["E-20", "E-19"],
+            ["E-24", "E-19"]
+          ]
+        },
+        "aggregate-7": {
+          "rank": ["E-25", "E-10", "E-11", ["E-9", "E-12"], "E-26"],
+          "significance": [["E-25", "E-26"]]
+        }
+      }
+    },
     "Theoretical": {}
   }
 }

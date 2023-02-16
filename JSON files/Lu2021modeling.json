@@ -1,5 +1,5 @@
 {
-  "Title": "Comparing Similarity Perception in Time Series Visualizations",
+  "Title": "Modeling Just Noticeable Differences in Charts",
   "Category": "Experiment",
   "Designs": {
     "E-1": {
@@ -10,18 +10,25 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionY",
+              "channel": "length",
               "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
-              "scale": "ordinal"
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "mark": "line"
+          "mark": "area-rect"
         }
       ]
     },
@@ -33,25 +40,18 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "area",
+              "channel": "angle",
               "scale": "linear"
             },
             {
-              "data-type": "quantitative",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-hue",
-              "scale": "linear"
-            },
-            {
-              "data-type": "ordinal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
+              "scale": "nominal"
             }
           ],
-          "mark": "area-other"
+          "mark": "area-arc"
         }
       ]
     },
@@ -63,42 +63,39 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "color-hue",
+              "channel": "length",
               "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
-              "scale": "ordinal"
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "mark": "point"
+          "mark": "area-circle"
         }
       ]
     }
   },
-  "Tasks": ["cluster"],
+  "Tasks": ["sort"],
   "Results": {
-    "Experimental": {
-      "time": {
-        "cluster-1": {
-          "rank": ["E-3", "E-1", "E-2"],
-          "significance": [
-            ["E-3", "E-1"],
-            ["E-3", "E-2"]
-          ]
-        },
-        "cluster-2": {
-          "rank": [["E-1, E-3"], "E-2"],
-          "significance": [
-            ["E-1", "E-2"],
-            ["E-3", "E-2"]
-          ]
-        }
-      }
-    },
+    "Experimental": {},
     "Theoretical": {}
   }
 }

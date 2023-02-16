@@ -1,0 +1,728 @@
+{
+  "Title": "Rethinking the Ranks of Visual Channels",
+  "Category": "Experiment",
+  "Designs": {
+    "E-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "position-bar"
+    },
+    "E-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "line"
+        }
+      ],
+      "note": "position-line"
+    },
+    "E-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "luminance"
+    },
+    "E-4": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-circle"
+        }
+      ],
+      "note": "area"
+    },
+    "E-5": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "length"
+    },
+    "E-6": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "line"
+        }
+      ]
+    },
+    "E-7": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 4
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "position-bar"
+    },
+    "E-8": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 4
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "line"
+        }
+      ],
+      "note": "position-line"
+    },
+    "E-9": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 4
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "luminance"
+    },
+    "E-10": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 4
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-circle"
+        }
+      ],
+      "note": "area"
+    },
+    "E-11": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 4
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "length"
+    },
+    "E-12": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 4
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "line"
+        }
+      ]
+    },
+    "E-13": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 6
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "position-bar"
+    },
+    "E-14": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 6
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "line"
+        }
+      ],
+      "note": "position-line"
+    },
+    "E-15": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 6
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "luminance"
+    },
+    "E-16": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 6
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-circle"
+        }
+      ],
+      "note": "area"
+    },
+    "E-17": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 6
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "length"
+    },
+    "E-18": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 6
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "line"
+        }
+      ]
+    },
+    "E-19": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 8
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "position-bar"
+    },
+    "E-20": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 8
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "line"
+        }
+      ],
+      "note": "position-line"
+    },
+    "E-21": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 8
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "luminance"
+    },
+    "E-22": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 8
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-circle"
+        }
+      ],
+      "note": "area"
+    },
+    "E-23": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 8
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "length"
+    },
+    "E-24": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 8
+              },
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "line"
+        }
+      ]
+    }
+  },
+  "Tasks": ["retrieve-value"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "retrieve-value-1": {
+          "rank": [["E-6", "E-4"], "E-3", ["E-5", "E-1"], "E-2"],
+          "significance": [
+            ["E-6", "E-2"],
+            ["E-4", "E-2"],
+            ["E-3", "E-2"],
+            ["E-5", "E-2"],
+            ["E-1", "E-2"]
+          ]
+        },
+        "retrieve-value-2": {
+          "rank": ["E-10", "E-12", ["E-9", "E-7"], "E-11", "E-8"],
+          "significance": [
+            ["E-10", "E-8"],
+            ["E-12", "E-8"],
+            ["E-9", "E-8"],
+            ["E-7", "E-8"]
+          ]
+        },
+        "retrieve-value-3": {
+          "rank": ["E-16", "E-13", ["E-18", "E-15"], "E-17", "E-14"],
+          "significance": [
+            ["E-16", "E-18"],
+            ["E-16", "E-15"],
+            ["E-16", "E-17"],
+            ["E-16", "E-14"]
+          ]
+        },
+        "retrieve-value-4": {
+          "rank": ["E-22", "E-19", ["E-24", "E-21"], ["E-23", "E-20"]],
+          "significance": [
+            ["E-22", "E-24"],
+            ["E-22", "E-21"],
+            ["E-22", "E-23"],
+            ["E-22", "E-20"]
+          ]
+        }
+      },
+      "bias": {
+        "retrieve-value-1": {
+          "rank": ["E-6", ["E-5", "E-1"], "E-3", "E-4", "E-2"],
+          "significance": [
+            ["E-6", "E-3"],
+            ["E-6", "E-4"],
+            ["E-6", "E-2"],
+            ["E-5", "E-3"],
+            ["E-5", "E-4"],
+            ["E-5", "E-2"],
+            ["E-1", "E-3"],
+            ["E-1", "E-4"],
+            ["E-1", "E-2"],
+            ["E-3", "E-4"],
+            ["E-3", "E-2"],
+            ["E-4", "E-2"]
+          ]
+        },
+        "retrieve-value-2": {
+          "rank": ["E-11", "E-7", "E-12", "E-9", "E-10", "E-8"],
+          "significance": [
+            ["E-11", "E-9"],
+            ["E-11", "E-10"],
+            ["E-11", "E-8"],
+            ["E-7", "E-9"],
+            ["E-7", "E-10"],
+            ["E-7", "E-8"],
+            ["E-12", "E-10"],
+            ["E-12", "E-8"],
+            ["E-9", "E-10"],
+            ["E-9", "E-8"]
+          ]
+        },
+        "retrieve-value-3": {
+          "rank": ["E-17", "E-13", "E-15", "E-18", "E-14", "E-16"],
+          "significance": [
+            ["E-17", "E-18"],
+            ["E-17", "E-14"],
+            ["E-17", "E-16"],
+            ["E-13", "E-18"],
+            ["E-13", "E-14"],
+            ["E-13", "E-16"],
+            ["E-15", "E-16"]
+          ]
+        },
+        "retrieve-value-4": {
+          "rank": ["E-23", "E-19", "E-21", "E-20", "E-22", "E-24"],
+          "significance": [
+            ["E-23", "E-20"],
+            ["E-23", "E-22"],
+            ["E-23", "E-24"],
+            ["E-19", "E-22"],
+            ["E-19", "E-24"],
+            ["E-21", "E-24"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

@@ -1,46 +1,40 @@
 {
   "Title": "Scatterplots: Tasks, Data, and Designs",
   "Category": "Theory",
-  "Covered Designs": {
-    "CT-1": {
+  "Designs": {
+    "T-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
     }
   },
-  "Other Designs": {},
   "Tasks": [
-    "recognize",
-    "locate",
-    "find-adjacency",
-    "compare-objects",
+    "sort",
+    "filter",
     "retrieve-value",
     "characterize-distribution",
     "find-anomalies",
     "correlate",
     "cluster",
-    "compute-derived-value",
-    "compare-derived-values"
+    "aggregate"
   ],
   "Results": {
     "Experimental": {},

@@ -1,352 +1,289 @@
 {
   "Title": "Graphical Perception: Theory, Experimentation, and Application to the Development of Graphical Methods",
   "Category": "Hybrid",
-  "Covered Designs": {
-    "CT-1": {
+  "Designs": {
+    "T-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX", "positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": ""
             }
           ],
-          "marks": ["point", "line"]
-        }
-      ],
-      "note": "Position along a common scale"
-    },
-    "CT-2": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX", "positionY"]
-            }
-          ],
-          "marks": ["point", "line"]
-        }
-      ],
-      "note": "Positions along non-aligned scales"
-    },
-    "CT-3": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
-            }
-          ],
-          "marks": ["area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-4": {
+    "T-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["orientation"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": ""
             }
           ],
-          "marks": ["line"]
+          "mark": ""
         }
       ]
     },
-    "CT-5": {
+    "T-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["angle"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": ""
             }
           ],
-          "marks": ["line"]
+          "mark": ""
         }
       ]
     },
-    "CT-6": {
+    "T-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": ""
             }
           ],
-          "marks": ["area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-7": {
+    "T-5": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["volume"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "angle",
+              "scale": ""
             }
           ],
-          "marks": ["area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-8": {
+    "T-6": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["density"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": ""
             }
           ],
-          "marks": ["point", "line"]
+          "mark": ""
         }
       ]
     },
-    "CT-9": {
+    "T-7": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": ""
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CE-1": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
             }
           ],
-          "marks": "point"
+          "mark": "area-rect"
         }
       ],
       "note": "Two bars are next to each other."
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
             }
           ],
-          "marks": "point"
+          "mark": "area-rect"
         }
       ],
       "note": "Two bars are both at the bottom of stacked bars."
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
             }
           ],
-          "marks": "point"
+          "mark": "area-rect"
         }
       ],
       "note": "Two bars are located in two groups."
     },
-    "CE-4": {
+    "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             }
           ],
-          "marks": "area-rect"
+          "mark": "area-rect"
         }
       ],
       "note": "Two bars are both at the top of stacked bars."
     },
-    "CE-5": {
+    "E-5": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             }
           ],
-          "marks": "area-rect"
+          "mark": "area-rect"
         }
       ],
       "note": "One bar is on the top of the other."
     },
-    "CE-6": {
+    "E-6": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "angle",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX", "positionY"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": "nominal"
             }
           ],
-          "marks": "area-other"
+          "mark": "area-arc-inner-0"
         }
       ]
     }
   },
-  "Other Designs": {},
-  "Tasks": ["estimate-difference"],
+  "Tasks": ["sort"],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "estimate-difference-1": {
-          "rank": ["CE-1", "CE-2", "CE-3", "CE-4", "CE-5"],
+        "sort-1": {
+          "rank": ["E-1", "E-2", "E-3", "E-4", "E-5"],
           "significance": [
-            ["CE-1", "CE-3"],
-            ["CE-1", "CE-4"],
-            ["CE-1", "CE-5"],
-            ["CE-2", "CE-4"],
-            ["CE-2", "CE-5"],
-            ["CE-3", "CE-4"],
-            ["CE-3", "CE-5"]
+            ["E-1", "E-3"],
+            ["E-1", "E-4"],
+            ["E-1", "E-5"],
+            ["E-2", "E-4"],
+            ["E-2", "E-5"],
+            ["E-3", "E-4"],
+            ["E-3", "E-5"]
           ]
         },
-        "estimate-difference-2": {
-          "rank": ["CE-1", "CE-6"],
-          "significance": [["CE-1", "CE-6"]]
+        "sort-2": {
+          "rank": ["E-1", "E-6"],
+          "significance": [["E-1", "E-6"]]
         }
       }
     },
     "Theoretical": {
       "effectiveness": {
-        "estimate-difference": {
-          "rank": [
-            "CT-1",
-            "CT-2",
-            ["CT-3", "CT-4", "CT-5"],
-            "CT-6",
-            "CT-7",
-            ["CT-8", "CT-9"]
-          ],
+        "overall": {
+          "rank": [["T-1", "T-2"], ["T-3", "T-4", "T-5"], "T-6", "T-7"],
           "significance": []
         }
       }

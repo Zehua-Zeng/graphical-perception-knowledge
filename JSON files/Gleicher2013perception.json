@@ -1,449 +1,470 @@
 {
   "Title": "Perception of Average Value in Multiclass Scatterplots",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
               },
-              "channels": ["color-hue"]
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-circle"
         }
-      ],
-      "note": "50 points per class, circle as mark"
+      ]
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
               },
-              "channels": ["color-hue"]
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-triangleUp"
         }
-      ],
-      "note": "50 points per class, triangle as mark"
+      ]
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 75
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 75
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
               },
-              "channels": ["color-hue"]
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-circle"
         }
-      ],
-      "note": "75 points per class, circle as mark"
+      ]
     },
-    "CE-4": {
+    "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 3
               },
-              "channels": ["color-hue"]
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-circle"
         }
-      ],
-      "note": "50 points per class, circle as mark, distractor points added"
+      ]
     },
-    "CE-5": {
+    "E-5": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
               },
-              "channels": ["color-hue", "shape"]
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
+              },
+              "data-trans": {},
+              "channel": "shape",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-circle-triangleUp"
         }
-      ],
-      "note": "50 points per class, shape as redundant cue"
+      ]
     },
-    "CE-6": {
+    "E-6": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
               },
-              "channels": ["color-hue", "shape"]
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-circle-triangleUp"
         }
-      ],
-      "note": "50 points per class, shape as conflicting cue"
+      ]
     },
-    "CE-7": {
+    "E-7": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
               },
-              "channels": ["color-hue", "orientation"]
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-triangleUp-triangleDown"
         }
-      ],
-      "note": "50 points per class, orientation as conflicting cue"
+      ]
     },
-    "CE-8": {
+    "E-8": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 3
               },
-              "channels": ["color-hue", "shape"]
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-circle-triangleUp"
         }
-      ],
-      "note": "50 points per class, shape as conflicting cue, distractor points added"
+      ]
     },
-    "CE-9": {
+    "E-9": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
               },
-              "channels": ["color-saturation"]
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-circle"
         }
-      ],
-      "note": "50 points per class, circle as mark"
+      ]
     },
-    "CE-10": {
+    "E-10": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
               },
-              "channels": ["shape"]
+              "data-trans": {},
+              "channel": "shape",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-circle-triangleUp"
         }
-      ],
-      "note": "50 points per class"
+      ]
     },
-    "CE-11": {
+    "E-11": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-1",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionX"]
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative-2",
+              "data-charcs": {
+                "cardinality": 50
               },
-              "channels": ["positionY"]
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "nominal",
+              "data-charcs": {
+                "cardinality": 2
               },
-              "channels": ["color-hue", "shape"]
+              "data-trans": {},
+              "channel": "shape",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point-circle-triangleUp"
         }
       ],
-      "note": "50 points per class, color as conflicting cue"
+      "note": "color as conflicting cue"
     }
   },
-  "Other Designs": {},
-  "Tasks": ["compare-derived-values"],
+  "Tasks": ["aggregate"],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "compare-derived-values-1": {
+        "aggregate-1": {
           "rank": [
-            [
-              "CE-1",
-              "CE-2",
-              "CE-3",
-              "CE-4",
-              "CE-5",
-              "CE-6",
-              "CE-7",
-              "CE-8",
-              "CE-9"
-            ],
-            ["CE-10", "CE-11"]
+            ["E-1", "E-2", "E-3", "E-4", "E-5", "E-6", "E-7", "E-8", "E-9"],
+            ["E-10", "E-11"]
           ],
           "significance": [
-            ["CE-1", "CE-10"],
-            ["CE-1", "CE-11"],
-            ["CE-2", "CE-10"],
-            ["CE-2", "CE-11"],
-            ["CE-3", "CE-10"],
-            ["CE-3", "CE-11"],
-            ["CE-4", "CE-10"],
-            ["CE-4", "CE-11"],
-            ["CE-5", "CE-10"],
-            ["CE-5", "CE-11"],
-            ["CE-6", "CE-10"],
-            ["CE-6", "CE-11"],
-            ["CE-7", "CE-10"],
-            ["CE-7", "CE-11"],
-            ["CE-8", "CE-10"],
-            ["CE-8", "CE-11"],
-            ["CE-9", "CE-10"],
-            ["CE-9", "CE-11"]
+            ["E-1", "E-10"],
+            ["E-1", "E-11"],
+            ["E-2", "E-10"],
+            ["E-2", "E-11"],
+            ["E-3", "E-10"],
+            ["E-3", "E-11"],
+            ["E-4", "E-10"],
+            ["E-4", "E-11"],
+            ["E-5", "E-10"],
+            ["E-5", "E-11"],
+            ["E-6", "E-10"],
+            ["E-6", "E-11"],
+            ["E-7", "E-10"],
+            ["E-7", "E-11"],
+            ["E-8", "E-10"],
+            ["E-8", "E-11"],
+            ["E-9", "E-10"],
+            ["E-9", "E-11"]
           ]
         },
-        "compare-derived-values-2": {
-          "rank": ["CE-1", "CE-8"],
-          "significance": [["CE-1", "CE-8"]]
+        "aggregate-2": {
+          "rank": ["E-1", "E-8"],
+          "significance": [["E-1", "E-8"]]
         },
-        "compare-derived-values-3": {
-          "rank": ["CE-6", "CE-1"],
+        "aggregate-3": {
+          "rank": ["E-6", "E-1"],
           "significance": []
         },
-        "compare-derived-values-4": {
-          "rank": ["CE-10", "CE-11"],
+        "aggregate-4": {
+          "rank": ["E-10", "E-11"],
           "significance": []
         },
-        "compare-derived-values-5": {
-          "rank": ["CE-3", "CE-1"],
+        "aggregate-5": {
+          "rank": ["E-3", "E-1"],
           "significance": []
         },
-        "compare-derived-values-6": {
-          "rank": ["CE-4", "CE-8"],
+        "aggregate-6": {
+          "rank": ["E-4", "E-8"],
           "significance": []
         },
-        "compare-derived-values-7": {
-          "rank": ["CE-1", "CE-4"],
+        "aggregate-7": {
+          "rank": ["E-1", "E-4"],
           "significance": []
         },
-        "compare-derived-values-8": {
-          "rank": ["CE-1", "CE-5"],
+        "aggregate-8": {
+          "rank": ["E-1", "E-5"],
           "significance": []
         }
       }

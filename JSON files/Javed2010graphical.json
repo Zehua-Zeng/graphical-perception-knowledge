@@ -1,5 +1,5 @@
 {
-  "Title": "Biased Average Position Estimates in Line and Bar Graphs: Underestimation, Overestimation, and Perceptual Pull",
+  "Title": "Graphical Perception of Multiple Time Series",
   "Category": "Experiment",
   "Designs": {
     "E-1": {
@@ -14,10 +14,17 @@
               "scale": "linear"
             },
             {
-              "data-type": "nominal",
+              "data-type": "ordinal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
               "scale": "nominal"
             }
           ],
@@ -33,18 +40,25 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "length",
+              "channel": "area",
               "scale": "linear"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             },
             {
               "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
+              "channel": "color-hue",
               "scale": "nominal"
             }
           ],
-          "mark": "area-rect"
+          "mark": "area-other"
         }
       ]
     },
@@ -56,37 +70,32 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionY",
+              "channel": "area",
               "scale": "linear"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             },
             {
               "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
+              "channel": "row",
               "scale": "nominal"
-            }
-          ],
-          "mark": "line"
-        },
-        {
-          "encodings": [
-            {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionY",
-              "scale": "linear"
             },
             {
               "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
+              "channel": "color-hue",
               "scale": "nominal"
             }
           ],
-          "mark": "line"
+          "mark": "area-other"
         }
       ]
     },
@@ -98,102 +107,90 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "length",
+              "channel": "area",
               "scale": "linear"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             },
             {
               "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
+              "channel": "row",
               "scale": "nominal"
-            }
-          ],
-          "mark": "area-rect"
-        },
-        {
-          "encodings": [
+            },
             {
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "length",
+              "channel": "color-saturation",
               "scale": "linear"
-            },
-            {
-              "data-type": "nominal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "nominal"
             }
           ],
-          "mark": "area-rect"
-        }
-      ]
-    },
-    "E-5": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionY",
-              "scale": "linear"
-            },
-            {
-              "data-type": "nominal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "nominal"
-            }
-          ],
-          "mark": "line"
-        },
-        {
-          "encodings": [
-            {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "length",
-              "scale": "linear"
-            },
-            {
-              "data-type": "nominal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "nominal"
-            }
-          ],
-          "mark": "area-rect"
+          "mark": "area-other"
         }
       ]
     }
   },
-  "Tasks": ["aggregate"],
+  "Tasks": ["find-extremum", "correlate", "aggregate"],
   "Results": {
     "Experimental": {
-      "bias-underestimate": {
+      "accuracy": {
+        "find-extremum": {
+          "rank": ["E-2", ["E-1", "E-3", "E-4"]],
+          "significance": []
+        },
+        "correlate": {
+          "rank": [
+            ["E-1", "E-2"],
+            ["E-3", "E-4"]
+          ],
+          "significance": []
+        },
         "aggregate": {
-          "rank": ["E-1"],
+          "rank": [["E-3", "E-4"], "E-2", "E-1"],
           "significance": []
         }
       },
-      "bias-overestimate": {
+      "time": {
+        "find-extremum": {
+          "rank": [["E-1", "E-2"], "E-3", "E-4"],
+          "significance": [
+            ["E-2", "E-3"],
+            ["E-1", "E-3"],
+            ["E-2", "E-4"],
+            ["E-1", "E-4"],
+            ["E-3", "E-4"]
+          ]
+        },
+        "correlate": {
+          "rank": [
+            ["E-1", "E-3"],
+            ["E-2", "E-4"]
+          ],
+          "significance": [
+            ["E-1", "E-2"],
+            ["E-1", "E-4"],
+            ["E-3", "E-2"],
+            ["E-3", "E-4"]
+          ]
+        },
         "aggregate": {
-          "rank": ["E-2"],
-          "significance": []
-        }
-      },
-      "bias-perceptual-pull": {
-        "aggregate": {
-          "rank": [["E-3", "E-4", "E-5"]],
-          "significance": []
+          "rank": [
+            ["E-3", "E-4"],
+            ["E-1", "E-2"]
+          ],
+          "significance": [
+            ["E-3", "E-1"],
+            ["E-3", "E-2"],
+            ["E-4", "E-1"],
+            ["E-4", "E-2"]
+          ]
         }
       }
     },

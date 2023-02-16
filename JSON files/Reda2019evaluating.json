@@ -1,120 +1,107 @@
 {
   "Title": "Evaluating Gradient Perception in Color-coded Scalar Fields",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-3",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue", "color-saturation"]
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "linear-cool-warm"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
-      ],
-      "note": "color pattern: cool-warm"
+      ]
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-3",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear-viridis"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
-      ],
-      "note": "color pattern: viridis"
+      ]
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-3",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "linear-rainbow"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
-      ],
-      "note": "color pattern: rainbow"
+      ]
     }
   },
-  "Other Designs": {},
-  "Tasks": ["compare-derived-values"],
+  "Tasks": ["aggregate"],
   "Results": {
     "Experimental": {
       "JND": {
-        "compare-derived-values": {
-          "rank": ["CE-1", "CE-3", "CE-2"],
+        "aggregate": {
+          "rank": ["E-1", "E-3", "E-2"],
           "significance": [
-            ["CE-1", "CE-2"],
-            ["CE-3", "CE-2"]
+            ["E-1", "E-2"],
+            ["E-3", "E-2"]
           ]
         }
       }

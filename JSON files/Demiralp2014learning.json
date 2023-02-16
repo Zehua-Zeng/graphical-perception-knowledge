@@ -1,112 +1,126 @@
 {
   "Title": "Learning Perceptual Kernels for Visualization Design",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["shape"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "shape",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-circle"]
+          "mark": "area-circle"
         }
       ]
     },
-    "CE-4": {
+    "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue", "shape"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "shape",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
     },
-    "CE-5": {
+    "E-5": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue", "area"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-circle"]
+          "mark": "area-circle"
         }
       ]
     },
-    "CE-6": {
+    "E-6": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area", "shape"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "shape",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-other"]
+          "mark": "area-other"
         }
       ]
     }
   },
-  "Other Designs": {},
-  "Tasks": ["judge-similarity"],
+  "Tasks": ["cluster"],
   "Results": {
     "Experimental": {},
     "Theoretical": {}

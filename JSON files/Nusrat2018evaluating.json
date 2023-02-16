@@ -1,219 +1,230 @@
 {
   "Title": "Evaluating Cartogram Effectiveness",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX", "positionY"]
+              "data-type": "ordinal-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "ordinal-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-other"]
+          "mark": "area-other"
         }
       ],
       "note": "contiguous cartogram"
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX", "positionY"]
+              "data-type": "ordinal-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "ordinal-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ],
       "note": "rectangular cartogram"
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX", "positionY"]
+              "data-type": "ordinal-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "ordinal-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-other"]
+          "mark": "area-other"
         }
       ],
       "note": "non-contiguous cartogram"
     },
-    "CE-4": {
+    "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX", "positionY"]
+              "data-type": "ordinal-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "ordinal-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-circle"]
+          "mark": "area-circle"
         }
       ],
       "note": "dorling cartogram"
     }
   },
-  "Other Designs": {},
-  "Tasks": [
-    "locate",
-    "recognize",
-    "compare-objects",
-    "sort",
-    "estimate-trend",
-    "find-adjacency",
-    "compute-derived-value"
-  ],
+  "Tasks": ["sort", "correlate", "filter", "aggregate"],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "locate": {
-          "rank": ["CE-1", "CE-3", "CE-4", "CE-2"],
+        "filter-1": {
+          "rank": ["E-1", "E-3", "E-4", "E-2"],
           "significance": [
-            ["CE-1", "CE-3"],
-            ["CE-1", "CE-4"],
-            ["CE-1", "CE-2"],
-            ["CE-3", "CE-4"],
-            ["CE-3", "CE-2"],
-            ["CE-4", "CE-2"]
+            ["E-1", "E-3"],
+            ["E-1", "E-4"],
+            ["E-1", "E-2"],
+            ["E-3", "E-4"],
+            ["E-3", "E-2"],
+            ["E-4", "E-2"]
           ]
         },
-        "recognize": {
-          "rank": ["CE-3", "CE-1"],
-          "significance": [["CE-3", "CE-1"]]
+        "filter-2": {
+          "rank": ["E-3", "E-1"],
+          "significance": [["E-3", "E-1"]]
         },
-        "compare-objects": {
-          "rank": [["CE-1", "CE-3", "CE-4"], "CE-2"],
+        "sort-1": {
+          "rank": [["E-1", "E-3", "E-4"], "E-2"],
           "significance": [
-            ["CE-1", "CE-2"],
-            ["CE-3", "CE-2"],
-            ["CE-4", "CE-2"]
+            ["E-1", "E-2"],
+            ["E-3", "E-2"],
+            ["E-4", "E-2"]
           ]
         },
-        "sort": {
-          "rank": ["CE-1", "CE-3", "CE-4", "CE-2"],
+        "sort-2": {
+          "rank": ["E-1", "E-3", "E-4", "E-2"],
           "significance": [
-            ["CE-1", "CE-3"],
-            ["CE-1", "CE-4"],
-            ["CE-1", "CE-2"],
-            ["CE-3", "CE-4"],
-            ["CE-3", "CE-2"],
-            ["CE-4", "CE-2"]
+            ["E-1", "E-3"],
+            ["E-1", "E-4"],
+            ["E-1", "E-2"],
+            ["E-3", "E-4"],
+            ["E-3", "E-2"],
+            ["E-4", "E-2"]
           ]
         },
-        "estimate-trend": {
-          "rank": ["CE-1", "CE-4", "CE-2"],
+        "correlate": {
+          "rank": ["E-1", "E-4", "E-2"],
           "significance": [
-            ["CE-1", "CE-4"],
-            ["CE-1", "CE-2"],
-            ["CE-4", "CE-2"]
+            ["E-1", "E-4"],
+            ["E-1", "E-2"],
+            ["E-4", "E-2"]
           ]
         },
-        "find-adjacency": {
-          "rank": ["CE-2", "CE-1", "CE-4", "CE-3"],
+        "filter-3": {
+          "rank": ["E-2", "E-1", "E-4", "E-3"],
           "significance": [
-            ["CE-1", "CE-3"],
-            ["CE-2", "CE-3"],
-            ["CE-2", "CE-4"],
-            ["CE-4", "CE-3"]
+            ["E-1", "E-3"],
+            ["E-2", "E-3"],
+            ["E-2", "E-4"],
+            ["E-4", "E-3"]
           ]
         },
-        "compute-derived-value": {
-          "rank": ["CE-4", "CE-3", "CE-1", "CE-2"],
+        "aggregate": {
+          "rank": ["E-4", "E-3", "E-1", "E-2"],
           "significance": [
-            ["CE-3", "CE-2"],
-            ["CE-4", "CE-2"]
+            ["E-3", "E-2"],
+            ["E-4", "E-2"]
           ]
         }
       },
       "time": {
-        "locate": {
-          "rank": ["CE-3", "CE-1", "CE-4", "CE-2"],
+        "filter-1": {
+          "rank": ["E-3", "E-1", "E-4", "E-2"],
           "significance": [
-            ["CE-3", "CE-2"],
-            ["CE-3", "CE-4"],
-            ["CE-1", "CE-2"]
+            ["E-3", "E-2"],
+            ["E-3", "E-4"],
+            ["E-1", "E-2"]
           ]
         },
-        "recognize": {
-          "rank": [["CE-1", "CE-3"]],
+        "filter-2": {
+          "rank": [["E-1", "E-3"]],
           "significance": []
         },
-        "compare-objects": {
-          "rank": [["CE-1", "CE-3", "CE-4"], "CE-2"],
+        "sort-1": {
+          "rank": [["E-1", "E-3", "E-4"], "E-2"],
           "significance": [
-            ["CE-1", "CE-2"],
-            ["CE-3", "CE-2"],
-            ["CE-4", "CE-2"]
+            ["E-1", "E-2"],
+            ["E-3", "E-2"],
+            ["E-4", "E-2"]
           ]
         },
-        "sort": {
-          "rank": [["CE-1", "CE-2", "CE-3", "CE-4"]],
+        "sort-2": {
+          "rank": [["E-1", "E-2", "E-3", "E-4"]],
           "significance": []
         },
-        "estimate-trend": {
-          "rank": [["CE-1", "CE-2", "CE-4"]],
+        "correlate": {
+          "rank": [["E-1", "E-2", "E-4"]],
           "significance": []
         },
-        "find-adjacency": {
-          "rank": [["CE-1", "CE-2", "CE-3", "CE-4"]],
+        "filter-3": {
+          "rank": [["E-1", "E-2", "E-3", "E-4"]],
           "significance": []
         },
-        "compute-derived-value": {
-          "rank": [["CE-1", "CE-2", "CE-3", "CE-4"]],
+        "aggregate": {
+          "rank": [["E-1", "E-2", "E-3", "E-4"]],
           "significance": []
         }
       }

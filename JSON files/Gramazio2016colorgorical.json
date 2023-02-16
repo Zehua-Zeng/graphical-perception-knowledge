@@ -1,5 +1,5 @@
 {
-  "Title": "Categorical Colormap Optimization with Visualization Case Studies",
+  "Title": "Colorgorical: Creating discriminable and preferable color palettes for information visualization",
   "Category": "Hybrid",
   "Designs": {
     "T-1": {
@@ -19,7 +19,7 @@
       ]
     }
   },
-  "Tasks": [],
+  "Tasks": ["aggregate"],
   "Results": {
     "Experimental": {},
     "Theoretical": {}

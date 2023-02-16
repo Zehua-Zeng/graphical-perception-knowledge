@@ -1,5 +1,5 @@
 {
-  "Title": "Judging correlation from scatterplots and parallel coordinate plots",
+  "Title": "Truth or Square: Aspect Ratio Biases Recall of Position Encodings",
   "Category": "Experiment",
   "Designs": {
     "E-1": {
@@ -10,20 +10,14 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "linear"
-            },
-            {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionY",
+              "channel": "length",
               "scale": "linear"
             }
           ],
-          "mark": "point"
+          "mark": "area-rect"
         }
-      ]
+      ],
+      "note": "wide aspect ratio"
     },
     "E-2": {
       "layers": [
@@ -33,35 +27,46 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionY",
+              "channel": "length",
               "scale": "linear"
-            },
-            {
-              "data-type": "nominal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "nominal"
             }
           ],
-          "mark": "line"
+          "mark": "area-rect"
         }
-      ]
+      ],
+      "note": "square aspect ratio"
+    },
+    "E-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "tall aspect ratio"
     }
   },
-  "Tasks": ["correlate"],
+  "Tasks": ["retrieve-value"],
   "Results": {
     "Experimental": {
-      "accuracy": {
-        "correlate": {
-          "rank": ["E-1", "E-2"],
-          "significance": [["E-1", "E-2"]]
+      "bias-underestimate": {
+        "retrieve-value": {
+          "rank": ["E-2", "E-1"],
+          "significance": [["E-2", "E-1"]]
         }
       },
-      "time": {
-        "correlate": {
-          "rank": ["E-1", "E-2"],
-          "significance": [["E-1", "E-2"]]
+      "bias-overestimate": {
+        "retrieve-value": {
+          "rank": ["E-3"],
+          "significance": []
         }
       }
     },

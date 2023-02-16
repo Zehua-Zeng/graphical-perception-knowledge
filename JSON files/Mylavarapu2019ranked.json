@@ -1,265 +1,283 @@
 {
   "Title": "Ranked-List Visualization: A Graphical Perception Study",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ],
       "note": "scrolled barchart"
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX", "positionY"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ],
       "note": "treemap"
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX", "positionY"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ],
       "note": "wrapped barchart"
     },
-    "CE-4": {
+    "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX", "positionY"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ],
       "note": "packed barchart"
     },
-    "CE-5": {
+    "E-5": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ],
       "note": "piled barchart"
     },
-    "CE-6": {
+    "E-6": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ],
       "note": "Zvinca plot"
     }
   },
-  "Other Designs": {},
-  "Tasks": ["sort", "estimate-difference", "compute-derived-value"],
+  "Tasks": ["sort", "aggregate"],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "sort": {
-          "rank": ["CE-3", ["CE-2", "CE-1"], ["CE-4", "CE-5", "CE-6"]],
+        "sort-1": {
+          "rank": ["E-3", ["E-2", "E-1"], ["E-4", "E-5", "E-6"]],
           "significance": [
-            ["CE-3", "CE-2"],
-            ["CE-3", "CE-1"],
-            ["CE-3", "CE-4"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-6"],
-            ["CE-2", "CE-4"],
-            ["CE-2", "CE-5"],
-            ["CE-2", "CE-6"],
-            ["CE-1", "CE-4"],
-            ["CE-1", "CE-5"],
-            ["CE-1", "CE-6"]
+            ["E-3", "E-2"],
+            ["E-3", "E-1"],
+            ["E-3", "E-4"],
+            ["E-3", "E-5"],
+            ["E-3", "E-6"],
+            ["E-2", "E-4"],
+            ["E-2", "E-5"],
+            ["E-2", "E-6"],
+            ["E-1", "E-4"],
+            ["E-1", "E-5"],
+            ["E-1", "E-6"]
           ]
         },
-        "estimate-difference": {
-          "rank": [["CE-3", "CE-1"], "CE-2", "CE-4", "CE-5", "CE-6"],
+        "sort-2": {
+          "rank": [["E-3", "E-1"], "E-2", "E-4", "E-5", "E-6"],
           "significance": [
-            ["CE-3", "CE-2"],
-            ["CE-3", "CE-4"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-6"],
-            ["CE-1", "CE-2"],
-            ["CE-1", "CE-4"],
-            ["CE-1", "CE-5"],
-            ["CE-1", "CE-6"],
-            ["CE-2", "CE-5"],
-            ["CE-2", "CE-6"],
-            ["CE-6", "CE-6"]
+            ["E-3", "E-2"],
+            ["E-3", "E-4"],
+            ["E-3", "E-5"],
+            ["E-3", "E-6"],
+            ["E-1", "E-2"],
+            ["E-1", "E-4"],
+            ["E-1", "E-5"],
+            ["E-1", "E-6"],
+            ["E-2", "E-5"],
+            ["E-2", "E-6"],
+            ["E-6", "E-6"]
           ]
         },
-        "compute-derived-value": {
-          "rank": [["CE-1", "CE-6"], "CE-3", "CE-5", "CE-2", "CE-4"],
+        "aggregate": {
+          "rank": [["E-1", "E-6"], "E-3", "E-5", "E-2", "E-4"],
           "significance": [
-            ["CE-1", "CE-3"],
-            ["CE-1", "CE-5"],
-            ["CE-1", "CE-2"],
-            ["CE-1", "CE-4"],
-            ["CE-6", "CE-3"],
-            ["CE-6", "CE-5"],
-            ["CE-6", "CE-2"],
-            ["CE-6", "CE-4"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-2"],
-            ["CE-3", "CE-4"],
-            ["CE-5", "CE-2"],
-            ["CE-5", "CE-4"],
-            ["CE-2", "CE-4"]
+            ["E-1", "E-3"],
+            ["E-1", "E-5"],
+            ["E-1", "E-2"],
+            ["E-1", "E-4"],
+            ["E-6", "E-3"],
+            ["E-6", "E-5"],
+            ["E-6", "E-2"],
+            ["E-6", "E-4"],
+            ["E-3", "E-5"],
+            ["E-3", "E-2"],
+            ["E-3", "E-4"],
+            ["E-5", "E-2"],
+            ["E-5", "E-4"],
+            ["E-2", "E-4"]
           ]
         }
       },
       "time": {
-        "sort": {
+        "sort-1": {
           "rank": [
-            ["CE-2", "CE-4", "CE-5", "CE-6"],
-            ["CE-3", "CE-1"]
+            ["E-2", "E-4", "E-5", "E-6"],
+            ["E-3", "E-1"]
           ],
           "significance": [
-            ["CE-2", "CE-3"],
-            ["CE-2", "CE-1"],
-            ["CE-4", "CE-3"],
-            ["CE-4", "CE-1"],
-            ["CE-5", "CE-3"],
-            ["CE-5", "CE-1"],
-            ["CE-6", "CE-3"],
-            ["CE-6", "CE-1"]
+            ["E-2", "E-3"],
+            ["E-2", "E-1"],
+            ["E-4", "E-3"],
+            ["E-4", "E-1"],
+            ["E-5", "E-3"],
+            ["E-5", "E-1"],
+            ["E-6", "E-3"],
+            ["E-6", "E-1"]
           ]
         },
-        "estimate-difference": {
-          "rank": ["CE-6", ["CE-5", "CE-4", "CE-3", "CE-2"], "CE-1"],
+        "sort-2": {
+          "rank": ["E-6", ["E-5", "E-4", "E-3", "E-2"], "E-1"],
           "significance": [
-            ["CE-6", "CE-5"],
-            ["CE-6", "CE-4"],
-            ["CE-6", "CE-3"],
-            ["CE-6", "CE-2"],
-            ["CE-6", "CE-1"],
-            ["CE-5", "CE-1"],
-            ["CE-4", "CE-1"],
-            ["CE-3", "CE-1"],
-            ["CE-2", "CE-1"],
-            ["CE-1", "CE-1"]
+            ["E-6", "E-5"],
+            ["E-6", "E-4"],
+            ["E-6", "E-3"],
+            ["E-6", "E-2"],
+            ["E-6", "E-1"],
+            ["E-5", "E-1"],
+            ["E-4", "E-1"],
+            ["E-3", "E-1"],
+            ["E-2", "E-1"],
+            ["E-1", "E-1"]
           ]
         },
-        "compute-derived-value": {
-          "rank": ["CE-6", ["CE-2", "CE-4"], ["CE-3", "CE-5"], "CE-1"],
+        "aggregate": {
+          "rank": ["E-6", ["E-2", "E-4"], ["E-3", "E-5"], "E-1"],
           "significance": [
-            ["CE-6", "CE-3"],
-            ["CE-6", "CE-5"],
-            ["CE-6", "CE-1"],
-            ["CE-2", "CE-3"],
-            ["CE-2", "CE-1"],
-            ["CE-4", "CE-3"],
-            ["CE-4", "CE-1"],
-            ["CE-3", "CE-1"],
-            ["CE-5", "CE-1"]
+            ["E-6", "E-3"],
+            ["E-6", "E-5"],
+            ["E-6", "E-1"],
+            ["E-2", "E-3"],
+            ["E-2", "E-1"],
+            ["E-4", "E-3"],
+            ["E-4", "E-1"],
+            ["E-3", "E-1"],
+            ["E-5", "E-1"]
           ]
         }
       }

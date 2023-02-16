@@ -1,162 +1,151 @@
 {
   "Title": "The Impact of Distribution and Chart Type on Part-to-Whole Comparisons",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "angle",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-other"]
+          "mark": "area-arc"
         }
       ],
       "note": "pie chart"
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-other"]
+          "mark": "area-other"
         }
       ],
       "note": "circular slices"
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-other"]
+          "mark": "area-other"
         }
       ],
       "note": "straight line circular"
     },
-    "CE-4": {
+    "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ]
     },
-    "CE-5": {
+    "E-5": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ]
     }
   },
-  "Other Designs": {},
-  "Tasks": ["estimate-difference"],
+  "Tasks": ["sort"],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "estimate-difference": {
-          "rank": [["CE-4", "CE-3", "CE-2"], "CE-1", "CE-5"],
+        "sort": {
+          "rank": [["E-4", "E-3", "E-2"], "E-1", "E-5"],
           "significance": [
-            ["CE-2", "CE-1"],
-            ["CE-1", "CE-5"]
+            ["E-2", "E-1"],
+            ["E-1", "E-5"]
           ]
         }
       },
       "time": {
-        "estimate-difference": {
+        "sort": {
           "rank": [
-            ["CE-2", "CE-3"],
-            ["CE-4", "CE-5", "CE-1"]
+            ["E-2", "E-3"],
+            ["E-4", "E-5", "E-1"]
           ],
           "significance": [
-            ["CE-2", "CE-4"],
-            ["CE-2", "CE-5"],
-            ["CE-2", "CE-1"],
-            ["CE-3", "CE-4"],
-            ["CE-3", "CE-5"],
-            ["CE-3", "CE-1"]
+            ["E-2", "E-4"],
+            ["E-2", "E-5"],
+            ["E-2", "E-1"],
+            ["E-3", "E-4"],
+            ["E-3", "E-5"],
+            ["E-3", "E-1"]
           ]
         }
       }

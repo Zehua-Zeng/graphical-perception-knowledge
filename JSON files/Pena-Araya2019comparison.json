@@ -1,0 +1,176 @@
+{
+  "Title": "A Comparison of Visualizations for Identifying Correlation Over Time and Space",
+  "Category": "Experiment",
+  "Designs": {
+    "E-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "row",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "column",
+              "scale": "ordinal"
+            }
+          ],
+          "mark": "area-circle"
+        }
+      ],
+      "note": "cartogram"
+    },
+    "E-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "row",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "column",
+              "scale": "ordinal"
+            }
+          ],
+          "mark": "area-circle"
+        }
+      ],
+      "note": "proportional symbol map"
+    },
+    "E-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "column",
+              "scale": "ordinal"
+            }
+          ],
+          "mark": "area-rect"
+        }
+      ],
+      "note": "single map bar chart"
+    }
+  },
+  "Tasks": ["correlate"],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "correlate": {
+          "rank": ["E-2", "E-1", "E-3"],
+          "significance": []
+        }
+      },
+      "time": {
+        "correlate": {
+          "rank": ["E-2", "E-1", "E-3"],
+          "significance": [
+            ["E-2", "E-3"],
+            ["E-1", "E-3"]
+          ]
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

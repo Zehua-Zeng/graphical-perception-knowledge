@@ -1,106 +1,145 @@
 {
   "Title": "A Multi-task Comparative Study on Scatter Plots and Parallel Coordinates Plots",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
             },
             {
-              "attribute-type": "quantitative-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["shape"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "shape",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
+        }
+      ]
+    },
+    "E-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "text"
+        }
+      ]
+    },
+    "E-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "line"
         }
       ]
     }
   },
-  "Other Designs": {
-    "OE-1": "table",
-    "OE-2": "parallel coordinates"
-  },
-  "Tasks": ["retrieve-value", "cluster", "find-anomalies", "estimate-trend"],
+  "Tasks": ["retrieve-value", "cluster", "find-anomalies", "correlate"],
   "Results": {
     "Experimental": {
       "accuracy": {
         "retrieve-value": {
-          "rank": [["CE-1", "OE-1", "OE-2"]],
+          "rank": [["E-1", "E-2", "E-3"]],
           "significance": []
         },
         "cluster": {
-          "rank": ["OE-2", "CE-1", "OE-1"],
+          "rank": ["E-3", "E-1", "E-2"],
           "significance": [
-            ["OE-2", "CE-1"],
-            ["OE-2", "OE-1"],
-            ["CE-1", "OE-1"]
+            ["E-3", "E-1"],
+            ["E-3", "E-2"],
+            ["E-1", "E-2"]
           ]
         },
         "find-anomalies": {
-          "rank": ["OE-2", "CE-1", "OE-1"],
+          "rank": ["E-3", "E-1", "E-2"],
           "significance": [
-            ["OE-2", "CE-1"],
-            ["OE-2", "OE-1"],
-            ["CE-1", "OE-1"]
+            ["E-3", "E-1"],
+            ["E-3", "E-2"],
+            ["E-1", "E-2"]
           ]
         },
-        "estimate-trend": {
-          "rank": ["OE-2", ["CE-1", "OE-1"]],
+        "correlate": {
+          "rank": ["E-3", ["E-1", "E-2"]],
           "significance": [
-            ["OE-2", "CE-1"],
-            ["OE-2", "OE-1"]
+            ["E-3", "E-1"],
+            ["E-3", "E-2"]
           ]
         }
       },
       "time": {
         "retrieve value": {
-          "rank": ["OE-1", "OE-2", "CE-1"],
+          "rank": ["E-2", "E-3", "E-1"],
           "significance": [
-            ["OE-1", "OE-2"],
-            ["OE-1", "CE-1"],
-            ["OE-2", "CE-1"]
+            ["E-2", "E-3"],
+            ["E-2", "E-1"],
+            ["E-3", "E-1"]
           ]
         },
         "cluster": {
-          "rank": [["CE-1", "OE-2"], "OE-1"],
+          "rank": [["E-1", "E-3"], "E-2"],
           "significance": [
-            ["CE-1", "OE-1"],
-            ["OE-2", "OE-1"]
+            ["E-1", "E-2"],
+            ["E-3", "E-2"]
           ]
         },
         "find-anomalies": {
-          "rank": [["OE-2", "CE-1"], "OE-1"],
+          "rank": [["E-3", "E-1"], "E-2"],
           "significance": [
-            ["CE-1", "OE-1"],
-            ["OE-2", "OE-1"]
+            ["E-1", "E-2"],
+            ["E-3", "E-2"]
           ]
         },
-        "estimate-trend": {
-          "rank": ["OE-2", "CE-1", "OE-1"],
+        "correlate": {
+          "rank": ["E-3", "E-1", "E-2"],
           "significance": [
-            ["OE-2", "CE-1"],
-            ["OE-2", "OE-1"],
-            ["CE-1", "OE-1"]
+            ["E-3", "E-1"],
+            ["E-3", "E-2"],
+            ["E-1", "E-2"]
           ]
         }
       }

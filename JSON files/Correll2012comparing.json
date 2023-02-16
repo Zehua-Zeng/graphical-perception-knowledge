@@ -1,124 +1,61 @@
 {
   "Title": "Comparing Averages in Time Series Data",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": "positionY"
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line"]
+          "mark": "line"
         }
       ]
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line"]
-        }
-      ],
-      "note": "1D Permuted Line Graph: the quantitative data for each ordinal field are permuted in the line graph"
-    },
-    "CE-3": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
-            },
-            {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
-            }
-          ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
-    },
-    "CE-4": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
-            },
-            {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
-            }
-          ],
-          "marks": ["point"]
-        }
-      ],
-      "note": "2D Permuted Colorfield"
     }
   },
-  "Other Designs": {},
-  "Tasks": ["compare-derived-values"],
+  "Tasks": ["aggregate"],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "compare-derived-values": {
-          "rank": ["CE-4", "CE-3", ["CE-1", "CE-2"]],
-          "significance": [
-            ["CE-4", "CE-3"],
-            ["CE-4", "CE-1"],
-            ["CE-4", "CE-2"],
-            ["CE-3", "CE-1"],
-            ["CE-3", "CE-2"]
-          ]
+        "aggregate": {
+          "rank": ["E-2", "E-1"],
+          "significance": [["E-2", "E-1"]]
         }
       }
     },

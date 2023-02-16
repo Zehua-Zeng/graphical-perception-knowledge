@@ -1,286 +1,203 @@
 {
   "Title": "How Ordered Is It? On the Perceptual Orderability of Visual Channels",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-circle"]
+          "mark": "area-circle"
         }
       ]
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
     },
-    "CE-4": {
+    "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["texture"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "texture",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
     },
-    "CE-5": {
+    "E-5": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["orientation"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line"]
+          "mark": "line"
         }
       ]
     },
-    "CE-6": {
+    "E-6": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["shape"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "shape",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
     }
   },
-  "Other Designs": {
-    "OE-1": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["numeric"]
-            },
-            {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
-            }
-          ],
-          "marks": ["point"]
-        }
-      ]
-    }
-  },
-  "Tasks": ["estimate-trend", "find-extremum"],
+  "Tasks": ["correlate", "find-extremum"],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "estimate-trend": {
-          "rank": ["CE-1", "CE-4", "CE-6", "CE-2", "CE-5", "CE-3", "OE-1"],
-          "significance": {
-            "pairs": [
-              ["CE-1", "CE-2"],
-              ["CE-1", "CE-3"],
-              ["CE-1", "CE-5"],
-              ["CE-1", "OE-1"],
-              ["CE-4", "CE-2"],
-              ["CE-4", "CE-3"],
-              ["CE-4", "CE-5"],
-              ["CE-4", "OE-1"],
-              ["CE-6", "CE-3"],
-              ["CE-6", "OE-1"],
-              ["CE-2", "OE-1"],
-              ["CE-5", "OE-1"]
-            ],
-            "significance-method": "Friedman test",
-            "significance-threshold": 0.05,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "correlate": {
+          "rank": ["E-1", "E-4", "E-6", "E-2", "E-5", "E-3"],
+          "significance": [
+            ["E-1", "E-2"],
+            ["E-1", "E-3"],
+            ["E-1", "E-5"],
+            ["E-4", "E-2"],
+            ["E-4", "E-3"],
+            ["E-4", "E-5"],
+            ["E-6", "E-3"]
+          ]
         },
         "find-extremum": {
-          "rank": ["OE-1", "CE-2", "CE-6", "CE-4", "CE-1", "CE-5", "CE-3"],
-          "significance": {
-            "pairs": [
-              ["OE-1", "CE-6"],
-              ["OE-1", "CE-4"],
-              ["OE-1", "CE-1"],
-              ["OE-1", "CE-5"],
-              ["OE-1", "CE-3"],
-              ["CE-2", "CE-6"],
-              ["CE-2", "CE-4"],
-              ["CE-2", "CE-1"],
-              ["CE-2", "CE-5"],
-              ["CE-2", "CE-3"],
-              ["CE-6", "CE-5"],
-              ["CE-6", "CE-3"],
-              ["CE-4", "CE-5"],
-              ["CE-4", "CE-3"],
-              ["CE-1", "CE-5"],
-              ["CE-1", "CE-3"]
-            ],
-            "significance-method": "Friedman test",
-            "significance-threshold": 0.05,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+          "rank": ["E-2", "E-6", "E-4", "E-1", "E-5", "E-3"],
+          "significance": [
+            ["E-2", "E-6"],
+            ["E-2", "E-4"],
+            ["E-2", "E-1"],
+            ["E-2", "E-5"],
+            ["E-2", "E-3"],
+            ["E-6", "E-5"],
+            ["E-6", "E-3"],
+            ["E-4", "E-5"],
+            ["E-4", "E-3"],
+            ["E-1", "E-5"],
+            ["E-1", "E-3"]
+          ]
         }
       },
       "time": {
-        "estimate-trend": {
-          "rank": ["CE-2", "CE-5", "CE-1", "CE-4", "CE-3", "CE-6", "OE-1"],
-          "significance": {
-            "pairs": [
-              ["CE-2", "CE-4"],
-              ["CE-2", "CE-3"],
-              ["CE-2", "CE-6"],
-              ["CE-2", "OE-1"],
-              ["CE-5", "CE-4"],
-              ["CE-5", "CE-6"],
-              ["CE-5", "OE-1"],
-              ["CE-1", "CE-4"],
-              ["CE-1", "CE-6"],
-              ["CE-1", "OE-1"],
-              ["CE-4", "CE-6"],
-              ["CE-4", "OE-1"],
-              ["CE-3", "CE-6"],
-              ["CE-3", "OE-1"]
-            ],
-            "significance-method": "Friedman test",
-            "significance-threshold": 0.05,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "correlate": {
+          "rank": ["E-2", "E-5", "E-1", "E-4", "E-3", "E-6"],
+          "significance": [
+            ["E-2", "E-4"],
+            ["E-2", "E-3"],
+            ["E-2", "E-6"],
+            ["E-5", "E-4"],
+            ["E-5", "E-6"],
+            ["E-1", "E-4"],
+            ["E-1", "E-6"],
+            ["E-4", "E-6"],
+            ["E-3", "E-6"]
+          ]
         },
         "find-extremum": {
-          "rank": ["CE-1", "CE-5", "CE-4", "CE-3", "CE-2", "CE-6", "OE-1"],
-          "significance": {
-            "pairs": [
-              ["CE-1", "CE-6"],
-              ["CE-1", "OE-1"],
-              ["CE-5", "CE-6"],
-              ["CE-5", "OE-1"],
-              ["CE-4", "CE-6"],
-              ["CE-4", "OE-1"],
-              ["CE-3", "CE-6"],
-              ["CE-3", "OE-1"],
-              ["CE-2", "CE-6"],
-              ["CE-2", "OE-1"]
-            ],
-            "significance-method": "Friedman test",
-            "significance-threshold": 0.05,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+          "rank": ["E-1", "E-5", "E-4", "E-3", "E-2", "E-6"],
+          "significance": [
+            ["E-1", "E-6"],
+            ["E-5", "E-6"],
+            ["E-4", "E-6"],
+            ["E-3", "E-6"],
+            ["E-2", "E-6"]
+          ]
         }
       }
     },

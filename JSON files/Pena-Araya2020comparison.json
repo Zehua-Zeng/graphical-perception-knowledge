@@ -1,0 +1,151 @@
+{
+  "Title": "A Comparison of Geographical Propagation Visualizations",
+  "Category": "Experiment",
+  "Designs": {
+    "E-1": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "row",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "column",
+              "scale": "ordinal"
+            }
+          ],
+          "mark": "area-other"
+        }
+      ],
+      "note": "small multiple maps"
+    },
+    "E-2": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "column",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "row",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-3",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
+            },
+            {
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "ordinal"
+            }
+          ],
+          "mark": "area-circle"
+        }
+      ],
+      "note": "proportional symbol map"
+    }
+  },
+  "Tasks": [
+    "determine-range",
+    "characterize-distribution",
+    "cluster",
+    "find-extremum"
+  ],
+  "Results": {
+    "Experimental": {
+      "accuracy": {
+        "determine-range-1": {
+          "rank": ["E-2", "E-1"],
+          "significance": []
+        },
+        "characterize-distribution": {
+          "rank": ["E-2", "E-1"],
+          "significance": []
+        },
+        "determine-range-2": {
+          "rank": ["E-1", "E-2"],
+          "significance": []
+        },
+        "cluster": {
+          "rank": ["E-1", "E-2"],
+          "significance": []
+        },
+        "find-extremum": {
+          "rank": ["E-1", "E-2"],
+          "significance": [["E-1", "E-2"]]
+        }
+      },
+      "time": {
+        "determine-range-1": {
+          "rank": ["E-2", "E-1"],
+          "significance": []
+        },
+        "characterize-distribution": {
+          "rank": ["E-1", "E-2"],
+          "significance": [["E-1", "E-2"]]
+        },
+        "determine-range-2": {
+          "rank": ["E-2", "E-1"],
+          "significance": [["E-2", "E-1"]]
+        },
+        "cluster": {
+          "rank": ["E-1", "E-2"],
+          "significance": [["E-1", "E-2"]]
+        },
+        "find-extremum": {
+          "rank": ["E-1", "E-2"],
+          "significance": []
+        }
+      }
+    },
+    "Theoretical": {}
+  }
+}

@@ -1,552 +1,412 @@
 {
   "Title": "Task-driven Evaluation of Aggregation in Time Series Visualization",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line"]
+          "mark": "line"
         }
       ]
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line"]
+          "mark": "line"
         },
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "max",
-                "aggregation-window": "month"
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {
+                "aggregate": "max"
               },
-              "channels": ["positionY"]
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         },
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "min",
-                "aggregation-window": "month"
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {
+                "aggregate": "min"
               },
-              "channels": ["positionY"]
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         },
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "moving-mean",
-                "aggregation-window": "30-days"
+              "data-type": "quantitative",
+              "data-trans": {
+                "aggregate": "moving-mean"
               },
-              "channels": ["positionY"]
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line"]
+          "mark": "line"
         }
       ]
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["box-plot"]
+          "mark": "box-plot"
         }
       ]
     },
-    "CE-4": {
+    "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line"]
+          "mark": "line"
         },
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "mean",
-                "aggregation-window": "month"
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {
+                "aggregate": "mean"
               },
-              "channels": ["length"]
+              "channel": "length",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ]
     },
-    "CE-5": {
+    "E-5": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ]
     },
-    "CE-6": {
+    "E-6": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "max",
-                "aggregation-window": "month"
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {
+                "aggregate": "max"
               },
-              "channels": ["color-saturation"]
+              "channel": "color-saturation",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         },
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "mean",
-                "aggregation-window": "month"
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {
+                "aggregate": "mean"
               },
-              "channels": ["color-saturation"]
+              "channel": "color-saturation",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         },
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "min",
-                "aggregation-window": "month"
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {
+                "aggregate": "min"
               },
-              "channels": ["color-saturation"]
+              "channel": "color-saturation",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ]
     },
-    "CE-7": {
+    "E-7": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {
+                "aggregate": "moving-mean"
               },
-              "channels": ["color-saturation"]
+              "channel": "color-saturation",
+              "scale": "linear"
             },
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
-      ],
-      "note": "The points (color pixels) are randomly permuted within each of the ordinal attribute-type, creating discrete 'blocks' of values."
-    },
-    "CE-8": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
-            },
-            {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
-            }
-          ],
-          "marks": ["point"]
-        }
-      ],
-      "note": "Smoothed data plotted as a color field with outliers overlaid as vertical color bands."
+      ]
     }
   },
-  "Other Designs": {},
   "Tasks": [
-    "find-maximum",
-    "find-minimum",
+    "find-extremum",
     "determine-range",
-    "compare-derived-values",
+    "aggregate",
     "characterize-distribution",
     "find-anomalies"
   ],
   "Results": {
     "Experimental": {
       "accuracy": {
-        "find-maximum": {
-          "rank": [
-            "CE-4",
-            "CE-2",
-            "CE-1",
-            "CE-3",
-            "CE-6",
-            "CE-8",
-            "CE-5",
-            "CE-7"
-          ],
-          "significance": {
-            "pairs": [
-              ["CE-4", "CE-3"],
-              ["CE-2", "CE-3"],
-              ["CE-1", "CE-3"],
-              ["CE-4", "CE-6"],
-              ["CE-2", "CE-6"],
-              ["CE-1", "CE-6"],
-              ["CE-4", "CE-8"],
-              ["CE-2", "CE-8"],
-              ["CE-1", "CE-8"],
-              ["CE-4", "CE-5"],
-              ["CE-2", "CE-5"],
-              ["CE-1", "CE-5"],
-              ["CE-4", "CE-7"],
-              ["CE-2", "CE-7"],
-              ["CE-1", "CE-7"],
-              ["CE-3", "CE-8"],
-              ["CE-3", "CE-5"],
-              ["CE-3", "CE-7"],
-              ["CE-6", "CE-8"],
-              ["CE-6", "CE-5"],
-              ["CE-6", "CE-7"]
-            ],
-            "significance-method": "ANCOVA",
-            "significance-threshold": 0.0001,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "find-extremum-1": {
+          "rank": ["E-4", "E-2", "E-1", "E-3", "E-6", "E-7", "E-5"],
+          "significance": [
+            ["E-4", "E-3"],
+            ["E-2", "E-3"],
+            ["E-1", "E-3"],
+            ["E-4", "E-6"],
+            ["E-2", "E-6"],
+            ["E-1", "E-6"],
+            ["E-4", "E-7"],
+            ["E-2", "E-7"],
+            ["E-1", "E-7"],
+            ["E-4", "E-5"],
+            ["E-2", "E-5"],
+            ["E-1", "E-5"],
+            ["E-3", "E-7"],
+            ["E-3", "E-5"],
+            ["E-6", "E-7"],
+            ["E-6", "E-5"]
+          ]
         },
-        "find-minimum": {
-          "rank": [
-            "CE-2",
-            "CE-3",
-            "CE-4",
-            "CE-1",
-            "CE-6",
-            "CE-8",
-            "CE-5",
-            "CE-7"
-          ],
-          "significance": {
-            "pairs": [
-              ["CE-2", "CE-1"],
-              ["CE-3", "CE-1"],
-              ["CE-4", "CE-1"],
-              ["CE-2", "CE-6"],
-              ["CE-3", "CE-6"],
-              ["CE-4", "CE-6"],
-              ["CE-2", "CE-8"],
-              ["CE-3", "CE-8"],
-              ["CE-4", "CE-8"],
-              ["CE-2", "CE-5"],
-              ["CE-3", "CE-5"],
-              ["CE-4", "CE-5"],
-              ["CE-2", "CE-7"],
-              ["CE-3", "CE-7"],
-              ["CE-4", "CE-7"],
-              ["CE-1", "CE-8"],
-              ["CE-1", "CE-5"],
-              ["CE-1", "CE-7"],
-              ["CE-6", "CE-8"],
-              ["CE-6", "CE-5"],
-              ["CE-6", "CE-7"]
-            ],
-            "significance-method": "ANCOVA",
-            "significance-threshold": 0.0001,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "find-extremum-2": {
+          "rank": ["E-2", "E-3", "E-4", "E-1", "E-6", "E-7", "E-5"],
+          "significance": [
+            ["E-2", "E-1"],
+            ["E-3", "E-1"],
+            ["E-4", "E-1"],
+            ["E-2", "E-6"],
+            ["E-3", "E-6"],
+            ["E-4", "E-6"],
+            ["E-2", "E-7"],
+            ["E-3", "E-7"],
+            ["E-4", "E-7"],
+            ["E-2", "E-5"],
+            ["E-3", "E-5"],
+            ["E-4", "E-5"],
+            ["E-1", "E-7"],
+            ["E-1", "E-5"],
+            ["E-6", "E-7"],
+            ["E-6", "E-5"]
+          ]
         },
         "determine-range": {
-          "rank": [
-            "CE-2",
-            "CE-3",
-            "CE-4",
-            "CE-1",
-            "CE-6",
-            "CE-5",
-            "CE-8",
-            "CE-7"
-          ],
-          "significance": {
-            "pairs": [
-              ["CE-2", "CE-4"],
-              ["CE-2", "CE-1"],
-              ["CE-2", "CE-6"],
-              ["CE-2", "CE-5"],
-              ["CE-2", "CE-8"],
-              ["CE-2", "CE-7"],
-              ["CE-3", "CE-4"],
-              ["CE-3", "CE-1"],
-              ["CE-3", "CE-6"],
-              ["CE-3", "CE-5"],
-              ["CE-3", "CE-8"],
-              ["CE-3", "CE-7"],
-              ["CE-4", "CE-6"],
-              ["CE-4", "CE-5"],
-              ["CE-4", "CE-8"],
-              ["CE-4", "CE-7"],
-              ["CE-1", "CE-6"],
-              ["CE-1", "CE-5"],
-              ["CE-1", "CE-8"],
-              ["CE-1", "CE-7"],
-              ["CE-6", "CE-5"],
-              ["CE-6", "CE-8"],
-              ["CE-6", "CE-7"]
-            ],
-            "significance-method": "ANCOVA",
-            "significance-threshold": 0.0001,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+          "rank": ["E-2", "E-3", "E-4", "E-1", "E-6", "E-5", "E-7"],
+          "significance": [
+            ["E-2", "E-4"],
+            ["E-2", "E-1"],
+            ["E-2", "E-6"],
+            ["E-2", "E-5"],
+            ["E-2", "E-7"],
+            ["E-3", "E-4"],
+            ["E-3", "E-1"],
+            ["E-3", "E-6"],
+            ["E-3", "E-5"],
+            ["E-3", "E-7"],
+            ["E-4", "E-6"],
+            ["E-4", "E-5"],
+            ["E-4", "E-7"],
+            ["E-1", "E-6"],
+            ["E-1", "E-5"],
+            ["E-1", "E-7"],
+            ["E-6", "E-5"],
+            ["E-6", "E-7"]
+          ]
         },
-        "compare-derived-values": {
-          "rank": [
-            "CE-4",
-            "CE-7",
-            "CE-6",
-            "CE-3",
-            "CE-5",
-            "CE-2",
-            "CE-8",
-            "CE-1"
-          ],
-          "significance": {
-            "pairs": [
-              ["CE-4", "CE-7"],
-              ["CE-4", "CE-6"],
-              ["CE-4", "CE-3"],
-              ["CE-4", "CE-5"],
-              ["CE-4", "CE-2"],
-              ["CE-4", "CE-8"],
-              ["CE-4", "CE-1"],
-              ["CE-7", "CE-5"],
-              ["CE-7", "CE-2"],
-              ["CE-7", "CE-8"],
-              ["CE-7", "CE-1"],
-              ["CE-6", "CE-5"],
-              ["CE-6", "CE-2"],
-              ["CE-6", "CE-8"],
-              ["CE-6", "CE-1"],
-              ["CE-3", "CE-5"],
-              ["CE-3", "CE-2"],
-              ["CE-3", "CE-8"],
-              ["CE-3", "CE-1"]
-            ],
-            "significance-method": "ANCOVA",
-            "significance-threshold": 0.0001,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+        "aggregate": {
+          "rank": ["E-4", "E-6", "E-3", "E-5", "E-2", "E-7", "E-1"],
+          "significance": [
+            ["E-4", "E-6"],
+            ["E-4", "E-3"],
+            ["E-4", "E-5"],
+            ["E-4", "E-2"],
+            ["E-4", "E-7"],
+            ["E-4", "E-1"],
+            ["E-6", "E-5"],
+            ["E-6", "E-2"],
+            ["E-6", "E-7"],
+            ["E-6", "E-1"],
+            ["E-3", "E-5"],
+            ["E-3", "E-2"],
+            ["E-3", "E-7"],
+            ["E-3", "E-1"]
+          ]
         },
         "characterize-distribution": {
-          "rank": ["CE-3", "CE-7", "CE-5", "CE-4", "CE-1", "CE-8", "CE-2"],
-          "significance": {
-            "pairs": [
-              ["CE-3", "CE-7"],
-              ["CE-3", "CE-5"],
-              ["CE-3", "CE-4"],
-              ["CE-3", "CE-1"],
-              ["CE-3", "CE-8"],
-              ["CE-3", "CE-2"],
-              ["CE-7", "CE-8"],
-              ["CE-7", "CE-2"],
-              ["CE-5", "CE-8"],
-              ["CE-5", "CE-2"]
-            ],
-            "significance-method": "ANCOVA",
-            "significance-threshold": 0.0001,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+          "rank": ["E-3", "E-5", "E-4", "E-1", "E-7", "E-2"],
+          "significance": [
+            ["E-3", "E-5"],
+            ["E-3", "E-4"],
+            ["E-3", "E-1"],
+            ["E-3", "E-7"],
+            ["E-3", "E-2"],
+            ["E-5", "E-7"],
+            ["E-5", "E-2"]
+          ]
         },
         "find-anomalies": {
-          "rank": ["CE-8", "CE-1", "CE-2", "CE-4", "CE-5", "CE-7"],
-          "significance": {
-            "pairs": [
-              ["CE-8", "CE-1"],
-              ["CE-8", "CE-2"],
-              ["CE-8", "CE-4"],
-              ["CE-8", "CE-5"],
-              ["CE-8", "CE-7"],
-              ["CE-1", "CE-7"],
-              ["CE-2", "CE-7"],
-              ["CE-4", "CE-7"],
-              ["CE-5", "CE-7"]
-            ],
-            "significance-method": "ANCOVA",
-            "significance-threshold": 0.0001,
-            "effect-size-method": "none",
-            "effect-size-threshold": null
-          }
+          "rank": ["E-7", "E-1", "E-2", "E-4", "E-5"],
+          "significance": [
+            ["E-7", "E-1"],
+            ["E-7", "E-2"],
+            ["E-7", "E-4"],
+            ["E-7", "E-5"]
+          ]
         }
       }
     },

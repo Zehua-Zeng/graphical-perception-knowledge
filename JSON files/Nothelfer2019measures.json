@@ -1,5 +1,5 @@
 {
-  "Title": "Biased Average Position Estimates in Line and Bar Graphs: Underestimation, Overestimation, and Perceptual Pull",
+  "Title": "Measures of the benefit of direct encoding of data deltas for data pair relation perception",
   "Category": "Experiment",
   "Designs": {
     "E-1": {
@@ -7,7 +7,7 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
@@ -21,7 +21,7 @@
               "scale": "nominal"
             }
           ],
-          "mark": "line"
+          "mark": "point"
         }
       ]
     },
@@ -30,7 +30,31 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative",
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
+            }
+          ],
+          "mark": "point"
+        }
+      ],
+      "note": "delta chart"
+    },
+    "E-3": {
+      "layers": [
+        {
+          "encodings": [
+            {
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "length",
@@ -45,48 +69,6 @@
             }
           ],
           "mark": "area-rect"
-        }
-      ]
-    },
-    "E-3": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionY",
-              "scale": "linear"
-            },
-            {
-              "data-type": "nominal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "nominal"
-            }
-          ],
-          "mark": "line"
-        },
-        {
-          "encodings": [
-            {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionY",
-              "scale": "linear"
-            },
-            {
-              "data-type": "nominal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "nominal"
-            }
-          ],
-          "mark": "line"
         }
       ]
     },
@@ -95,26 +77,7 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "length",
-              "scale": "linear"
-            },
-            {
-              "data-type": "nominal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "nominal"
-            }
-          ],
-          "mark": "area-rect"
-        },
-        {
-          "encodings": [
-            {
-              "data-type": "quantitative",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "length",
@@ -130,17 +93,18 @@
           ],
           "mark": "area-rect"
         }
-      ]
+      ],
+      "note": "delta chart"
     },
     "E-5": {
       "layers": [
         {
           "encodings": [
             {
-              "data-type": "quantitative",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionY",
+              "channel": "slope",
               "scale": "linear"
             },
             {
@@ -152,14 +116,18 @@
             }
           ],
           "mark": "line"
-        },
+        }
+      ]
+    },
+    "E-6": {
+      "layers": [
         {
           "encodings": [
             {
-              "data-type": "quantitative",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "length",
+              "channel": "slope",
               "scale": "linear"
             },
             {
@@ -170,30 +138,37 @@
               "scale": "nominal"
             }
           ],
-          "mark": "area-rect"
+          "mark": "line"
         }
-      ]
+      ],
+      "note": "delta chart"
     }
   },
-  "Tasks": ["aggregate"],
+  "Tasks": ["filter", "sort", "aggregate"],
   "Results": {
     "Experimental": {
-      "bias-underestimate": {
+      "accuracy": {
+        "sort": {
+          "rank": ["E-2", "E-4", "E-6", ["E-1", "E-3", "E-5"]],
+          "significance": [
+            ["E-2", "E-1"],
+            ["E-4", "E-3"],
+            ["E-6", "E-5"]
+          ]
+        },
         "aggregate": {
-          "rank": ["E-1"],
+          "rank": ["E-4", "E-2", "E-3", "E-1"],
           "significance": []
         }
       },
-      "bias-overestimate": {
-        "aggregate": {
-          "rank": ["E-2"],
-          "significance": []
-        }
-      },
-      "bias-perceptual-pull": {
-        "aggregate": {
-          "rank": [["E-3", "E-4", "E-5"]],
-          "significance": []
+      "time": {
+        "filter": {
+          "rank": [["E-2", "E-4"], "E-6", ["E-1", "E-3"], "E-5"],
+          "significance": [
+            ["E-2", "E-1"],
+            ["E-4", "E-3"],
+            ["E-6", "E-5"]
+          ]
         }
       }
     },

@@ -1,293 +1,273 @@
 {
   "Title": "What’s the Difference?: Evaluating Variations of Multi-Series Bar Charts for Visual Comparison Tasks",
   "Category": "Experiment",
-  "Covered Designs": {
-    "CE-1": {
+  "Designs": {
+    "E-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
             },
             {
-              "attribute-type": "nominal-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "nominal-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         }
       ],
       "note": "grouped bar chart"
     },
-    "CE-2": {
+    "E-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ],
       "note": "difference chart"
     },
-    "CE-3": {
+    "E-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal-1",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
             },
             {
-              "attribute-type": "nominal-2",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "nominal-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         },
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ],
       "note": "grouped bar chart with difference overlays"
     },
-    "CE-4": {
+    "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect"]
+          "mark": "area-rect"
         },
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             },
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point"]
+          "mark": "point"
         }
       ],
       "note": "single bar chart with difference overlays"
     }
   },
-  "Other Designs": {},
-  "Tasks": [
-    "find-extremum",
-    "compare-derived-values",
-    "determine-range",
-    "recognize"
-  ],
+  "Tasks": ["find-extremum", "aggregate", "determine-range", "filter"],
   "Results": {
     "Experimental": {
       "accuracy": {
         "find-extremum-1": {
-          "rank": ["CE-3", "CE-4", "CE-1"],
+          "rank": ["E-3", "E-4", "E-1"],
           "significance": [
-            ["CE-3", "CE-1"],
-            ["CE-4", "CE-1"]
+            ["E-3", "E-1"],
+            ["E-4", "E-1"]
           ]
         },
         "find-extremum-2": {
-          "rank": ["CE-1", "CE-3", "CE-4"],
+          "rank": ["E-1", "E-3", "E-4"],
           "significance": [
-            ["CE-1", "CE-4"],
-            ["CE-3", "CE-4"]
+            ["E-1", "E-4"],
+            ["E-3", "E-4"]
           ]
         },
-        "compare-derived-values-1": {
-          "rank": ["CE-2", "CE-4", "CE-3", "CE-1"],
+        "aggregate-1": {
+          "rank": ["E-2", "E-4", "E-3", "E-1"],
           "significance": [
-            ["CE-2", "CE-1"],
-            ["CE-4", "CE-1"],
-            ["CE-3", "CE-1"]
+            ["E-2", "E-1"],
+            ["E-4", "E-1"],
+            ["E-3", "E-1"]
           ]
         },
-        "compare-derived-values-2": {
-          "rank": ["CE-2", "CE-4", "CE-3", "CE-1"],
+        "aggregate-2": {
+          "rank": ["E-2", "E-4", "E-3", "E-1"],
           "significance": [
-            ["CE-2", "CE-1"],
-            ["CE-2", "CE-3"],
-            ["CE-4", "CE-1"],
-            ["CE-3", "CE-1"]
+            ["E-2", "E-1"],
+            ["E-2", "E-3"],
+            ["E-4", "E-1"],
+            ["E-3", "E-1"]
           ]
         },
         "determine-range-1": {
-          "rank": ["CE-3", "CE-2", "CE-1", "CE-4"],
+          "rank": ["E-3", "E-2", "E-1", "E-4"],
           "significance": [
-            ["CE-3", "CE-4"],
-            ["CE-2", "CE-4"],
-            ["CE-1", "CE-4"]
+            ["E-3", "E-4"],
+            ["E-2", "E-4"],
+            ["E-1", "E-4"]
           ]
         },
         "determine-range-2": {
-          "rank": ["CE-1", "CE-2", "CE-4", "CE-3"],
+          "rank": ["E-1", "E-2", "E-4", "E-3"],
           "significance": []
         },
-        "recognize-1": {
-          "rank": ["CE-1", ["CE-3", "CE-4"]],
+        "filter-1": {
+          "rank": ["E-1", ["E-3", "E-4"]],
           "significance": []
         },
-        "recognize-2": {
-          "rank": ["CE-1", "CE-3", "CE-4"],
-          "significance": [["CE-1", "CE-4"]]
+        "filter-2": {
+          "rank": ["E-1", "E-3", "E-4"],
+          "significance": [["E-1", "E-4"]]
         }
       },
       "time": {
         "find-extremum-1": {
-          "rank": ["CE-1", "CE-3", "CE-4"],
-          "significance": [["CE-1", "CE-4"]]
+          "rank": ["E-1", "E-3", "E-4"],
+          "significance": [["E-1", "E-4"]]
         },
         "find-extremum-2": {
-          "rank": ["CE-1", "CE-3", "CE-4"],
+          "rank": ["E-1", "E-3", "E-4"],
           "significance": [
-            ["CE-1", "CE-4"],
-            ["CE-3", "CE-4"]
+            ["E-1", "E-4"],
+            ["E-3", "E-4"]
           ]
         },
-        "compare-derived-values-1": {
-          "rank": ["CE-2", "CE-4", "CE-3", "CE-1"],
+        "aggregate-1": {
+          "rank": ["E-2", "E-4", "E-3", "E-1"],
           "significance": [
-            ["CE-2", "CE-4"],
-            ["CE-2", "CE-3"],
-            ["CE-2", "CE-1"],
-            ["CE-4", "CE-1"],
-            ["CE-3", "CE-1"]
+            ["E-2", "E-4"],
+            ["E-2", "E-3"],
+            ["E-2", "E-1"],
+            ["E-4", "E-1"],
+            ["E-3", "E-1"]
           ]
         },
-        "compare-derived-values-2": {
-          "rank": ["CE-2", "CE-3", "CE-4", "CE-1"],
+        "aggregate-2": {
+          "rank": ["E-2", "E-3", "E-4", "E-1"],
           "significance": [
-            ["CE-2", "CE-3"],
-            ["CE-2", "CE-4"],
-            ["CE-2", "CE-1"],
-            ["CE-3", "CE-4"],
-            ["CE-3", "CE-1"],
-            ["CE-4", "CE-1"]
+            ["E-2", "E-3"],
+            ["E-2", "E-4"],
+            ["E-2", "E-1"],
+            ["E-3", "E-4"],
+            ["E-3", "E-1"],
+            ["E-4", "E-1"]
           ]
         },
         "determine-range-1": {
-          "rank": ["CE-2", "CE-4", "CE-3", "CE-1"],
+          "rank": ["E-2", "E-4", "E-3", "E-1"],
           "significance": [
-            ["CE-2", "CE-4"],
-            ["CE-2", "CE-3"],
-            ["CE-2", "CE-1"],
-            ["CE-4", "CE-1"],
-            ["CE-3", "CE-1"]
+            ["E-2", "E-4"],
+            ["E-2", "E-3"],
+            ["E-2", "E-1"],
+            ["E-4", "E-1"],
+            ["E-3", "E-1"]
           ]
         },
         "determine-range-2": {
-          "rank": ["CE-2", "CE-4", "CE-3", "CE-1"],
+          "rank": ["E-2", "E-4", "E-3", "E-1"],
           "significance": [
-            ["CE-2", "CE-1"],
-            ["CE-2", "CE-3"],
-            ["CE-4", "CE-1"],
-            ["CE-3", "CE-1"]
+            ["E-2", "E-1"],
+            ["E-2", "E-3"],
+            ["E-4", "E-1"],
+            ["E-3", "E-1"]
           ]
         },
-        "recognize-1": {
-          "rank": ["CE-1", "CE-3", "CE-4"],
+        "filter-1": {
+          "rank": ["E-1", "E-3", "E-4"],
           "significance": [
-            ["CE-1", "CE-4"],
-            ["CE-3", "CE-4"]
+            ["E-1", "E-4"],
+            ["E-3", "E-4"]
           ]
         },
-        "recognize-2": {
-          "rank": ["CE-1", "CE-3", "CE-4"],
+        "filter-2": {
+          "rank": ["E-1", "E-3", "E-4"],
           "significance": []
         }
       }

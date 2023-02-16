@@ -1,77 +1,72 @@
 {
   "Title": "Ordering Perceptions about Perceptual Order",
   "Category": "Theory",
-  "Covered Designs": {
-    "CT-1": {
+  "Designs": {
+    "T-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "linear"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-2": {
+    "T-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-3": {
+    "T-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "linear"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-4": {
+    "T-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     }
   },
-  "Other Designs": {},
   "Tasks": [],
   "Results": {
     "Experimental": {},

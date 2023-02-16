@@ -1,5 +1,5 @@
 {
-  "Title": "Truncating the Y-Axis: Threat or Menace?",
+  "Title": "Data-Driven Mark Orientation for Trend Estimation in Scatterplots",
   "Category": "Experiment",
   "Designs": {
     "E-1": {
@@ -7,21 +7,21 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative",
+              "data-type": "quantitative-1",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
               "scale": "linear"
-            },
-            {
-              "data-type": "ordinal",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
             }
           ],
-          "mark": "line"
+          "mark": "point-circle"
         }
       ]
     },
@@ -30,21 +30,21 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "length",
-              "scale": "linear"
-            },
-            {
-              "data-type": "ordinal",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
-              "scale": "ordinal"
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             }
           ],
-          "mark": "area-rect"
+          "mark": "point-triangle-up"
         }
       ]
     },
@@ -53,77 +53,87 @@
         {
           "encodings": [
             {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "length",
-              "scale": "linear"
-            },
-            {
-              "data-type": "ordinal",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
-              "scale": "ordinal"
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             }
           ],
-          "mark": "area-rect"
+          "mark": "point-triangle-0"
         }
-      ],
-      "note": "bar chat with truncated y-axis"
+      ]
     },
     "E-4": {
       "layers": [
         {
           "encodings": [
             {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "length",
-              "scale": "linear"
-            },
-            {
-              "data-type": "ordinal",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
-              "scale": "ordinal"
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             }
           ],
-          "mark": "area-rect"
+          "mark": "point-triangle-20"
         }
-      ],
-      "note": "bar chat with truncated y-axis, and visualization design of broken axis"
+      ]
     },
     "E-5": {
       "layers": [
         {
           "encodings": [
             {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "length",
-              "scale": "linear"
-            },
-            {
-              "data-type": "ordinal",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
-              "scale": "ordinal"
+              "scale": "linear"
+            },
+            {
+              "data-type": "quantitative-2",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "linear"
             }
           ],
-          "mark": "area-rect"
+          "mark": "point-triangle-40"
         }
-      ],
-      "note": "bar chat with truncated y-axis, and visualization design of gradient"
+      ]
     }
   },
-  "Tasks": ["sort", "retrieve-value", "correlate"],
+  "Tasks": ["correlate"],
   "Results": {
-    "Experimental": {},
+    "Experimental": {
+      "accuracy": {
+        "correlate": {
+          "rank": ["E-3", "E-4", "E-1", "E-2", "E-5"],
+          "significance": [
+            ["E-3", "E-1"],
+            ["E-3", "E-2"],
+            ["E-3", "E-5"],
+            ["E-4", "E-2"],
+            ["E-4", "E-5"]
+          ]
+        }
+      }
+    },
     "Theoretical": {}
   }
 }

@@ -1,6 +1,6 @@
 {
-  "Title": "Truncating the Y-Axis: Threat or Menace?",
-  "Category": "Experiment",
+  "Title": "The Perceptual Proxies of Visual Comparison",
+  "Category": "Hybrid",
   "Designs": {
     "E-1": {
       "layers": [
@@ -10,18 +10,25 @@
               "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionY",
+              "channel": "length",
               "scale": "linear"
+            },
+            {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
             },
             {
               "data-type": "ordinal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
+              "channel": "row",
               "scale": "ordinal"
             }
           ],
-          "mark": "line"
+          "mark": "area-rect"
         }
       ]
     },
@@ -37,10 +44,17 @@
               "scale": "linear"
             },
             {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
               "data-type": "ordinal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
+              "channel": "column-adjacent",
               "scale": "ordinal"
             }
           ],
@@ -60,17 +74,23 @@
               "scale": "linear"
             },
             {
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
+            },
+            {
               "data-type": "ordinal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
+              "channel": "column-mirrored",
               "scale": "ordinal"
             }
           ],
           "mark": "area-rect"
         }
-      ],
-      "note": "bar chat with truncated y-axis"
+      ]
     },
     "E-4": {
       "layers": [
@@ -84,46 +104,45 @@
               "scale": "linear"
             },
             {
-              "data-type": "ordinal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
-              "scale": "ordinal"
-            }
-          ],
-          "mark": "area-rect"
-        }
-      ],
-      "note": "bar chat with truncated y-axis, and visualization design of broken axis"
-    },
-    "E-5": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "data-type": "quantitative",
-              "data-charcs": {},
-              "data-trans": {},
-              "channel": "length",
-              "scale": "linear"
+              "channel": "positionY",
+              "scale": "nominal"
             },
             {
               "data-type": "ordinal",
               "data-charcs": {},
               "data-trans": {},
-              "channel": "positionX",
+              "channel": "color-saturation",
               "scale": "ordinal"
             }
           ],
           "mark": "area-rect"
         }
-      ],
-      "note": "bar chat with truncated y-axis, and visualization design of gradient"
+      ]
     }
   },
-  "Tasks": ["sort", "retrieve-value", "correlate"],
+  "Tasks": ["aggregate", "determine-range"],
   "Results": {
-    "Experimental": {},
+    "Experimental": {
+      "JND": {
+        "aggregate": {
+          "rank": ["E-1", "E-3", "E-2", "E-4"],
+          "significance": [
+            ["E-1", "E-3"],
+            ["E-1", "E-2"],
+            ["E-1", "E-4"],
+            ["E-3", "E-4"],
+            ["E-2", "E-4"]
+          ]
+        },
+        "determine-range": {
+          "rank": ["E-1", "E-3", "E-2", "E-4"],
+          "significance": []
+        }
+      }
+    },
     "Theoretical": {}
   }
 }

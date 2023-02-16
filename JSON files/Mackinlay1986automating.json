@@ -1,618 +1,473 @@
 {
   "Title": "Automating the Design of Graphical Presentations of Relational Information",
   "Category": "Theory",
-  "Covered Designs": {
-    "CT-1": {
+  "Designs": {
+    "T-1": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": ""
             }
           ],
-          "marks": ["point", "line"]
+          "mark": ""
         }
       ]
     },
-    "CT-2": {
+    "T-2": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": ""
             }
           ],
-          "marks": ["point", "line"]
+          "mark": ""
         }
       ]
     },
-    "CT-3": {
+    "T-3": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": ""
             }
           ],
-          "marks": ["area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-4": {
+    "T-4": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["angle"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "angle",
+              "scale": ""
             }
           ],
-          "marks": ["line"]
+          "mark": ""
         }
       ]
     },
-    "CT-5": {
+    "T-5": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["orientation"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": ""
             }
           ],
-          "marks": ["line"]
+          "mark": ""
         }
       ]
     },
-    "CT-6": {
+    "T-6": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": ""
             }
           ],
-          "marks": ["area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-7": {
+    "T-7": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["volume"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": ""
             }
           ],
-          "marks": ["area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-8": {
+    "T-8": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["density"]
+              "data-type": "quantitative",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": ""
             }
           ],
-          "marks": ["point", "line"]
+          "mark": ""
         }
       ]
     },
-    "CT-9": {
+    "T-9": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-10": {
+    "T-10": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "quantitative",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-11": {
+    "T-11": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point", "line"]
+          "mark": ""
         }
       ]
     },
-    "CT-12": {
+    "T-12": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "angle",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["point", "line"]
+          "mark": ""
         }
       ]
     },
-    "CT-13": {
+    "T-13": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-14": {
+    "T-14": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["angle"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line"]
+          "mark": ""
         }
       ]
     },
-    "CT-15": {
+    "T-15": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["orientation"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["line"]
+          "mark": ""
         }
       ]
     },
-    "CT-16": {
+    "T-16": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-17": {
+    "T-17": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["volume"]
+              "data-type": "ordinal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "texture",
+              "scale": "ordinal"
             }
           ],
-          "marks": ["area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-18": {
+    "T-18": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["density"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionX",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point", "line"]
+          "mark": ""
         }
       ]
     },
-    "CT-19": {
+    "T-19": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "positionY",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-20": {
+    "T-20": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "length",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-21": {
+    "T-21": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "ordinal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["texture"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "angle",
+              "scale": "nominal"
             }
           ],
-          "marks": "point",
-          "arrangement": "none"
+          "mark": ""
         }
       ]
     },
-    "CT-22": {
+    "T-22": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionX"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "orientation",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point", "line"]
+          "mark": ""
         }
       ]
     },
-    "CT-23": {
+    "T-23": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["positionY"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "area",
+              "scale": "nominal"
             }
           ],
-          "marks": ["point", "line"]
+          "mark": ""
         }
       ]
     },
-    "CT-24": {
+    "T-24": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["length"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-saturation",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-rect", "area-other"]
+          "mark": ""
         }
       ]
     },
-    "CT-25": {
+    "T-25": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["angle"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "color-hue",
+              "scale": "nominal"
             }
           ],
-          "marks": ["line"]
+          "mark": ""
         }
       ]
     },
-    "CT-26": {
+    "T-26": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["orientation"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "texture",
+              "scale": "nominal"
             }
           ],
-          "marks": ["line"]
+          "mark": ""
         }
       ]
     },
-    "CT-27": {
+    "T-27": {
       "layers": [
         {
           "encodings": [
             {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["area"]
+              "data-type": "nominal",
+              "data-charcs": {},
+              "data-trans": {},
+              "channel": "shape",
+              "scale": "nominal"
             }
           ],
-          "marks": ["area-circle", "area-rect", "area-other"]
-        }
-      ]
-    },
-    "CT-28": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["volume"]
-            }
-          ],
-          "marks": ["area-other"]
-        }
-      ]
-    },
-    "CT-29": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["density"]
-            }
-          ],
-          "marks": ["point", "line"]
-        }
-      ]
-    },
-    "CT-30": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-saturation"]
-            }
-          ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
-        }
-      ]
-    },
-    "CT-31": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["color-hue"]
-            }
-          ],
-          "marks": ["point", "line", "area-circle", "area-rect", "area-other"]
-        }
-      ]
-    },
-    "CT-32": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["texture"]
-            }
-          ],
-          "marks": ["point"]
-        }
-      ]
-    },
-    "CT-33": {
-      "layers": [
-        {
-          "encodings": [
-            {
-              "attribute-type": "nominal",
-              "aggregation": {
-                "aggregation-type": "none",
-                "aggregation-window": "none"
-              },
-              "channels": ["shape"]
-            }
-          ],
-          "marks": ["point"]
+          "mark": ""
         }
       ]
     }
   },
-  "Other Designs": {},
-  "Tasks": ["retrieve-value"],
+  "Tasks": [],
   "Results": {
     "Experimental": {},
     "Theoretical": {
       "effectiveness": {
-        "retrieve-value-1": {
+        "overall-1": {
+          "rank": [["T-1", "T-2"], "T-3", "T-4", "T-5", "T-6", "T-7", "T-8"],
+          "significance": []
+        },
+        "overall-2": {
           "rank": [
-            ["CT-1", "CT-2"],
-            "CT-3",
-            "CT-4",
-            "CT-5",
-            "CT-6",
-            "CT-7",
-            "CT-8",
-            "CT-9",
-            "CT-10"
+            ["T-9", "T-10"],
+            "T-15",
+            "T-16",
+            "T-17",
+            "T-11",
+            "T-12",
+            "T-13",
+            "T-14"
           ],
           "significance": []
         },
-        "retrieve-value-2": {
+        "overall-3": {
           "rank": [
-            ["CT-11", "CT-12"],
-            "CT-18",
-            "CT-19",
-            "CT-20",
-            "CT-21",
-            "CT-13",
-            "CT-14",
-            "CT-15",
-            "CT-16",
-            "CT-17"
-          ],
-          "significance": []
-        },
-        "retrieve-value-3": {
-          "rank": [
-            ["CT-22", "CT-23"],
-            "CT-31",
-            "CT-32",
-            "CT-29",
-            "CT-30",
-            "CT-33",
-            "CT-24",
-            "CT-25",
-            "CT-26",
-            "CT-27",
-            "CT-28"
+            ["T-18", "T-19"],
+            "T-25",
+            "T-26",
+            "T-24",
+            "T-27",
+            "T-20",
+            "T-21",
+            "T-22",
+            "T-23"
           ],
           "significance": []
         }
