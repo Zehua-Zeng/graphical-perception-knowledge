@@ -7,21 +7,21 @@
         {
           "encodings": [
             {
-              "attributeType": "quantitative-1",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
               "scale": "linear"
             },
             {
-              "attributeType": "quantitative-2",
+              "data-type": "quantitative-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
               "scale": "linear"
             },
             {
-              "attributeType": "nominal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-hue",
@@ -37,14 +37,14 @@
         {
           "encodings": [
             {
-              "attributeType": "nominal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
               "scale": "nominal"
             },
             {
-              "attributeType": "quantitative",
+              "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
               "channel": "length",
@@ -60,21 +60,21 @@
         {
           "encodings": [
             {
-              "attributeType": "quantitative-1",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
               "scale": "linear"
             },
             {
-              "attributeType": "quantitative-2",
+              "data-type": "quantitative-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
               "scale": "linear"
             },
             {
-              "attributeType": "quantitative-3",
+              "data-type": "quantitative-3",
               "data-charcs": {},
               "data-trans": {},
               "channel": "area",
@@ -90,21 +90,21 @@
         {
           "encodings": [
             {
-              "attributeType": "quantitative",
+              "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
               "channel": "length",
               "scale": "linear"
             },
             {
-              "attributeType": "nominal-1",
+              "data-type": "nominal-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
               "scale": "nominal"
             },
             {
-              "attributeType": "nominal-2",
+              "data-type": "nominal-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-saturation",
@@ -120,14 +120,14 @@
         {
           "encodings": [
             {
-              "attributeType": "quantitative",
+              "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
               "scale": "linear"
             },
             {
-              "attributeType": "ordinal",
+              "data-type": "ordinal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
@@ -143,35 +143,35 @@
         {
           "encodings": [
             {
-              "attributeType": "quantitative-1",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
               "scale": "linear"
             },
             {
-              "attributeType": "quantitative-2",
+              "data-type": "quantitative-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
               "scale": "linear"
             },
             {
-              "attributeType": "quantitative-3",
+              "data-type": "quantitative-3",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-hue",
               "scale": "linear"
             },
             {
-              "attributeType": "quantitative-3",
+              "data-type": "quantitative-3",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-saturation",
               "scale": "linear"
             },
             {
-              "attributeType": "nominal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "orientation",
@@ -187,28 +187,28 @@
         {
           "encodings": [
             {
-              "attributeType": "nominal-1",
+              "data-type": "nominal-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
               "scale": "nominal"
             },
             {
-              "attributeType": "ordinal",
+              "data-type": "ordinal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
               "scale": "ordinal"
             },
             {
-              "attributeType": "nominal-2",
+              "data-type": "nominal-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-hue",
               "scale": "nominal"
             },
             {
-              "attributeType": "quantitative",
+              "data-type": "quantitative",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-saturation",
@@ -224,28 +224,28 @@
         {
           "encodings": [
             {
-              "attributeType": "quantitative-1",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
               "scale": "linear"
             },
             {
-              "attributeType": "quantitative-2",
+              "data-type": "quantitative-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
               "scale": "linear"
             },
             {
-              "attributeType": "nominal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-hue",
               "scale": "nominal"
             },
             {
-              "attributeType": "quantitative-3",
+              "data-type": "quantitative-3",
               "data-charcs": {},
               "data-trans": {},
               "channel": "area",
@@ -261,35 +261,35 @@
         {
           "encodings": [
             {
-              "attributeType": "quantitative-1",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
               "scale": "linear"
             },
             {
-              "attributeType": "quantitative-2",
+              "data-type": "quantitative-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
               "scale": "linear"
             },
             {
-              "attributeType": "nominal-1",
+              "data-type": "nominal-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-hue",
               "scale": "nominal"
             },
             {
-              "attributeType": "nominal-2",
+              "data-type": "nominal-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "row",
               "scale": "nominal"
             },
             {
-              "attributeType": "nominal-2",
+              "data-type": "nominal-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "column",
@@ -305,28 +305,28 @@
         {
           "encodings": [
             {
-              "attributeType": "quantitative-1",
+              "data-type": "quantitative-1",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionX",
               "scale": "linear"
             },
             {
-              "attributeType": "quantitative-2",
+              "data-type": "quantitative-2",
               "data-charcs": {},
               "data-trans": {},
               "channel": "positionY",
               "scale": "linear"
             },
             {
-              "attributeType": "nominal",
+              "data-type": "nominal",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-hue",
               "scale": "nominal"
             },
             {
-              "attributeType": "quantitative-3",
+              "data-type": "quantitative-3",
               "data-charcs": {},
               "data-trans": {},
               "channel": "color-saturation",
